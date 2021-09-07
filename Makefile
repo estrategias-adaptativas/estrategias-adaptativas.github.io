@@ -1,36 +1,57 @@
-# Global variables {{{1
+# This Makefile provides sensible defaults for projects
+# based on Pandoc and Jekyll, such as:
+# - Dockerized runs of Pandoc and Jekyll with separate
+#   variables for version numbers = easy update!
+# - Lean CSL checkouts without committing to the repo
+# - Website built on the gh-pages branch
+# - Bibliography path compatible with Jekyll-Scholar
+
+# Global variables and setup {{{1
 # ================
-# Where make should look for things
-VPATH = lib
-vpath %.csl styles
-vpath %.html .:_includes:_layouts:_site
-vpath %.xml _site
-vpath %.yaml .:spec
-vpath default.% lib/templates:lib/pandoc-templates
+VPATH = _lib
+vpath %.bib _bibliography
+vpath %.csl .:_csl
+vpath %.yaml .:_spec
+vpath default.% .:_lib
+vpath reference.% .:_lib
 
-# Branch-specific targets and recipes {{{1
-# ===================================
+DEFAULTS := defaults.yaml references.bib
+JEKYLL-VERSION := 4.2.0
+PANDOC-VERSION := 2.14.1
+JEKYLL/PANDOC := docker run --rm -v "`pwd`:/srv/jekyll" \
+	-h "0.0.0.0:127.0.0.1" -p "4000:4000" \
+	palazzo/jekyll-tufte:$(JEKYLL-VERSION)-$(PANDOC-VERSION)
+PANDOC/CROSSREF := docker run --rm -v "`pwd`:/data" \
+	-u "`id -u`:`id -g`" pandoc/crossref:$(PANDOC-VERSION)
+PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
+	-u "`id -u`:`id -g`" palazzo/pandoc-ebgaramond:$(PANDOC-VERSION)
 
-# Jekyll {{{2
-# ------
-SRC   = $(filter-out README.md,$(wildcard *.md))
-DOCS := $(patsubst %.md,tmp/%.md, $(SRC))
+# Targets and recipes {{{1
+# ===================
+_book/%.pdf : %.md references.bib latex.yaml
+	$(PANDOC/LATEX) -d _spec/latex.yaml -o $@ $<
+	@echo "$< > $@"
 
-local-build : pandoc
-	@if ! git diff-index --quiet HEAD --; then \
-		exit 1; \
-		fi
-	cp -f -t ./ $(DOCS)
-	docker run --rm -p 4000:4000 -h 127.0.0.1 \
-		-v "`pwd`:/srv/jekyll" -it jekyll/jekyll:3.8.5 \
-		jekyll serve
-	git reset --hard HEAD
+_book/%.docx : %.md $(DEFAULTS) reference.docx
+	$(PANDOC/CROSSREF) -d _spec/defaults.yaml -o $@ $<
+	@echo "$< > $@"
 
-pandoc : $(DOCS)
-	@-rm -rf styles
+.PHONY : _site
+_site :
+	@$(JEKYLL/PANDOC) /bin/bash -c \
+	"chmod 777 /srv/jekyll && jekyll build"
 
-tmp/%.md : %.md jekyll.yaml default.jekyll biblio.bib
-	@test -e tmp || mkdir tmp
-	@test -e styles || git clone https://github.com/citation-style-language/styles.git
-	docker run -v "`pwd`:/data" --user `id -u`:`id -g` \
-		palazzo/pandoc-crossref:2.9.2.1 -o $@ -d spec/jekyll.yaml $<
+# Install and cleanup {{{1
+# ===================
+.PHONY : serve
+serve :
+	@$(JEKYLL/PANDOC) jekyll serve
+
+.PHONY : clean
+clean :
+	-rm -rf _book/* _site
+
+_book :
+	@mkdir -p _book
+
+# vim: set foldmethod=marker shiftwidth=2 tabstop=2 :
