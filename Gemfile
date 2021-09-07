@@ -1,29 +1,26 @@
 source "https://rubygems.org"
-# gem "jekyll", "~> 4.0.0"
-#gem "minima"
-gem "minima-scholar", "~> 2.5.3"
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.2.0"
+gem "minimal-mistakes-jekyll", "~>4.24.0"
+# The following plugins are automatically loaded by the theme-gem:
+#   gem "jekyll-paginate"
+#   gem "jekyll-sitemap"
+#   gem "jekyll-gist"
+#   gem "jekyll-feed"
+#   gem "jekyll-include-cache"
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.11"
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
-  gem "kramdown"
-  # Sassc is preferred to the legacy ruby-sass
-  #gem "sassc"
-  # Required GitHub Pages plugins below
+  gem "jekyll-archives"
   gem "jekyll-coffeescript"
-  gem "jekyll-default-layout"
-  gem "jekyll-gist"
-  gem "jekyll-github-metadata"
-  gem "jekyll-optional-front-matter"
-  gem "jekyll-paginate"
-  gem "jekyll-readme-index"
+  gem "jekyll-data"
+  gem "jekyll-pandoc"
   gem "jekyll-relative-links"
-  gem "jekyll-titles-from-headings"
+  gem "jekyll-scholar"
+  gem "jekyll-seo-tag"
+  # Sassc is preferred to the legacy ruby-sass
+  gem "sassc"
+  # Required by Ruby 3
+  gem "webrick"
+  gem "stringex"
 end
-# Jekyll-feed had to be downgraded from 0.12 to 0.11 due to compatibility
-# with github-pages (which presently does not support jekyll 4.0).
-# See https://stackoverflow.com/questions/58598084/how-does-one-downgrade-jekyll-to-work-with-github-pages
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
