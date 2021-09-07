@@ -29,7 +29,7 @@ PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
 # Targets and recipes {{{1
 # ===================
 _book/%.pdf : %.md references.bib latex.yaml
-	$(PANDOC/LATEX) -d _spec/defaults.yaml -o $@ $<
+	$(PANDOC/LATEX) -d _spec/latex.yaml -o $@ $<
 	@echo "$< > $@"
 
 _book/%.docx : %.md $(DEFAULTS) reference.docx
