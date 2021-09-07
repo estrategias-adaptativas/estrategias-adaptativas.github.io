@@ -8,8 +8,6 @@ author_profile: true
 
 # Resumo executivo #
 
-Resumo do projeto
-
 # Objeto #
 
 Este projeto de pesquisa investiga a ocorrência de sistemas de ordem
@@ -161,8 +159,6 @@ construção vernácula numa perspectiva histórica oferece panoramas
 alternativos às contingências do contexto econômico, produtivo e
 normativo da atualidade.
 
-<!--Até 8000 caracteres-->
-
 # Metodologia #
 
 Os objetivos desta pesquisa implicam uma sucessão de etapas consistindo
@@ -251,19 +247,21 @@ taxonomias de sistemas edilícios tradicionais.
 
 # Resultados pretendidos #
 
-# Impacto #
+# Impacto e relevância #
 
 # Atividades desenvolvidas #
 
-Compilação sucinta das atividades de pesquisa desenvolvidas,
-consideradas pelo requerente as mais relevantes, indicando a produção
-gerada por elas até 2021. Tais atividades podem ser demonstradas por
-intermédio de artigos científicos, capítulos de livros ou livros,
-trabalhos completos em eventos científicos, patentes, softwares,
-documentos que subsidiaram a elaboração de leis e/ou implementação de
-políticas públicas, entre outros. Também podem ser mencionados
-financiamentos recebidos de agências públicas ou instituições privadas,
-orientações concluídas ou em andamento e parcerias institucionais;
+<!--
+   -Compilação sucinta das atividades de pesquisa desenvolvidas,
+   -consideradas pelo requerente as mais relevantes, indicando a produção
+   -gerada por elas até 2021. Tais atividades podem ser demonstradas por
+   -intermédio de artigos científicos, capítulos de livros ou livros,
+   -trabalhos completos em eventos científicos, patentes, softwares,
+   -documentos que subsidiaram a elaboração de leis e/ou implementação de
+   -políticas públicas, entre outros. Também podem ser mencionados
+   -financiamentos recebidos de agências públicas ou instituições privadas,
+   -orientações concluídas ou em andamento e parcerias institucionais;
+   -->
 
 # Conclusão #
 
