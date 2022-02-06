@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+<!-- Transformar cada um dos itens da checklist abaixo em issues. -->
+
 ### Qualificação ###
 
 - [ ] Convites banca
