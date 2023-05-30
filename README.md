@@ -1,6 +1,6 @@
 # Adaptive Strategies in Traditional Building: Portugal and Brazil
 
-![Website](https://github.com/dmcpatrimonio/adaptive-construction/workflows/Website/badge.svg)
+![Website](https://github.com/dmcpatrimonio/adaptive-construction/workflows/jekyll.yml/badge.svg)
 
 ## Table of Contents
 
