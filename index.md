@@ -1,16 +1,14 @@
 ---
-title: "Estratégias adaptativas na construção tradicional"
-subtitle: "Projeto de pesquisa 2022–2024"
+title: "Projeto de pesquisa"
 layout: home
 author_profile: true
+toc: true
 ---
 
-## Resumo executivo ##
-
-### Objeto ###
+## Objeto ##
 
 Este projeto de pesquisa investiga a ocorrência de sistemas de ordem
-emergente na construção moderna brasileira --- da segunda metade do
+emergente na construção moderna luso-brasileira --- da segunda metade do
 século XVIII à primeira metade do século XX ---, avaliando a
 possibilidade de estes sistemas oferecerem respostas descentralizadas e
 *low tech* aos problemas atuais da sustentabilidade urbana. Atuaremos
@@ -19,13 +17,13 @@ parcelamento do solo, morfologias espaciais na edilícia de base --- os
 tipos de edificações mais difundidos, como habitações, comércios e
 oficinas de pequeno porte ---, e sistemas construtivos vernáculos.
 
-A fundação e o crescimento de núcleos urbanos no Brasil de finais do
-período colonial até os primórdios da industrialização apresentam um
-panorama de ações descentralizadas, com reduzida tutela do Estado, e
-amparado em tradições duradouras. Esse panorama revela o emprego de
-formas de parcelamento do solo, tipos edilícios e técnicas construtivas
-capazes de atender, ainda que perpetuando desigualdades, a segmentos
-diversos do processo de modernização das cidades.
+A fundação e o crescimento de núcleos urbanos de finais do Antigo Regime
+até os primórdios da industrialização apresenta um panorama de ações
+descentralizadas, com reduzida tutela do Estado, e amparado em tradições
+duradouras. Esse panorama revela o emprego de formas de parcelamento do
+solo, tipos edilícios e técnicas construtivas capazes de atender, ainda
+que perpetuando desigualdades, a segmentos diversos do processo de
+modernização das cidades.
 
 Avançamos a hipótese de que as práticas construtivas e urbanísticas
 vigentes de meados do século XVIII ao início do XX configuram tradições
@@ -33,19 +31,18 @@ edilícias com características de ordem emergente. A construção gradual
 do ambiente urbano, seja na forma de freguesias, vilas operárias,
 bairros informais ou planejados, constitui um substrato técnico e
 processual pouco reconhecido, situado à margem dos grandes projetos de
-reforma e "embelezamento" urbano da primeira República e da era Vargas.
+reforma e "embelezamento" urbano da primeira República e do Estado Novo.
 
 Argumentamos que a persistência dessas tradições edilícias, frente às
 transformações de ordem político-econômica e à progressiva introdução de
-processos industrializados na cadeia produtiva da construção civil no
-Brasil, evidencia qualidades de resiliência e adaptabilidade ao longo do
-tempo e perante diversas condições de adensamento urbano. Tais
-qualidades oferecem respostas possíveis à crise ambiental e urbana da
-atualidade, em particular no que diz respeito à otimização do binômio
-parcelamento urbano--tipologia edilícia para maior flexibilidade
-funcional e adaptabilidade ao longo do tempo, bem como à inclusão de
-estratégias e agentes de pequeno porte no panorama da sustentabilidade
-ambiental.
+processos industrializados na cadeia produtiva da construção civil,
+evidencia qualidades de resiliência e adaptabilidade ao longo do tempo e
+perante diversas condições de adensamento urbano. Tais qualidades
+oferecem respostas possíveis à crise ambiental e urbana da atualidade,
+em particular no que diz respeito à otimização do binômio parcelamento
+urbano--tipologia edilícia para maior flexibilidade funcional e
+adaptabilidade ao longo do tempo, bem como à inclusão de estratégias e
+agentes de pequeno porte no panorama da sustentabilidade ambiental.
 
 A análise do desempenho das tradições edilícias, seja no tocante à
 resiliência funcional e espacial, seja quanto a indicadores ambientais e
@@ -65,18 +62,14 @@ cambiantes cenários cultural, político e tecnológico. Para tanto,
 estipulamos os objetivos a seguir.
 
 
-### Pesquisa em andamento ###
-
-## Plano de trabalho para o triênio 2022--2024 ##
-
-### Objetivos ###
+## Objetivos ##
 
 Objetivo geral
 
 : Realizar um inventário de práticas construtivas vernáculas e padrões
-  arquitetônicos vigentes no Brasil da segunda metade do século XVIII à
-  primeira metade do XX que sejam representativos de sistemas dotados de
-  ordem emergente.
+  arquitetônicos vigentes no mundo luso-brasileiro da segunda metade do
+  século XVIII à primeira metade do XX que sejam representativos de
+  sistemas dotados de ordem emergente.
 
 Objetivos específicos
 
@@ -99,7 +92,7 @@ Objetivos específicos
   políticas e técnicas.
 
 
-### Justificativa ###
+## Justificativa ##
 
 A resiliência da gestão urbana tem recebido, ao longo das últimas
 décadas, crescente destaque na literatura acadêmica e na formulação de
@@ -111,6 +104,7 @@ energético, etc., diretamente mensuráveis. A produção do ambiente
 construído é abordada, nesse espectro, como uma atividade-meio à qual
 compete, mormente, pôr em prática inovações tecnológicas e gerenciais
 capazes de atingir os resultados pretendidos. 
+
 Tal visão implica, todavia, a mediação de processos que por sua natureza
 são pouco resilientes: uniformização administrativa e otimização de
 cadeias industriais de ponta. Ambas estas categorias de processos são
@@ -131,7 +125,9 @@ sustentabilidade urbana, entendido sob todos os seus aspectos ---
 ambiental, social, cultural e econômico --- adquire, assim, a forma de
 uma ampliação de horizontes para a diversidade de práticas e soluções,
 mais do que de um vetor linear no sentido de um conceito unívoco de
-"progresso". Os ganhos em otimização e eficiência em sistemas
+"progresso".
+
+Os ganhos em otimização e eficiência em sistemas
 padronizados e centralizados --- o vetor singular de progresso ---
 resultam em fragilidade das cadeias produtivas. Esta relação de
 custo-benefício entre otimização e fragilidade é demonstrada pelas
@@ -158,20 +154,21 @@ construção vernácula numa perspectiva histórica oferece panoramas
 alternativos às contingências do contexto econômico, produtivo e
 normativo da atualidade.
 
-### Metodologia ###
+## Metodologia ##
 
 Os objetivos desta pesquisa implicam uma sucessão de etapas consistindo
 em documentar, classificar e analisar vestígios materiais e registros
-gráficos da construção vernácula brasileira de meados do século XVIII a
-meados do XX. O paradigma do Historic Building Information Modeling
-(HBIM) e os Sistemas de Informação Geográfica (SIG) formarão a espinha
-dorsal metodológica desta pesquisa. Mais do que ferramentas ou softwares
-específicos, o HBIM e o SIG implicam modos de olhar para a documentação
-coletada como um conjunto de dados e propriedades inteligíveis, para
-além de sua representação gráfica abstrata. Eles permitem padronizar a
-documentação de elementos construtivos e urbanísticos históricos, ao
-mesmo tempo representar a diversidade de soluções técnicas e formais, e
-submeter o conjunto de dados coletados a análises quantitativas.
+gráficos da construção vernácula luso-brasileira de meados do século
+XVIII a meados do XX. O paradigma do Historic Building Information
+Modeling (HBIM) e os Sistemas de Informação Geográfica (SIG) formarão a
+espinha dorsal metodológica desta pesquisa. Mais do que ferramentas ou
+softwares específicos, o HBIM e o SIG implicam modos de olhar para a
+documentação coletada como um conjunto de dados e propriedades
+inteligíveis, para além de sua representação gráfica abstrata. Eles
+permitem padronizar a documentação de elementos construtivos e
+urbanísticos históricos, ao mesmo tempo representar a diversidade de
+soluções técnicas e formais, e submeter o conjunto de dados coletados a
+análises quantitativas.
 
 O inventário crítico de práticas construtivas históricas é um
 instrumental capaz de apontar uma variedade de direções nas quais pode
@@ -244,11 +241,11 @@ aproximações e divergências eventualmente verificadas no universo de
 objetos a serem documentados oferecerão os indícios para elaborar
 taxonomias de sistemas edilícios tradicionais.
 
-### Resultados pretendidos ###
+## Resultados pretendidos ##
 
-### Impacto e relevância ###
+## Impacto e relevância ##
 
-### Atividades desenvolvidas ###
+## Atividades desenvolvidas ##
 
 <!--
    -Compilação sucinta das atividades de pesquisa desenvolvidas,
@@ -262,9 +259,11 @@ taxonomias de sistemas edilícios tradicionais.
    -orientações concluídas ou em andamento e parcerias institucionais;
    -->
 
-### Conclusão ###
+## Conclusão ##
 
-### Fontes primárias ###
+## Fontes primárias ##
 
-### Bibliografia crítica ###
+## Bibliografia crítica ##
+
+{% include biblio-projeto-cientifico.html %}
 
