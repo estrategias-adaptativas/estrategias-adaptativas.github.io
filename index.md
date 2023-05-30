@@ -1,14 +1,13 @@
 ---
 title: "Estratégias adaptativas na construção tradicional"
-subtitle: "Projeto de pesquisa 2022--2024"
-layout: single
-abstract:
+subtitle: "Projeto de pesquisa 2022–2024"
+layout: home
 author_profile: true
 ---
 
-# Resumo executivo #
+## Resumo executivo ##
 
-# Objeto #
+### Objeto ###
 
 Este projeto de pesquisa investiga a ocorrência de sistemas de ordem
 emergente na construção moderna brasileira --- da segunda metade do
@@ -66,11 +65,11 @@ cambiantes cenários cultural, político e tecnológico. Para tanto,
 estipulamos os objetivos a seguir.
 
 
-## Pesquisa em andamento ##
+### Pesquisa em andamento ###
 
 ## Plano de trabalho para o triênio 2022--2024 ##
 
-# Objetivos #
+### Objetivos ###
 
 Objetivo geral
 
@@ -100,7 +99,7 @@ Objetivos específicos
   políticas e técnicas.
 
 
-# Justificativa #
+### Justificativa ###
 
 A resiliência da gestão urbana tem recebido, ao longo das últimas
 décadas, crescente destaque na literatura acadêmica e na formulação de
@@ -159,7 +158,7 @@ construção vernácula numa perspectiva histórica oferece panoramas
 alternativos às contingências do contexto econômico, produtivo e
 normativo da atualidade.
 
-# Metodologia #
+### Metodologia ###
 
 Os objetivos desta pesquisa implicam uma sucessão de etapas consistindo
 em documentar, classificar e analisar vestígios materiais e registros
@@ -245,11 +244,11 @@ aproximações e divergências eventualmente verificadas no universo de
 objetos a serem documentados oferecerão os indícios para elaborar
 taxonomias de sistemas edilícios tradicionais.
 
-# Resultados pretendidos #
+### Resultados pretendidos ###
 
-# Impacto e relevância #
+### Impacto e relevância ###
 
-# Atividades desenvolvidas #
+### Atividades desenvolvidas ###
 
 <!--
    -Compilação sucinta das atividades de pesquisa desenvolvidas,
@@ -263,9 +262,9 @@ taxonomias de sistemas edilícios tradicionais.
    -orientações concluídas ou em andamento e parcerias institucionais;
    -->
 
-# Conclusão #
+### Conclusão ###
 
-# Fontes primárias #
+### Fontes primárias ###
 
-# Bibliografia crítica #
+### Bibliografia crítica ###
 

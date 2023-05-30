@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                    : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+#theme                    : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -24,12 +24,12 @@ description: >
   Emerging order systems in modern construction, from the mid-18th century to
   the mid-20th, as responses to the present-day challenges of sustainability
   and urban resilience.
-url                      : "https://dmcpatrimonio.github.io"
-baseurl                  : "/estrategias-adaptativas"
-repository               : "dmcpatrimonio/estrategias-adaptativas"
+url                      : "https://estrategias-adaptativas.github.io"
+baseurl                  : /
+repository               : "estrategias-adaptativas/estrategias-adaptativas.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "https://dmcpatrimonio.github.io/assets/images/icon.png"
-masthead_title           : "Documentação, Modelagem e Conservação do Patrimônio"
+#masthead_title           : "Documentação, Modelagem e Conservação do Patrimônio"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -81,7 +81,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : p3palazzo
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -90,7 +90,7 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Organization
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
@@ -170,7 +170,7 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - Gemfile
+  - "Gemfile*"
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -180,7 +180,7 @@ exclude:
   - package.json
   - package-lock.json
   - Rakefile
-  - README
+  - "README*"
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
@@ -193,7 +193,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: Pandoc
+markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -202,12 +202,12 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  input: GFM
+  input: kramdown
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
+  toc_levels: 1..3
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 pandoc:
