@@ -1,9 +1,10 @@
 # main links
 main:
-  - title: '<img src="https://img.shields.io/static/v1?label=CNPq&message=R%24%209600&color=blue&style=plastic" alt="Projeto financiado em R$ 9600 pelo CNPq" title="Valor do financiamento" />'
+  - title: '<img src="https://img.shields.io/static/v1?label=CNPq&message=R%24%2014.400&color=blue&style=plastic" alt="Projeto financiado em R$ 14.400 pelo CNPq" title="Valor do financiamento" />'
   - title: '<img src="https://img.shields.io/static/v1?label=FAPDF&message=R%24%204800&color=orange&style=plastic" alt="Projeto financiado em R$ 4800 pela FAPDF" title="Valor do financiamento" />'
   - title: '<img src="https://img.shields.io/static/v1?label=UnB&message=R%24%206145&color=brightgreen&style=plastic" alt="Projeto financiado em R$ 6145 pela UnB" title="Valor do financiamento" />'
 
+# mapa do site
 mapa:
   - title: "Projeto de pesquisa"
     url  : /projeto/
