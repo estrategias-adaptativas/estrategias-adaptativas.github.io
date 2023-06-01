@@ -111,3 +111,80 @@ Matheus Rudo:
     - label: "CV Lattes"
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/7823073064110642"
+
+Bruna Leite Lopes:
+  name    : "Bruna Leite Lopes"
+  bio     : "Arquiteta e Urbanista"
+  avatar  : /assets/media/avatar-bruna-leite-lopes.jpg
+  links:
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/0632871780940274"
+
+Eduarda Toscano:
+  name    : "Eduarda Toscano de Carvalho"
+  bio     : "Arquiteta e Urbanista"
+  avatar  : /assets/media/avatar-eduarda-toscano.jpg
+  links:
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/7412720893793734"
+
+Caroline Paiva:
+  name: "Ana Caroline dos Santos  Paiva"
+  familyName: "Paiva"
+  givenName: "Ana Caroline dos Santos"
+  avatar: /assets/media/avatar-caroline-paiva.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0003-4299-6291"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/3443287356411632"
+
+Iriani Jéssica:
+  name: "Iriani Jéssica Pinto  Gangá"
+  familyName: "Gangá"
+  givenName: "Iriani Jéssica Pinto"
+  avatar: /assets/media/avatar-iriani-jessica.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0001-5942-9459"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/8596533347836400"
+
+Mariana Azevedo:
+  name: "Mariana de Fátima Macedo Nunes de Azevedo"
+  familyName: "Azevedo"
+  givenName: "Mariana de Fátima Macedo Nunes"
+  additionalName: "de"
+  avatar: /assets/media/avatar-mariana-azevedo.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0003-0476-6962"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/4452882297765384"
+
+Tainá Abreu:
+  name: "Tainá Lourenço de Abreu"
+  familyName: "Abreu"
+  givenName: "Tainá Lourenço"
+  additionalName: "de"
+  avatar: /assets/media/avatar-taina-abreu.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0002-0167-6024"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/3323229615714709"
+
