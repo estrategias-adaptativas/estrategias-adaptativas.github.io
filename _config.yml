@@ -10,15 +10,15 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme                    : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme                    : "minimal-mistakes-jekyll"
+#remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dirt" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "pt-BR"
 title                    : "Estratégias adaptativas na construção tradicional"
 title_separator          : "|"
-subtitle                 : "Projeto de pesquisa"
+subtitle                 : "Grupo de pesquisa Documentação, Modelagem e Conservação do Patrimônio"
 name                     : "Pedro P. Palazzo"
 description: >
   Emerging order systems in modern construction, from the mid-18th century to
@@ -115,7 +115,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://palazzo.arq.br"
+      url: "https://palazzo.pt"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/p3palazzo"
@@ -128,6 +128,18 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "ORCID"
+      icon: "ai fa-fw ai-orcid"
+      url: "https://orcid.org/0000-0002-0187-774X"
+    - label: "CV Lattes"
+      icon: "ai fa-fw ai-lattes"
+      url: "http://lattes.cnpq.br/5767592881382885"
+    - label: "Ciência Vitæ"
+      icon: "ai fa-fw ai-ciencia-vitae"
+      url: "https://www.cienciavitae.pt//pt/D91E-0C60-B56B"
+    - label: "ResearchGate"
+      icon: "ai fa-fw ai-researchgate"
+      url: "https://www.researchgate.net/profile/Pedro-Palazzo"
 
 # Site Footer
 footer:
@@ -207,19 +219,31 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..3
+  toc_levels: 2..4
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-pandoc:
-  extensions:
-    - bibliography: "_bibliography/references.bib"
-    - csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-note-bibliography-with-ibid.csl"
-    - defaults: "_spec/html.yaml"
-    - section-divs
-    - toc
 relative_links:
   enabled                : true
   collections            : true
+scholar:
+  bibliography           : "_bibliography/references.bib"
+  group_by               : year, type
+  group_order            : descending, ascending
+  locale                 : pt
+  sort_by                : author
+  source                 : "./"
+  style                  : "chicago-fullnote-bibliography"
+  type_aliases:
+    mvbook               : book
+  type_names:
+    article: "Artigo completo em periódico acadêmico"
+    book: "Livro"
+    incollection: "Capítulo de livro"
+    inproceedings: "Trabalho completo em anais de evento"
+    misc: "Outros trabalhos técnicos"
+    unpublished: "Palestra"
+    thesis: "Dissertação de Mestrado"
+    phdthesis: "Tese de Doutorado"
 
 
 # Sass/SCSS
@@ -233,6 +257,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+date_format: "%d/%m/%Y"
 
 
 # Plugins (previously gems:)
@@ -243,7 +268,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-data
-  - jekyll-pandoc
   - jekyll-relative-links
   - jekyll-seo-tag
 

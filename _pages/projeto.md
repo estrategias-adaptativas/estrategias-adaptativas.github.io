@@ -1,17 +1,26 @@
 ---
 title: "Projeto de pesquisa"
-layout: home
+author: Pedro Palazzo
 author_profile: true
-toc: true
+layout: single
+date: 2020-05-05
+permalink: /projeto/
+sidebar:
+  nav: "mapa"
+header:
+  overlay_image: "assets/media/fragoso-architectural-og.jpg"
+  overlay_filter: 0.5
+tagline: |
+  Este projeto de pesquisa investiga a ocorrência de sistemas de ordem
+  emergente na construção moderna luso-brasileira — da segunda metade do
+  século XVIII à primeira metade do século XX —, avaliando a
+  possibilidade de estes sistemas oferecerem respostas descentralizadas e
+  <em>low tech</em> aos problemas atuais da sustentabilidade urbana.
 ---
 
 ## Objeto ##
 
-Este projeto de pesquisa investiga a ocorrência de sistemas de ordem
-emergente na construção moderna luso-brasileira --- da segunda metade do
-século XVIII à primeira metade do século XX ---, avaliando a
-possibilidade de estes sistemas oferecerem respostas descentralizadas e
-*low tech* aos problemas atuais da sustentabilidade urbana. Atuaremos
+Atuamos
 sobre três escalas da produção do tecido edificado: configurações de
 parcelamento do solo, morfologias espaciais na edilícia de base --- os
 tipos de edificações mais difundidos, como habitações, comércios e
@@ -53,11 +62,10 @@ compilando um corpo documental representativo dos produtos e processos
 designados como tradicionais, para então formular um sistema de
 indicadores e métricas de resiliência.
 O conceito de resiliência urbana tem sido implementado, via de regra,
-com respeito à recuperação após desastres naturais
-[@meerow:2016defining147], ou ainda a aspectos socioeconômicos alheios
-aos processos produtivos do ambiente construído
-[@schlor:2018few-nexus210]. Propomos, outrossim, proceder por analogia,
-identificando a resiliência de tradições construtivas diante dos
+com respeito à recuperação após desastres naturais, ou ainda a aspectos
+socioeconômicos alheios aos processos produtivos do ambiente construído.
+Propomos, outrossim, proceder por analogia, identificando a resiliência
+de tradições construtivas diante dos
 cambiantes cenários cultural, político e tecnológico. Para tanto,
 estipulamos os objetivos a seguir.
 
@@ -119,7 +127,7 @@ Outrossim, a atual concepção de sustentabilidade como um "alvo em
 movimento" --- passível não apenas de aprimoramento nos resultados
 alcançados, mas também de expansão e aprofundamento nas próprias
 expectativas estabelecidas pelos indicadores de desempenho
-[@blumenschein:2011inovacao2] --- sugere atenção a todas as cadeias de
+--- sugere atenção a todas as cadeias de
 processos produtivos no ambiente edificado. O deslocamento do "alvo" da
 sustentabilidade urbana, entendido sob todos os seus aspectos ---
 ambiental, social, cultural e econômico --- adquire, assim, a forma de
@@ -200,16 +208,16 @@ utilizaremos Sistemas de Informação Geográfica (SIG) para identificar
 padrões de dimensões lineares e de proporções de lotes recorrentes,
 associando-os às configurações arquitetônicas que eles comportam. O
 instrumental teórico da morfologia urbana, tal como concebido na escola
-morfológica italiana [@cataldi:1989attualita], permite extrair desses
+morfológica italiana, permite extrair desses
 padrões identificados na cartografia os processos de crescimento,
 consolidação e reforma do tecido das cidades.
 
 As tipologias espaciais nas edificações estudadas podem, igualmente, ser
 analisadas por meio do SIG para evidenciar relações dimensionais e
 posicionais entre ambientes. Tais relações são codificadas pelas
-ferramentas da sintaxe espacial [@holanda:2002espaco], tendo especial
+ferramentas da sintaxe espacial, tendo especial
 pertinência na escala da edificação os grafos de profundidade e os mapas
-de visibilidade [@gurgel:2017aliando6].
+de visibilidade.
 
 Os padrões construtivos, que evidenciam a persistência e a transformação
 de práticas profissionais e de modos de organização das cadeias
@@ -222,7 +230,7 @@ da pesquisa em construções históricas está atualmente voltado para o
 emprego de sistemas de Historic Building Information Modeling (HBIM). No
 HBIM, a representação tridimensional da edificação serve como suporte
 para a inclusão de informações semânticas, mas também para a modelagem e
-avaliação de cenários e prognósticos [@pocobelli:2018buildingXLII].
+avaliação de cenários e prognósticos.
 
 A documentação detalhada de algumas edificações representativas será a
 oportunidade de avaliar a viabilidade geral de métodos e boas práticas
@@ -245,23 +253,24 @@ taxonomias de sistemas edilícios tradicionais.
 
 ## Impacto e relevância ##
 
-## Atividades desenvolvidas ##
-
 <!--
-   -Compilação sucinta das atividades de pesquisa desenvolvidas,
-   -consideradas pelo requerente as mais relevantes, indicando a produção
-   -gerada por elas até 2021. Tais atividades podem ser demonstradas por
-   -intermédio de artigos científicos, capítulos de livros ou livros,
-   -trabalhos completos em eventos científicos, patentes, softwares,
-   -documentos que subsidiaram a elaboração de leis e/ou implementação de
-   -políticas públicas, entre outros. Também podem ser mencionados
-   -financiamentos recebidos de agências públicas ou instituições privadas,
-   -orientações concluídas ou em andamento e parcerias institucionais;
+   -- Com relação a si próprio - Qual(is) a(s) principal(is)
+   -  contribuição(ões) científica, intelectual, tecnológica e/ou social da
+   -  sua atividade de pesquisa?
+   -  - Português
+   -  - Inglês
+   -
+   -- Com relação ao projeto em foco - Qual(is) a(s) contribuição(ões)
+   -  científica, intelectual, tecnológica e/ou social, que podem resultar
+   -  do seu projeto submetido ao presente Edital?
+   -  - Português
+   -  - Inglês
+   -
+   --  Com relação ao projeto em foco - Experiência de Pesquisa Indique até
+   -   cinco publicações (capítulos, artigos e/ou livros) e/ou patentes
+   -   requeridas/concedidas/licenciadas que demonstre(m) a sua experiência
+   -   de pesquisa. 
    -->
-
-## Conclusão ##
-
-## Fontes primárias ##
 
 ## Bibliografia crítica ##
 

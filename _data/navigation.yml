@@ -1,12 +1,30 @@
 # main links
 main:
-  - title: "Grupo de pesquisa"
-    url: https://dmcpatrimonio.github.io/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: '<img src="https://img.shields.io/static/v1?label=CNPq&message=R%24%209600&color=blue&style=plastic" alt="Projeto financiado em R$ 9600 pelo CNPq" title="Valor do financiamento" />'
+  - title: '<img src="https://img.shields.io/static/v1?label=FAPDF&message=R%24%204800&color=orange&style=plastic" alt="Projeto financiado em R$ 4800 pela FAPDF" title="Valor do financiamento" />'
+  - title: '<img src="https://img.shields.io/static/v1?label=UnB&message=R%24%206145&color=brightgreen&style=plastic" alt="Projeto financiado em R$ 6145 pela UnB" title="Valor do financiamento" />'
+
+mapa:
+  - title: "Projeto de pesquisa"
+    url  : /projeto/
+    children:
+      - title: "Objeto"
+        url  : /projeto/#objeto
+      - title: "Objetivos"
+        url  : /projeto/#objetivos
+      - title: "Justificativa"
+        url  : /projeto/#justificativa
+      - title: "Metodologia"
+        url  : /projeto/#metodologia
+      - title: "Resultados pretendidos"
+        url  : /projeto/#resultados-pretendidos
+      - title: "Impacto"
+        url  : /projeto/#impacto-e-relevncia
+      - title: "Bibliografia"
+        url  : /projeto/#bibliografia-crtica
+  - title: "Integrantes"
+    url  : /integrantes/
+  - title: "Produção"
+    url  : /produtos/
+  - title: "Prestação de contas"
+    url  : /contas/
