@@ -34,13 +34,6 @@ específicos necessários à sua consecução:
   com a situação atual do parcelamento urbano, observando a resiliência
   dos padrões urbanísticos.
 
-O propósito da pesquisa é fazer um levantamento histórico-urbanístico
-com enfoque no século XIX, na ocasião em que, sucedeu-se amplo
-desenvolvimento, planejamento e criação de importantes cidades
-brasileiras. Abrangendo um recorte até os dias atuais, com objetivo de
-estudar quais regiões permaneceram o mais intactas em relação ao
-dimensionamento existente no período da idade média.
-
 Entre o final do ciclo de fundações de vilas promovido pelo marquês de
 Pombal (1777) e o início do ciclo de projetos urbanos da primeira
 República (1895), a urbanização luso-brasileira se transforma
@@ -48,7 +41,7 @@ paulatinamente. O ímpeto urbanizador do Estado central arrefece neste
 período, à exceção de iniciativas pontuais como Niterói (1819) e
 Petrópolis (1843), deixando o protagonismo para as capitais regionais
 --- desde a expansão da Vila Boa de Goiás (1782) até as fundações de
-Aracaju (1855) e Teresina (1861) --- e para as urbanizações de
+Teresina (1852) e Aracaju (1855) --- e para as urbanizações de
 freguesias e colônias de imigrantes, sobretudo ao longo do segundo
 reinado. Aos princípios de ocupação do território herdados da Idade
 Média --- a aldeia--rua e o os lotes modulares ---, agrega-se a retícula
@@ -57,7 +50,7 @@ frequentemente deformada com respeito ao inflexível paradigma pombalino.
 
 Este Plano de Trabalho explora o dimensionamento e a modularidade dos
 parcelamentos urbanos no Brasil estabelecidos no período de 1777 a 1895,
-com base em plantas cadastrais de época e em reconstituições a partir de
+com base em plantas de época e em reconstituições a partir de
 levantamentos cadastrais recentes. Procura averiguar em que medida os
 novos tecidos urbanos constituídos neste recorte cronológico adotam os
 módulos dimensionais portugueses, vigentes desde a Idade Média e apenas
