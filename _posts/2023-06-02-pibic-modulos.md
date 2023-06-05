@@ -102,21 +102,24 @@ digitais, uma vez que o programa QGIS é software livre.
 ::: {#refs}
 :::
 
-# Competências e habilidades #
-
 # Cronograma #
 
-| Mês       | Ano  | Tarefa                                                                                                                                                 |
-| --------: | ---: | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Agosto    | 2023 | Fundamentação e levantamento de campo: Leituras dos materiais bibliográficos, organização de ideias e investigação de conteúdo cartográfico existente. |
-| Setembro  | 2023 | Fundamentação e levantamento de campo: Leituras dos materiais bibliográficos, organização de ideias e investigação de conteúdo cartográfico existente. |
-| Outubro   | 2023 | Fundamentação e levantamento de campo: Leituras dos materiais bibliográficos, organização de ideias e investigação de conteúdo cartográfico existente. |
-| Novembro  | 2023 | Mapear e tabular os módulos dimensionais de lotes e vias adotados nas cidades brasileiras ao longo do século XIX.                                      |
-| Dezembro  | 2023 | Mapear e tabular os módulos dimensionais de lotes e vias das cidades no período atual.                                                                 |
-| Janeiro   | 2024 | Comparação e averiguação do conteúdo cartográfico do período pombalino com os módulos dimensionais de lotes e vias já tabulados.                       |
-| Fevereiro | 2024 | Comparação e averiguação do conteúdo cartográfico do período pombalino com os módulos dimensionais de lotes e vias já tabulados.                       |
-| Março     | 2024 | Desenvolvimento textual: Introdução a estrutura dos pontos a serem abordados e exposição teórica no qual o trabalho foi embasado.                      |
-| Abril     | 2024 | Desenvolvimento Textual: apresentação das informações produzidas.                                                                                      |
-| Maio      | 2024 | Desenvolvimento Textual: apresentação de resultados                                                                                                    |
-| Junho     | 2024 | Desenvolvimento Textual: apresentação de resultados e conclusão.                                                                                       |
-| Julho     | 2024 | Revisão e formatação.                                                                                                                                  |
+| Mês | Tarefa                                                                                  |
+|----:|:----------------------------------------------------------------------------------------|
+|  01 | Leituras dos materiais bibliográficos, investigação de conteúdo cartográfico existente. |
+|  02 | Leituras dos materiais bibliográficos, investigação de conteúdo cartográfico existente. |
+|  03 | Leituras dos materiais bibliográficos, investigação de conteúdo cartográfico existente. |
+|  04 | Mapear e tabular os módulos dimensionais de lotes e vias adotados                       |
+|  05 | Mapear e tabular os módulos dimensionais de lotes e vias das cidades no período atual.  |
+|  06 | Comparação e averiguação do conteúdo cartográfico                                       |
+|  07 | Comparação e averiguação do conteúdo cartográfico                                       |
+|  08 | Desenvolvimento textual: Introdução à estrutura e exposição teórica                     |
+|  09 | Desenvolvimento Textual: apresentação das informações produzidas.                       |
+|  10 | Desenvolvimento Textual: apresentação de resultados                                     |
+|  11 | Desenvolvimento Textual: apresentação de resultados e conclusão.                        |
+|  12 | Revisão e formatação.                                                                   |
+
+# Competências e habilidades #
+
+<!--1000 caracteres-->
+
