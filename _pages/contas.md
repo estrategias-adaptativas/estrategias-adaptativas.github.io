@@ -20,6 +20,10 @@ header:
 | UnB   |      2021 | Auxílio a participação em evento |    R$ 165 |
 | UnB   |      2021 | Auxílio à execução de pesquisas  |   R$ 3250 |
 | UnB   |      2020 | Auxílio à execução de pesquisas  |   R$ 3000 |
+| UnB   |(Irina)2019 | Auxílio à execução de pesquisas |   R$ 300  |
+| UnB   |(Irina)2022 | Auxílio à execução de pesquisas |   R$ 200  |
+| UnB   |(Irina)2022 | Auxílio à execução de pesquisas |   R$ 3000 |
+| UnB   |Toral (Irina)|Auxílios à execução de pesquisas|   R$ 3500 |
 |-------|-----------|----------------------------------|-----------|
 | Total |           |                                  | R$ 25.615 |
 
