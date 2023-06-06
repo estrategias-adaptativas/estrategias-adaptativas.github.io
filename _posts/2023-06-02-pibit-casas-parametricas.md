@@ -5,6 +5,8 @@ excerpt: "Plano de trabalho de iniciação tecnológica 2023–2024"
 author_profile: false
 header:
   overlay_image: "/assets/media/br-go-plantas_residenciais-fig_58.jpg"
+category: "Pibit"
+tags: ["casa", "parametrização", "Blender", "visualização"]
 ---
 
 ## Objetivos, problema e justificativa ##
