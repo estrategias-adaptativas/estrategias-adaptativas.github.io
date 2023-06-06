@@ -6,6 +6,8 @@ author_profile: false
 header:
   overlay_image: "/assets/media/blenderbim-mus-deco.jpg"
   overlay_filter: 0.5
+category: "Pibit"
+tags: ["HBIM", "Blender", "patrimônio cultural", "fotogrametria", "visualização"]
 ---
 
 ## Objetivos, problema e justificativa ##
