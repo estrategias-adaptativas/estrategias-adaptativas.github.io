@@ -2,6 +2,10 @@
 title: "Padrões de casas tradicionais"
 date: 2023-06-02
 excerpt: "Plano de trabalho de iniciação científica 2023–2024"
+author_profile: false
+header:
+  overlay_image: "/assets/media/br-mg-op-contos-070828-pp-0577.jpg"
+  overlay_filter: 0.5
 ---
 
 ## Objetivos, problema e justificativa ##

@@ -2,6 +2,10 @@
 title: "Módulos do parcelamento urbano tradicional"
 date: 2023-06-02
 excerpt: "Plano de trabalho de iniciação científica 2023–2024"
+author_profile: false
+header:
+  overlay_image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
+  overlay_filter: 0.5
 ---
 
 <!--

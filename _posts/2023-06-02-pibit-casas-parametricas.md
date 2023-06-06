@@ -1,7 +1,10 @@
 ---
-title: "Parametrização de arquitetura vernácula luso-brasileira com software Blender"
+title: "Parametrização de arquitetura vernácula com software Blender"
 date: 2023-06-02
 excerpt: "Plano de trabalho de iniciação tecnológica 2023–2024"
+author_profile: false
+header:
+  overlay_image: "/assets/media/br-go-plantas_residenciais-fig_58.jpg"
 ---
 
 ## Objetivos, problema e justificativa ##

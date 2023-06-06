@@ -2,6 +2,10 @@
 title: "Manual de boas práticas em Open HBIM com o programa Blender"
 date: 2023-06-02
 excerpt: "Plano de trabalho de iniciação tecnológica 2023–2024"
+author_profile: false
+header:
+  overlay_image: "/assets/media/blenderbim-mus-deco.jpg"
+  overlay_filter: 0.5
 ---
 
 ## Objetivos, problema e justificativa ##
