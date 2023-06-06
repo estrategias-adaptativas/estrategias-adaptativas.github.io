@@ -20,6 +20,8 @@ header:
 | UnB   |      2021 | Auxílio a participação em evento |    R$ 165 |
 | UnB   |      2021 | Auxílio à execução de pesquisas  |   R$ 3250 |
 | UnB   |      2020 | Auxílio à execução de pesquisas  |   R$ 3000 |
+| CAPES | 2022–2023 | 1 Bolsa de mestrado              |  R$ 21000 |
 |-------|-----------|----------------------------------|-----------|
-| Total |           |                                  | R$ 25.615 |
+| Total |           |                                  | R$ 46.615 |
+
 
