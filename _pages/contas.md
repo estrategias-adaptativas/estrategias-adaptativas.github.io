@@ -14,13 +14,13 @@ header:
 
 | Fonte | Exercício | Natureza                         |     Valor |
 |:------|----------:|:---------------------------------|----------:|
-| CNPq  | 2021–2022 | 1 Bolsa de iniciação científica  |   R$ 4800 |
-| CNPq  | 2020–2021 | 2 Bolsas de iniciação científica |   R$ 9600 |
-| FAPDF | 2022–2023 | 1 Bolsa de iniciação científica  |   R$ 4800 |
+| CAPES | 2022–2023 | 1 Bolsa de mestrado              | R$ 21.000 |
+| CNPq  | 2021–2022 | 1 Bolsa de iniciação científica  |  R$ 4.800 |
+| CNPq  | 2020–2021 | 2 Bolsas de iniciação científica |  R$ 9.600 |
+| FAPDF | 2022–2023 | 1 Bolsa de iniciação científica  |  R$ 4.800 |
 | UnB   |      2021 | Auxílio a participação em evento |    R$ 165 |
-| UnB   |      2021 | Auxílio à execução de pesquisas  |   R$ 3250 |
-| UnB   |      2020 | Auxílio à execução de pesquisas  |   R$ 3000 |
-| CAPES | 2022–2023 | 1 Bolsa de mestrado              |  R$ 21000 |
+| UnB   |      2021 | Auxílio à execução de pesquisas  |  R$ 3.250 |
+| UnB   |      2020 | Auxílio à execução de pesquisas  |  R$ 3.000 |
 |-------|-----------|----------------------------------|-----------|
 | Total |           |                                  | R$ 46.615 |
 
