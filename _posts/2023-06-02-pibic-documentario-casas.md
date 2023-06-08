@@ -6,6 +6,8 @@ author_profile: false
 header:
   overlay_image: "/assets/media/br-mg-op-contos-070828-pp-0577.jpg"
   overlay_filter: 0.5
+category: "Pibic"
+tags: ["casa", "vernacular", "século XIX", "documentário", "padrões"]
 ---
 
 ## Objetivos, problema e justificativa ##

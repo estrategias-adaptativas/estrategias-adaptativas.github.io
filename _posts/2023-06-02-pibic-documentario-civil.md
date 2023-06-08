@@ -6,6 +6,8 @@ author_profile: false
 header:
   overlay_image: "/assets/media/br-rj-rj-an-arquivonacional-1905.jpg"
   overlay_filter: 0.5
+category: "Pibic"
+tags: ["arquitetura cívica", "neoclassicismo", "século XIX", "documentário", "padrões"]
 ---
 
 ## Objetivos, problema e justificativa ##
