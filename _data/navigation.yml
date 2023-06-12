@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: '<img src="https://img.shields.io/static/v1?label=CAPES&message=R%24%2055.400&color=white&style=plastic" alt="Projeto financiado em R$ 55.400 pela CAPES" title="Valor do financiamento" />'
-  - title: '<img src="https://img.shields.io/static/v1?label=CNPq&message=R%24%2014.400&color=blue&style=plastic" alt="Projeto financiado em R$ 14.400 pelo CNPq" title="Valor do financiamento" />'
-  - title: '<img src="https://img.shields.io/static/v1?label=FAPDF&message=R%24%204800&color=orange&style=plastic" alt="Projeto financiado em R$ 4800 pela FAPDF" title="Valor do financiamento" />'
-  - title: '<img src="https://img.shields.io/static/v1?label=UnB&message=R%24%2013.415&color=brightgreen&style=plastic" alt="Projeto financiado em R$ 13.415 pela UnB" title="Valor do financiamento" />'
+  - title: '<img src="https://img.shields.io/static/v1?label=Situação&message=Em andamento&color=blue&style=plastic" alt="Situação do projeto: em andamento" title="Situação do projeto" />'
+  - title: '<img src="https://img.shields.io/static/v1?label=Financiamento&message=R%24%2088.015&color=brightgreen&style=plastic" alt="Projeto financiado em R$ 88.015" title="Valor do financiamento" />'
 
 # mapa do site
 mapa:
