@@ -1,6 +1,24 @@
 ---
 references:
 - id: constanti:2020preservacao
+  abstract: >-
+    Esse trabalho discute o modo como as intervenções realizadas pela arquiteta
+    Lina Bo Bardi e sua equipe estabelecem a inserção arquitetônica em sítios
+    com valor de patrimônio histórico. Como objeto de pesquisa destaca-se o
+    partido de intervenções do projeto-piloto para a Ladeira da Misericórdia em
+    Salvador. Implementado em um contexto urbano e político dos anos 70 e 80,
+    tinha a intenção de ser um piloto para intervenções no centro histórico de
+    Salvador com peculiaridades semelhantes. Ao mesmo tempo em que esse contexto
+    urbano e político torna viável a realização do projeto-piloto, ela também
+    limita a sua narrativa em prol de uma arquitetura interventiva padronizada.
+    Assim, essa pesquisa reúne e expõe as circunstâncias que enquadram a
+    experiência projetual elaborada pela Lina Bo Bardi e colaboradores. Expõe,
+    também, a concepção do projeto da arquiteta como uma relação direta entre
+    forma e construção, influenciada por uma sólida intenção, traduzida em seus
+    desenhos aliados a suas categóricas anotações. Por fim, tais formulações,
+    pretende possibilitar um panorama de leitura da intervenção realizada na
+    Ladeira da Misericórdia e evidenciar a pertinência das escolhas
+    arquitetônicas técnicas e formais
   author:
     - family: Constanti
       given: Andressa Pinheiro
@@ -17,25 +35,7 @@ references:
     cultural: A ladeira da misericórdia de Lina Bo Bardi em Salvador
   title-short: A ladeira da misericórdia de Lina Bo Bardi em Salvador
   type: thesis
-
-- id: farias:2022politicas
-  author:
-    - family: Farias
-      given: Sylvio Carneiro
-      dropping-particle: de
-  citation-key: farias:2022politicas
-  event-place: Brasília
-  genre: Tese de Doutorado em Arquitetura e Urbanismo
-  issued:
-    - year: 2022
-  language: pt-BR
-  publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
-  publisher-place: Brasília
-  title: >-
-    Políticas públicas de preservação cultural: o caso do centro histórico de
-    Santos
-  title-short: O centro histórico de Santos
-  type: thesis
+  URL: http://repositorio2.unb.br/jspui/handle/10482/39803
 
 - id: garcia:2020caixa7
   abstract: >-
@@ -98,6 +98,86 @@ references:
   type: article-journal
   URL: http://www.periodicos.se.df.gov.br/index.php/comcenso/article/view/793
   volume: '7'
+
+- id: lopes:2022manifestacoes
+  abstract: >-
+    O trabalho busca analisar sobre como se deu o emprego da linguagem
+    neocolonial em edifícios cívicos de Cuiabá, construídos no final da década
+    de 1930 e durante a década de 1940, como fruto de políticas do governo
+    Vargas durante o regime conhecido por Estado Novo. Para isso, foi realizada
+    a análise do movimento neocolonial desde sua gênese e, sobretudo, sua
+    proposta de ruptura em relação a arquitetura eclética, em oposição ao uso de
+    estilos importados e de busca por uma arquitetura nacionalista, responsável
+    por justificar suas características arquitetônicas. Em Cuiabá, foram
+    encontrados edifícios que utilizam o neocolonial em um estágio de
+    simplificação, com supressão dos elementos decorativos e com incorporações
+    de atributos do chamado estilo missões, além da mesclagem de elementos de
+    outros estilos. Em sua maioria, as edificações aparentam uma preocupação
+    maior com as questões funcionais e buscam resolver a estética do edifício
+    com jogo de volumes operado principalmente pela presença de varandas e
+    arcos. Através desta análise foi possível perceber algumas diferenças entre
+    o neocolonial presente nos edifícios de Cuiabá e aqueles construídos durante
+    a década de 1920 nos grandes centros, a principal delas seria o abandono da
+    carga ideológica original do movimento na arquitetura do início do século
+    XX.
+  accessed:
+    - year: 2023
+      month: 6
+      day: 12
+  author:
+    - family: Lopes
+      given: Bruna Leite
+    - family: Araujo
+      given: Evillyn Biazatti
+      dropping-particle: de
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: lopes:2022manifestacoes
+  container-title: Refazer, restaurar, revisar
+  editor:
+    - family: Buzzar
+      given: Miguel Antonio
+    - family: Moreira
+      given: Tomás Antonio
+    - family: Rodrigues Alves
+      given: Manoel
+    - family: Lopes
+      given: Ruy Sardinha
+    - family: Silva
+      given: Jasmine Luiza Souza
+    - family: Fachi
+      given: Fernanda Millan
+    - family: Franco
+      given: Diandra Rodrigues
+    - family: Freitas
+      given: Tatiani Amadeu
+      dropping-particle: de
+    - family: Santos
+      given: Paul Newman
+      dropping-particle: dos
+    - family: Marques
+      given: Daniel Nardini
+    - family: Paula
+      given: Carolina Cardi Pifano
+      dropping-particle: de
+  event-place: São Carlos
+  event-title: >-
+    VII Encontro da Associação Nacional de Pesquisa e Pós-graduação em
+    Arquitetura e Urbanismo
+  ISSN: 2358-6214
+  issued:
+    - year: 2022
+  language: pt-BR
+  license: >-
+    Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+    License (CC-BY-NC-ND)
+  page: 559-570
+  publisher: Anparq
+  publisher-place: São Carlos
+  title: Manifestações da linguagem neocolonial na arquitetura cívica de Cuiabá
+  type: paper-conference
+  URL: https://drive.google.com/file/d/1rKVGXUgunh6XanVPjdA2ZWv7XRCAF9bI/view
+  volume: '3'
 
 - id: oliveira:2021cronicas15
   abstract: >-
@@ -349,7 +429,7 @@ references:
     - year: 2021
       month: 11
       day: 10
-  language: en-US
+  language: en
   license: >-
     Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
     License (CC-BY-NC-ND)
