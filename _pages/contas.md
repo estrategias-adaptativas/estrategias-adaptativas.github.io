@@ -15,6 +15,7 @@ header:
 | Fonte | Exercício | Natureza                         |     Valor |
 |:------|----------:|:---------------------------------|----------:|
 | CAPES | 2022–2023 | 1 Bolsa de mestrado              | R$ 21.000 |
+| CAPES | 2022–2023 | 1 Bolsa de doutorado             | R$ 34.400 |
 | CNPq  | 2021–2022 | 1 Bolsa de iniciação científica  |  R$ 4.800 |
 | CNPq  | 2020–2021 | 2 Bolsas de iniciação científica |  R$ 9.600 |
 | FAPDF | 2022–2023 | 1 Bolsa de iniciação científica  |  R$ 4.800 |
