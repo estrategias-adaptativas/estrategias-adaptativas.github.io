@@ -105,8 +105,9 @@ digitais, uma vez que o programa QGIS é software livre.
 
 # Bibliografia #
 
-::: {#refs}
-:::
+<div class="full">
+{% include biblio-pibic-modulos.html %}
+</div>
 
 # Cronograma #
 
