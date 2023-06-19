@@ -2,13 +2,16 @@
 title          : "Parametrização de arquitetura vernácula com software Blender"
 author         : Mikael Menezes
 date           : 2023-06-02
-excerpt        : "Plano de trabalho de iniciação tecnológica 2023–2024"
 toc            : true
 header:
   teaser       : /assets/media/teaser/br-go-plantas_residenciais-fig_58.jpg
   overlay_image: "/assets/media/br-go-plantas_residenciais-fig_58.jpg"
 category       : "Pibit"
 tags           : ["casa", "parametrização", "Blender", "visualização"]
+excerpt: >
+  Desenvolver um método para representar em modelagem 3D a tipologia
+  da casa corrente vernácula luso-brasileira, usando variáveis
+  paramétricas no software livre Blender.
 ---
 
 ## Objetivos, problema e justificativa ##

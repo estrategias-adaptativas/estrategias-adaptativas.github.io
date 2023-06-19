@@ -3,13 +3,16 @@ title           : "Módulos do parcelamento urbano tradicional"
 author          : Jean Adalto
 date            : 2023-06-02
 toc             : true
-excerpt         : "Plano de trabalho de iniciação científica 2023–2024"
 header:
   teaser        : /assets/media/teaser/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg
   overlay_image : "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
   overlay_filter: 0.5
 category        : "Pibic"
 tags            : ["urbanismo", "módulo", "século XIX", "vernacular", "padrões"]
+excerpt: >
+  Análise morfológica do parcelamento do solo urbano no Brasil do
+  século XIX, verificando dimensões de lotes e vias por meio do
+  redesenho da cartografia histórica ou atual.
 ---
 
 <!--

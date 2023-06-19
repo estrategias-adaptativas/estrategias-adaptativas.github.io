@@ -3,14 +3,16 @@ title           : "Padrões de casas tradicionais"
 author          : Eduarda Viana
 date            : 2023-06-02
 toc             : true
-excerpt         : "Plano de trabalho de iniciação científica 2023–2024"
-toc             : true
 header:
   teaser        : /assets/media/teaser/br-mg-op-contos-070828-pp-0577.jpg
   overlay_image : "/assets/media/br-mg-op-contos-070828-pp-0577.jpg"
   overlay_filter: 0.5
 category        : "Pibic"
 tags            : ["casa", "vernacular", "século XIX", "documentário", "padrões"]
+excerpt: >
+  Análise gráfica de casas urbanas brasileiras 1780–1890, por meio
+  do redesenho e análise de dimensões, proporções e distribuição
+  espacial.
 ---
 
 ## Objetivos, problema e justificativa ##

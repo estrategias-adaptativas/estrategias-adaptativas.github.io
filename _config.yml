@@ -259,7 +259,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "America/Sao_Paulo"
 date_format: "%d/%m/%Y"
 
 
@@ -338,3 +338,45 @@ defaults:
       header:
         overlay_image: "assets/media/fragoso-architectural-og.jpg"
         overlay_filter: 0.5
+  # _pibic
+  - scope:
+      path: ""
+      type: pibic
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      sidebar:
+        nav: "mapa"
+      header:
+        overlay_image: "assets/media/fragoso-architectural-og.jpg"
+        overlay_filter: 0.5
+  # _pibit
+  - scope:
+      path: ""
+      type: pibit
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      sidebar:
+        nav: "mapa"
+      header:
+        overlay_image: "assets/media/fragoso-architectural-og.jpg"
+        overlay_filter: 0.5
+
+
+# Collections
+collections:
+  pibic:
+    output: true
+    permalink: /:collection/:path/
+  pibit:
+    output: true
+    permalink: /:collection/:path/

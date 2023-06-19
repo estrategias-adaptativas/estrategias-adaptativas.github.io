@@ -2,7 +2,11 @@
 title: "Chuandou e frontal, paralelos entre construções vernáculas da Ásia e do Brasil"
 author: Matheus Rudo
 date: 2022-03-15
-excerpt: "Plano de trabalho de iniciação científica 2022–2023"
+excerpt: |
+  Modelagem comparativa de sistemas de esqueletos em madeira usando o
+  software livre Blender.
+
+  Bolsa da FAPDF
 ---
 
 ## Objetivos, problema e justificativa

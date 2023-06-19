@@ -2,7 +2,6 @@
 title           : "Manual de boas práticas em Open HBIM com o programa Blender"
 date            : 2023-06-02
 author          : Edmo Cabral
-excerpt         : "Plano de trabalho de iniciação tecnológica 2023–2024"
 toc             : true
 header:
   teaser        : /assets/media/teaser/blenderbim-mus-deco.jpg
@@ -10,6 +9,10 @@ header:
   overlay_filter: 0.5
 category        : "Pibit"
 tags            : ["HBIM", "Blender", "patrimônio cultural", "fotogrametria", "visualização"]
+excerpt: >
+  Compilar as melhores práticas consagradas na literatura científica
+  sobre a implementação de Historic Building Information Modeling
+  aplicáveis ao software livre Blender.
 ---
 
 ## Objetivos, problema e justificativa ##

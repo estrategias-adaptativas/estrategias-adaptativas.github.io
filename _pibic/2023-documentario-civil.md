@@ -3,13 +3,16 @@ title           : "Documentário de arquitetura cívica tradicional"
 author          : Sara Oliveira
 date            : 2023-06-02
 toc             : true
-excerpt         : "Plano de trabalho de iniciação científica 2023–2024"
 header:
   teaser        : /assets/media/teaser/br-rj-rj-an-arquivonacional-1905.jpg
   overlay_image : "/assets/media/br-rj-rj-an-arquivonacional-1905.jpg"
   overlay_filter: 0.5
 category        : "Pibic"
 tags            : ["arquitetura cívica", "neoclassicismo", "século XIX", "documentário", "padrões"]
+excerpt: >
+  Análise gráfica de edifícios cívicos brasileiros 1780–1890, por
+  meio do redesenho e análise de dimensões, proporções, distribuição
+  espacial e elementos ornamentais.
 ---
 
 ## Objetivos, problema e justificativa ##
