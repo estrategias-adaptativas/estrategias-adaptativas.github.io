@@ -1,3 +1,5 @@
+# Pesquisadores
+
 Pedro Palazzo:
   name    : "Pedro P. Palazzo"
   avatar  : "https://avatars3.githubusercontent.com/u/8295666"
@@ -51,6 +53,8 @@ Camila Pimentel:
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/3613601942031627"
 
+# Doutorado
+
 Irina Oliveira:
   name    : "Irina Alencar de Oliveira"
   bio     : "Doutoranda"
@@ -66,6 +70,8 @@ Irina Oliveira:
     - label: "CV Lattes"
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/6535350966278993"
+
+# Mestrado
 
 Lucas Araújo:
   name    : "Lucas Nunes Bastos de Araújo"
@@ -96,6 +102,87 @@ Evillyn Biazatti:
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/3547858649033111"
 
+# Pibic 2023-2024
+
+Edmo Cabral:
+  name          : "Edmo Nunes Oliveira Cabral"
+  givenName     : "Edmo Nunes Oliveira"
+  familyName    : "Cabral"
+  avatar        : /assets/media/avatar-edmo-cabral.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0007-2497-6218"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/1494348412828945"
+
+Eduarda Viana:
+  name          : "Eduarda de Sousa Viana de Santana"
+  givenName     : "Eduarda de Sousa"
+  familyName    : "Viana de Santana"
+  avatar        : /assets/media/avatar-eduarda-viana.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0006-7479-6365"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "https://lattes.cnpq.br/9477579135674413"
+
+Jean Adalto:
+  name          : "Jean Adalto Ferreira dos Santos"
+  givenName     : "Jean Adalto Ferreira"
+  additionalName: "dos"
+  familyName    : "Santos"
+  avatar        : /assets/media/avatar-jean-adalto.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0005-8143-2079"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/4906420903336595"
+
+Mikael Menezes:
+  name          : "Mikael Douglas Santos Menezes"
+  givenName     : "Mikael Douglas Santos"
+  familyName    : "Menezes"
+  avatar        : /assets/media/avatar-mikael-menezes.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0006-9856-8359"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "https://lattes.cnpq.br/7233503686915019"
+
+Sara Oliveira:
+  name          : "Sara Guimarães de Oliveira"
+  givenName     : "Sara Guimarães"
+  additionalName: "de"
+  familyName    : "Oliveira"
+  avatar        : /assets/media/avatar-sara-oliveira.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0001-0286-1870"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/0122614630973026"
+
+# Pibic 2022-2023
+
 Matheus Rudo:
   name    : "Matheus Rudo Antoniassi Pereira de Oliveira"
   bio     : "Iniciação científica"
@@ -111,6 +198,8 @@ Matheus Rudo:
     - label: "CV Lattes"
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/7823073064110642"
+
+# Pibic 2021-2022
 
 Bruna Leite Lopes:
   name    : "Bruna Leite Lopes"
@@ -129,6 +218,8 @@ Eduarda Toscano:
   - label: "CV Lattes"
     icon: "ai ai-lattes"
     url: "http://lattes.cnpq.br/7412720893793734"
+
+# Pibic 2020-2021
 
 Caroline Paiva:
   name: "Ana Caroline dos Santos  Paiva"
@@ -187,4 +278,3 @@ Tainá Abreu:
   - label: "CV Lattes"
     icon: "ai ai-lattes"
     url: "http://lattes.cnpq.br/3323229615714709"
-

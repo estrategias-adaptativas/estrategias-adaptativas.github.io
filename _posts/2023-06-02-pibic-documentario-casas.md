@@ -1,8 +1,10 @@
 ---
 title: "Padrões de casas tradicionais"
+author: Eduarda Viana
 date: 2023-06-02
+toc: true
 excerpt: "Plano de trabalho de iniciação científica 2023–2024"
-author_profile: false
+toc: true
 header:
   overlay_image: "/assets/media/br-mg-op-contos-070828-pp-0577.jpg"
   overlay_filter: 0.5
@@ -165,9 +167,43 @@ hábil.
 
 <!--2000 caracteres-->
 
+<div class="full">
+{% include biblio-pibic-documentario-casas.html %}
+</div>
+
 ## Competências ##
 
 <!--1000 caracteres-->
 
+A aluna domina os requisitos técnicos e interpretativos para a execução
+deste plano de trabalho: tem desenvoltura no uso dos programas
+necessários à representação das casas, bem como possui avançado domínio
+do desenho à mão para realizar estudos interpretativos do material
+pesquisado. Para além do mínimo exigido, domina também programas de
+editoração e tratamento de imagens que serão acréscimos valiosos no
+processamento do conteúdo gerado.
+
+A aluna possui afinidade com o estudo da arquitetura, cultura e história
+do Brasil. De estudos e pesquisas anteriormente desenvolvidas sob
+orientação de outros professores, traz uma percepção sobre as narrativas
+multifacetadas da vida doméstica ao longo da história. Além disso,
+demonstra interesse na metodologia de documentação de padrões e seus
+propósitos sociais e simbólicos, bem como nos desdobramentos desta
+pesquisa para a preservação do patrimônio cultural brasileiro.
+
 ## Cronograma ##
+
+| Mês | Atividade                                                           |
+|----:|---------------------------------------------------------------------|
+|   1 | Exploração e levantamento dos arquivos e da bibliografia            |
+|   2 | Levantamento e classificação do material de arquivo e bibliográfico |
+|   3 | Levantamento e classificação do material de arquivo e bibliográfico |
+|   4 | Representação geométrica e topológica dos exemplares                |
+|   5 | Representação geométrica e topológica dos exemplares                |
+|   6 | Análises de elementos e preenchimento da base de dados              |
+|   7 | Análises de elementos e preenchimento da base de dados              |
+|   8 | Análises de elementos e preenchimento da base de dados              |
+|   9 | Avaliação visual e classificação dos resultados                     |
+|  10 | Redação do relatório final                                          |
+|  11 | Revisão e formatação do relatório final                             |
 

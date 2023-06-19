@@ -32,6 +32,11 @@ header:
 
 <div class="feature__wrapper">
 {% include author-gallery.html person="Matheus Rudo" %}
+{% include author-gallery.html person="Edmo Cabral" %}
+{% include author-gallery.html person="Eduarda Viana" %}
+{% include author-gallery.html person="Jean Adalto" %}
+{% include author-gallery.html person="Mikael Menezes" %}
+{% include author-gallery.html person="Sara Oliveira" %}
 </div>
 
 ## Egressos ##

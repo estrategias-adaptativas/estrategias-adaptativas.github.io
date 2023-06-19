@@ -1,8 +1,9 @@
 ---
 title: "Módulos do parcelamento urbano tradicional"
+author: Jean Adalto
 date: 2023-06-02
+toc: true
 excerpt: "Plano de trabalho de iniciação científica 2023–2024"
-author_profile: false
 header:
   overlay_image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
   overlay_filter: 0.5
@@ -15,7 +16,7 @@ tags: ["urbanismo", "módulo", "século XIX", "vernacular", "padrões"]
    -Tradicional Eclético 2020–2021.
    -->
 
-# Objetivos, problema e justificativa #
+## Objetivos, problema e justificativa ##
 
 Este plano de trabalho propõe uma análise morfológica dos parcelamentos
 urbanos empreendidos em algumas cidades brasileiras ao longo do século
@@ -64,7 +65,7 @@ parcialmente alterados no período pombalino: lotes de 25 por 50 palmos e
 ruas com 60 a 100 palmos de caixa.
 
 
-# Viabilidade, recursos e metodologia #
+## Viabilidade, recursos e metodologia ##
 
 Esta pesquisa será dividida em quatro partes:
 
@@ -103,13 +104,24 @@ mesmos softwares e com a comunicação exclusivamente realizada por meios
 digitais, uma vez que o programa QGIS é software livre.
 
 
-# Bibliografia #
+## Bibliografia ##
 
-<div class="full">
 {% include biblio-pibic-modulos.html %}
-</div>
 
-# Cronograma #
+## Competências e habilidades ##
+
+<!--1000 caracteres-->
+
+O aluno desenvolveu, no âmbito do curso de graduação em Arquitetura e
+Urbanismo, competência técnica nos programas necessários para o
+desenvolvimento deste plano de trabalho, bem como a capacidade de ler e
+interpretar plantas urbanísticas. Possui também domínio do desenho à
+mão, que incrementará o potencial expressivo e interpretativo do seu
+trabalho. Já atuou em projeto de extensão na área de estudos da
+urbanização popular, demonstrando afinidade e competência na temática
+relevante para este plano de trabalho.
+
+## Cronograma ##
 
 | Mês | Tarefa                                                                                  |
 |----:|:----------------------------------------------------------------------------------------|
@@ -125,8 +137,3 @@ digitais, uma vez que o programa QGIS é software livre.
 |  10 | Desenvolvimento Textual: apresentação de resultados                                     |
 |  11 | Desenvolvimento Textual: apresentação de resultados e conclusão.                        |
 |  12 | Revisão e formatação.                                                                   |
-
-# Competências e habilidades #
-
-<!--1000 caracteres-->
-

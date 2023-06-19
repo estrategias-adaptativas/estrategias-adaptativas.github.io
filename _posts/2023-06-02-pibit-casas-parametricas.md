@@ -1,8 +1,9 @@
 ---
 title: "Parametrização de arquitetura vernácula com software Blender"
+author: Mikael Menezes
 date: 2023-06-02
 excerpt: "Plano de trabalho de iniciação tecnológica 2023–2024"
-author_profile: false
+toc: true
 header:
   overlay_image: "/assets/media/br-go-plantas_residenciais-fig_58.jpg"
 category: "Pibit"
@@ -140,23 +141,41 @@ no Laboratório de Estudos da Urbe (LabeUrbe) do PPG–FAU.
 
 <!--2000 caracteres-->
 
-## Cronograma ##
-
-| Mês | Atividade |
-|----:|:----------|
-|  01 |
-|  02 |
-|  03 |
-|  04 |
-|  05 |
-|  06 |
-|  07 |
-|  08 |
-|  09 |
-|  10 |
-|  11 |
-|  12 |
+{% include biblio-pibit-casas-parametricas.html %}
 
 ## Competências ##
 
 <!--1000 caracteres-->
+
+O aluno cumpriu componentes curriculares do curso de graduação em
+Arquitetura e Urbanismo relevantes para o plano de trabalho,
+especialmente as disciplinas de Arquitetura e Urbanismo no Brasil
+Colônia e Império e Projeto de Arquitetura e Urbanismo em Técnicas
+Retrospectivas, relacionadas ao patrimônio arquitetônico brasileiro. Ele
+também domina o software necessário para a realização das atividades
+previstas.
+
+Além disso, possui experiência em iniciação científica com o tema da
+parametrização de modelos digitais, tendo se aprofundado nas ferramentas
+para geração de geometrias a partir de algoritmos nos programas de
+modelagem tridimensional. Sua experiência com tomadas de decisão quanto
+à escolha de geometrias e instruções será de grande valia para a
+exploração do objeto deste plano de trabalho.
+
+## Cronograma ##
+
+| Mês | Atividade                                                                  |
+|----:|:---------------------------------------------------------------------------|
+|  01 | Revisão da bibliografia                                                    |
+|  02 | Revisão da bibliografia                                                    |
+|  03 | Determinação da estratégia a ser seguida para a modelagem                  |
+|  04 | Estudo de instruções paramétricas para elementos constituintes da casa     |
+|  05 | Estudo de instruções paramétricas para elementos constituintes da casa     |
+|  06 | Análise de variáveis na configuração espacial das casas                    |
+|  07 | Elaboração e teste de instruções paramétricas para a configuração espacial |
+|  08 | Elaboração e teste de instruções paramétricas para a configuração espacial |
+|  09 | Revisão e simplificação dos algoritmos                                     |
+|  10 | Redação do relatório final                                                 |
+|  11 | Produção e tratamento de imagens, diagramas e vídeos                       |
+|  12 | Revisão e formatação do relatório final                                    |
+

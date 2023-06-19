@@ -1,8 +1,9 @@
 ---
 title: "Documentário de arquitetura cívica tradicional"
+author: Sara Oliveira
 date: 2023-06-02
+toc: true
 excerpt: "Plano de trabalho de iniciação científica 2023–2024"
-author_profile: false
 header:
   overlay_image: "/assets/media/br-rj-rj-an-arquivonacional-1905.jpg"
   overlay_filter: 0.5
@@ -165,9 +166,36 @@ hábil.
 
 <!--2000 caracteres-->
 
+<div class="full">
+{% include biblio-pibic-documentario-civico.html %}
+</div>
+
 ## Competências ##
 
 <!--1000 caracteres-->
 
+A aluna selecionada se encontra em estágio avançado do curso de
+Arquitetura e Urbanismo, dominando os recursos tecnológicos e as
+competências gráficas e interpretativas necessárias à consecução deste
+plano de trabalho. Ela já demonstrou sua afinidade com a temática da
+arquitetura cívica tradicional ao desempenhar, no semestre 2022.2, o
+papel de monitora junto ao professor coordenador deste projeto de
+pesquisa.
+
 ## Cronograma ##
+
+| Mês | Atividade                                                |
+|----:|----------------------------------------------------------|
+|   1 | Exploração e levantamento dos arquivos e da bibliografia |
+|   2 | Escolha e classificação de exemplares representativos    |
+|   3 | Determinação de padrão gráfico para a representação      |
+|   4 | Compilação de material gráfico existente e redesenho     |
+|   5 | Compilação de material gráfico existente e redesenho     |
+|   6 | Compilação de material gráfico existente e redesenho     |
+|   7 | Organização de detalhes arquitetônicos ampliados         |
+|   8 | Organização de detalhes arquitetônicos ampliados         |
+|   9 | Análise e discussão de propriedades espaciais            |
+|  10 | Redação do relatório final                               |
+|  11 | Redação do relatório final                               |
+|  12 | Revisão e formatação do relatório final                  |
 

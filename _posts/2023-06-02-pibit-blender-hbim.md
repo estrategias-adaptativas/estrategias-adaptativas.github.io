@@ -1,8 +1,9 @@
 ---
 title: "Manual de boas práticas em Open HBIM com o programa Blender"
 date: 2023-06-02
+author: Edmo Cabral
 excerpt: "Plano de trabalho de iniciação tecnológica 2023–2024"
-author_profile: false
+toc: true
 header:
   overlay_image: "/assets/media/blenderbim-mus-deco.jpg"
   overlay_filter: 0.5
@@ -156,23 +157,34 @@ no Laboratório de Estudos da Urbe (LabeUrbe) do PPG–FAU.
 
 <!--2000 caracteres-->
 
-## Cronograma ##
-
-| Mês | Atividade |
-|----:|:----------|
-|  01 |
-|  02 |
-|  03 |
-|  04 |
-|  05 |
-|  06 |
-|  07 |
-|  08 |
-|  09 |
-|  10 |
-|  11 |
-|  12 |
+{% include biblio-pibit-blender-hbim.html %}
 
 ## Competências ##
 
 <!--1000 caracteres-->
+
+A pesquisa em construção tradicional e histórica é de interesse do
+aluno, que teve excelente desempenho na representação arquitetônica
+tradicional em disciplinas ministradas pelo coordenador deste projeto de
+pesquisa. O aluno domina em nível avançado os principais programas de
+modelagem paramétrica e BIM em arquitetura, e também se capacitou em
+nível intermediário no programa Blender que será usado neste plano de
+trabalho.
+
+## Cronograma ##
+
+| Mês | Atividade                                                |
+|----:|:---------------------------------------------------------|
+|  01 | Revisão da bibliografia                                  |
+|  02 | Revisão da bibliografia                                  |
+|  03 | Determinação dos elementos e estrutura do manual         |
+|  04 | Aprofundamento no módulo BlenderBIM                      |
+|  05 | Aprofundamento no módulo BlenderBIM                      |
+|  06 | Determinação e análise do estudo de caso                 |
+|  07 | Modelagem do estudo de caso e apontamentos para o manual |
+|  08 | Modelagem do estudo de caso e apontamentos para o manual |
+|  09 | Modelagem do estudo de caso e apontamentos para o manual |
+|  10 | Redação do manual                                        |
+|  11 | Diagramação do manual                                    |
+|  12 | Revisão e formatação final                               |
+
