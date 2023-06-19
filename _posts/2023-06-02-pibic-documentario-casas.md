@@ -1,15 +1,16 @@
 ---
-title: "Padrões de casas tradicionais"
-author: Eduarda Viana
-date: 2023-06-02
-toc: true
-excerpt: "Plano de trabalho de iniciação científica 2023–2024"
-toc: true
+title           : "Padrões de casas tradicionais"
+author          : Eduarda Viana
+date            : 2023-06-02
+toc             : true
+excerpt         : "Plano de trabalho de iniciação científica 2023–2024"
+toc             : true
 header:
-  overlay_image: "/assets/media/br-mg-op-contos-070828-pp-0577.jpg"
+  teaser        : /assets/media/teaser/br-mg-op-contos-070828-pp-0577.jpg
+  overlay_image : "/assets/media/br-mg-op-contos-070828-pp-0577.jpg"
   overlay_filter: 0.5
-category: "Pibic"
-tags: ["casa", "vernacular", "século XIX", "documentário", "padrões"]
+category        : "Pibic"
+tags            : ["casa", "vernacular", "século XIX", "documentário", "padrões"]
 ---
 
 ## Objetivos, problema e justificativa ##

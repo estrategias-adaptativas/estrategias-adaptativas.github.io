@@ -1,13 +1,14 @@
 ---
-title: "Parametrização de arquitetura vernácula com software Blender"
-author: Mikael Menezes
-date: 2023-06-02
-excerpt: "Plano de trabalho de iniciação tecnológica 2023–2024"
-toc: true
+title          : "Parametrização de arquitetura vernácula com software Blender"
+author         : Mikael Menezes
+date           : 2023-06-02
+excerpt        : "Plano de trabalho de iniciação tecnológica 2023–2024"
+toc            : true
 header:
+  teaser       : /assets/media/teaser/br-go-plantas_residenciais-fig_58.jpg
   overlay_image: "/assets/media/br-go-plantas_residenciais-fig_58.jpg"
-category: "Pibit"
-tags: ["casa", "parametrização", "Blender", "visualização"]
+category       : "Pibit"
+tags           : ["casa", "parametrização", "Blender", "visualização"]
 ---
 
 ## Objetivos, problema e justificativa ##

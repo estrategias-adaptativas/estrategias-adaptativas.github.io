@@ -1,14 +1,15 @@
 ---
-title: "Documentário de arquitetura cívica tradicional"
-author: Sara Oliveira
-date: 2023-06-02
-toc: true
-excerpt: "Plano de trabalho de iniciação científica 2023–2024"
+title           : "Documentário de arquitetura cívica tradicional"
+author          : Sara Oliveira
+date            : 2023-06-02
+toc             : true
+excerpt         : "Plano de trabalho de iniciação científica 2023–2024"
 header:
-  overlay_image: "/assets/media/br-rj-rj-an-arquivonacional-1905.jpg"
+  teaser        : /assets/media/teaser/br-rj-rj-an-arquivonacional-1905.jpg
+  overlay_image : "/assets/media/br-rj-rj-an-arquivonacional-1905.jpg"
   overlay_filter: 0.5
-category: "Pibic"
-tags: ["arquitetura cívica", "neoclassicismo", "século XIX", "documentário", "padrões"]
+category        : "Pibic"
+tags            : ["arquitetura cívica", "neoclassicismo", "século XIX", "documentário", "padrões"]
 ---
 
 ## Objetivos, problema e justificativa ##

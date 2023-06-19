@@ -27,7 +27,7 @@ description: >
 url                      : "https://estrategias-adaptativas.github.io"
 baseurl                  : /
 repository               : "estrategias-adaptativas/estrategias-adaptativas.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /assets/media/teaser/fragoso-architectural-og.jpg
 logo                     : "https://dmcpatrimonio.github.io/assets/images/icon.png"
 #masthead_title           : "Documentação, Modelagem e Conservação do Patrimônio"
 # breadcrumbs            : false # true, false (default)
@@ -62,9 +62,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
+lunr:
+  search_within_pages    : true
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
