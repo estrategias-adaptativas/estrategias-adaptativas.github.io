@@ -3,7 +3,7 @@
 Pedro Palazzo:
   name    : "Pedro P. Palazzo"
   avatar  : "https://avatars3.githubusercontent.com/u/8295666"
-  bio     : '<i class="fa fa-graduation-cap"></i> Coordenador do projeto'
+  bio     : 'Coordenador do projeto'
   location: "Universidade de Brasília"
   links:
     - label: "Email"
@@ -234,6 +234,17 @@ Caroline Paiva:
   - label: "CV Lattes"
     icon: "ai ai-lattes"
     url: "http://lattes.cnpq.br/3443287356411632"
+
+Daniela Matias:
+  name: "Daniela Matias Xavier"
+  givenName: "Daniela Matias"
+  familyName: "Xavier"
+  avatar: /assets/media/avatar-daniela-matias.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/6880371959324159"
 
 Iriani Jéssica:
   name: "Iriani Jéssica Pinto  Gangá"
