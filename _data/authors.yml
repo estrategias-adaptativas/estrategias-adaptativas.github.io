@@ -88,13 +88,13 @@ Lucas Araújo:
 
 Evillyn Biazatti:
   name    : "Evillyn Biazatti de Araújo"
-  bio     : "Mestranda"
+  bio     : "Mestre"
   avatar  : /assets/media/avatar-evillyn-biazatti.jpg
-  location: "Universidade de Brasília"
+  #location: "Universidade de Brasília"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:evillyn.araujo@aluno.unb.br"
+    #- label: "Email"
+      #icon: "fas fa-fw fa-envelope-square"
+      #url: "mailto:evillyn.araujo@aluno.unb.br"
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0000-0003-0295-1283"
