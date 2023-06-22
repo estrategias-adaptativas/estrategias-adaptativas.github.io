@@ -5,22 +5,27 @@
   {% assign URI=work.DOI | prepend: 'https://doi.org/' %}
 {% elsif work.URL %}
   {% assign URI=work.URL %}
+{% elsif page.catalog %}
+  {% assign URI=page.catalog %}
 {% endif %}
 
 <ul class="toc__menu">
-  {%- if URI -%}
+  {% if page.header.teaser %}
+  <li>
+    <a href="{{ URI }}">
+      <img src="{{ page.header.teaser }}" alt="{{ page.header.caption | default: 'miniatura da publicação' }}" />
+    </a>
+  </li>
+{% endif %}
+  {% if URI %}
   <li><a href="{{ URI }}">Link para a publicação</a>
     <ul>
     {%- if work.DOI -%}
       <li>
-        DOI: <a href="{{ URI }}">{{ work.DOI }}</a>
+        <a href="{{ URI }}">DOI: {{ work.DOI }}</a>
       </li>
     {%- endif -%}
     </ul>
   </li>
-  {%- endif -%}
-  <li><a href="#">Como citar</a>
-    <ul>
-    </ul>
-  </li>
+  {% endif %}
 </ul>

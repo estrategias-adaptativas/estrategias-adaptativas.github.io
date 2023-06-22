@@ -8,7 +8,7 @@ categories: ["Artigo"]
 citekey   : "palazzo:2021modernidade"
 layout    : publication
 header:
-  teaser: "/assets/media/teaser/br-mt-cuiaba-colegio_estadual-eb-21____.jpg"
+  teaser: "/assets/media/teaser/biblio-palazzo-2021modernidade.jpg"
   overlay_image: "/assets/media/br-mt-cuiaba-ect-arquivo.jpg"
 tags:
   - arquitetura cívica
