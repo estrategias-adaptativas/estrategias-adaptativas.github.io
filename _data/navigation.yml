@@ -5,6 +5,8 @@ main:
 
 # mapa do site
 mapa:
+  - title: "Notícias e Produção"
+    url  : /
   - title: "Projeto de pesquisa"
     url  : /projeto/
     children:
@@ -24,7 +26,5 @@ mapa:
         url  : /projeto/#bibliografia-crtica
   - title: "Integrantes"
     url  : /integrantes/
-  - title: "Produção"
-    url  : /produtos/
   - title: "Prestação de contas"
     url  : /contas/
