@@ -5,7 +5,7 @@ author_profile: true
 toc           : false
 categories    : ["Iniciação científica e tecnológica"]
 tags          : ["plano de trabalho", "projeto de pesquisa"]
-excerpt       : "Concorrência em andamento"
+excerpt       : "Em execução"
 classes       : wide
 entries_layout: grid
 entries_start : 2023-01-01
