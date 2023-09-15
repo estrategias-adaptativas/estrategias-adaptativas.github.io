@@ -1,7 +1,7 @@
 # main links
 main:
   - title: '<img src="https://img.shields.io/static/v1?label=Situação&message=Em andamento&color=blue&style=plastic" alt="Situação do projeto: em andamento" title="Situação do projeto" />'
-  - title: '<img src="https://img.shields.io/static/v1?label=Financiamento&message=R%24%20129.015&color=brightgreen&style=plastic" alt="Projeto financiado em R$ 88.015" title="Valor do financiamento" />'
+  - title: '<img src="https://img.shields.io/static/v1?label=Financiamento&message=R%24%20126.381&color=brightgreen&style=plastic" alt="Projeto financiado em R$ 126.381" title="Valor do financiamento" />'
     url  : /contas/
 
 # mapa do site
