@@ -29,6 +29,6 @@ header:
 | UnB   |      2021 | Auxílio a execução de pesquisas  |  R$  3.250 |
 | UnB   |      2020 | Auxílio a execução de pesquisas  |  R$  3.000 |
 | UnB   |      2019 | Auxílio a execução de pesquisas  |  R$    300 |
-|-------|-----------|----------------------------------|------------|
+|=======|===========|==================================|============|
 | Total |           |                                  | R$ 126.381 |
 
