@@ -27,7 +27,7 @@ references:
   genre: Dissertação de Mestrado em Arquitetura e Urbanismo
   issued:
     - year: 2020
-  language: pt-BR
+  language: pt
   publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
   publisher-place: Brasília
   title: >-
@@ -36,6 +36,54 @@ references:
   title-short: A ladeira da misericórdia de Lina Bo Bardi em Salvador
   type: thesis
   URL: http://repositorio2.unb.br/jspui/handle/10482/39803
+
+- id: diez:2023documentacao
+  accessed:
+    - year: 2023
+      month: 10
+      day: 17
+  author:
+    - family: Díez Oronoz
+      given: Aritz
+    - family: Baganha
+      given: José Franqueira
+    - family: García Hermida
+      given: Alejandro
+    - family: Iparraguirre Barbero
+      given: Imanol
+    - family: Martinez
+      given: Frank
+    - family: Palazzo
+      given: Pedro P.
+    - family: Silva
+      given: Jorge Santos
+    - family: Steil
+      given: Lucien
+  citation-key: diez:2023documentacao
+  container-title: >-
+    Um projecto de futuro para Lajes do Pico: com base na arquitectura e
+    urbanismo da tradição local
+  editor:
+    - family: García Hermida
+      given: Alejandro
+    - family: Gil Fernández
+      given: Guillermo
+    - family: Gómez-Gordo Villa
+      given: Rebeca
+  event-place: Lisboa
+  ISBN: 978-989-33-4329-6
+  issued:
+    - year: 2023
+  language: pt
+  page: 79-131
+  publisher: Fundação Serra Henriques
+  publisher-place: Lisboa
+  source: dialnet.unirioja.es
+  title: >-
+    Documentação da construção, arquitetura e urbanismo tradicionais da ilha do
+    Pico
+  type: chapter
+  URL: https://www.premiorafaelmanzano.com/pt-pt/publicacoes/
 
 - id: garcia:2020caixa7
   abstract: >-
@@ -169,7 +217,7 @@ references:
     - year: 2022
       month: 11
       day: 7
-  language: pt-BR
+  language: pt
   license: >-
     Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
     License (CC-BY-NC-ND)
@@ -236,17 +284,19 @@ references:
   URL: https://periodicos.sbu.unicamp.br/ojs/index.php/labore/article/view/8665805
   volume: '15'
 
-- id: oliveira:2022lugares
+- id: oliveira:2023lugares
   author:
     - family: Oliveira
       given: Irina Alencar
       dropping-particle: de
-  citation-key: oliveira:2022lugares
+  citation-key: oliveira:2023lugares
   event-place: Brasília
   genre: Tese de Doutorado em Arquitetura e Urbanismo
   issued:
-    - year: 2022
-  language: pt-BR
+    - year: 2023
+      month: 12
+      day: 15
+  language: pt
   publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
   publisher-place: Brasília
   title: Lugares de memória e apropriações coletivas na cidade de Goiás
@@ -271,11 +321,11 @@ references:
   ISBN: 978-65-5941-479-6
   issued:
     - year: 2021
-  language: pt-BR
+  language: pt
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
-  publisher: <span class="smallcaps">UFBA</span>
+  publisher: <span smallcaps="smallcaps">UFBA</span>
   publisher-place: Salvador
   title: 'A casa corrente de 40 palmos (± 2): um tipo português da idade liberal'
   title-short: A casa corrente de 40 palmos
@@ -319,7 +369,7 @@ references:
     - year: 2021
       month: 12
       day: 22
-  language: pt-BR
+  language: pt
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
@@ -392,14 +442,14 @@ references:
     - year: 2021
       month: 7
       day: 26
-  language: pt-BR
+  language: pt
   license: >-
     Creative Commons Attribution-NonCommercial 4.0 International License
     (CC-BY-NC)
   title: Uma reflexão sobre a preferência temporal na arquitetura
   type: article-magazine
   URL: >-
-    https://www.philosgaleria.com/post/uma-reflexão-sobre-a-preferência-temporal-na-arquitetura
+    https://web.archive.org/web/20210816180513/https://www.philosgaleria.com/post/uma-reflex%C3%A3o-sobre-a-prefer%C3%AAncia-temporal-na-arquitetura
 
 - id: palazzo:2021vernacular
   abstract: >-
@@ -458,7 +508,7 @@ references:
   ISBN: '9786556303376'
   issued:
     - year: 2022
-  language: pt-BR
+  language: pt
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
