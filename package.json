@@ -1,0 +1,32 @@
+{
+  "name": "resiliencia-urbana",
+  "version": "1.0.0",
+  "description": "Projeto de pesquisa Resiliência urbana: estratégias adaptativas na construção tradicional",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Resiliência urbana",
+    "construção tradicional",
+    "arquitetura vernacular"
+  ],
+  "author": "Pedro P. Palazzo",
+  "license": "CC_BY",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "autoprefixer": "^10.4.19",
+    "bootstrap": "^5.3.3",
+    "js-yaml": "^4.1.0",
+    "luxon": "^3.4.4",
+    "node-pandoc": "^0.3.0",
+    "nodemon": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.75.0",
+    "stylelint": "^16.4.0",
+    "stylelint-config-twbs-bootstrap": "^14.1.0"
+  }
+}
