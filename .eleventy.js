@@ -5,7 +5,6 @@
 // const plugin = require('some-eleventy-plugin-package');
 const { DateTime } = require('luxon');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
-const htmlmin = require('html-minifier');
 const yaml = require('js-yaml');
 const nodePandoc = require('node-pandoc');
 /********************************
@@ -21,7 +20,6 @@ module.exports = function(eleventyConfig) {
   // Copy assets/ to _site/assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy(".gitattributes");
-  eleventyConfig.addPassthroughCopy({"node_modules/reveal.js": "slides/reveal.js"});
   eleventyConfig.addPassthroughCopy({"node_modules/bootstrap-icons/icons": "assets/icons"});
   eleventyConfig.addPassthroughCopy({"node_modules/bootstrap-icons/bootstrap-icons.svg": "assets/bootstrap-icons.svg"});
   // emulate passthrough during --serve:
