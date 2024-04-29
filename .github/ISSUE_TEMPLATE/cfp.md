@@ -1,6 +1,7 @@
 ---
 name: "Chamada de trabalhos"
 description: "Checklist de produção de trabalhos em resposta a chamadas"
+about: "Checklist de produção de trabalhos em resposta a chamadas"
 labels: [ "fluxo:desenvolvimento", "fluxo:submissão" ]
 title: "CFP"
 body:
