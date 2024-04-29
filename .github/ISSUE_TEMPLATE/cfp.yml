@@ -1,4 +1,4 @@
----
+
 name: "Chamada de trabalhos"
 description: "Checklist de produção de trabalhos em resposta a chamadas"
 about: "Checklist de produção de trabalhos em resposta a chamadas"
@@ -32,9 +32,14 @@ body:
       label: "Ementa da chamada"
     validation:
       required: true
----
-
-- [ ] Submissão do resumo
-- [ ] Submissão do artigo completo
-- [ ] Inscrição dos autores
-- [ ] Publicação
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: "Tarefas cumpridas"
+      description: "Marcar tarefas que vão sendo cumpridas"
+      options:
+        - label: "Submissão do resumo"
+        - label: "Submissão do artigo completo"
+        - label: "Inscrição dos autores"
+        - label: "Realização do evento"
+        - label: "Publicação das atas"
