@@ -28,11 +28,15 @@ module.exports = function(eleventyConfig) {
  /*****************
   * Markdown {{{2 *
   *****************/
-  async function convertMarkdownToHtml(markdown) {
+  async function convertMarkdownToHtml(markdown, args) {
     return new Promise((resolve, reject) => {
       nodePandoc(markdown, '-d _data/defaults.yml', (err, result) => {
-        if (err) return console.error(`Pandoc error: ${err.message}`);
-        resolve(result);
+        if (err) {
+          console.error(`Pandoc error: ${err.message}`);
+          resolve(result);
+        } else {
+          resolve(result);
+        }
       });
     });
   }
