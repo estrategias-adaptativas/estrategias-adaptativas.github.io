@@ -7,6 +7,7 @@ const { DateTime } = require('luxon');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const yaml = require('js-yaml');
 const nodePandoc = require('node-pandoc');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 /********************************
  * eleventyConfig function {{{1 *
  ********************************/
@@ -18,8 +19,8 @@ module.exports = function(eleventyConfig) {
   * Passthrough copy {{{2 *
   *************************/
   // Copy assets/ to _site/assets
-  eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy(".gitattributes");
+  eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({"node_modules/bootstrap-icons/icons": "assets/icons"});
   eleventyConfig.addPassthroughCopy({"node_modules/bootstrap-icons/bootstrap-icons.svg": "assets/bootstrap-icons.svg"});
   // emulate passthrough during --serve:
@@ -29,7 +30,7 @@ module.exports = function(eleventyConfig) {
   *****************/
   async function convertMarkdownToHtml(markdown) {
     return new Promise((resolve, reject) => {
-      nodePandoc(markdown, '-d _data/defaults.yaml', (err, result) => {
+      nodePandoc(markdown, '-d _data/defaults.yml', (err, result) => {
         if (err) return console.error(`Pandoc error: ${err.message}`);
         resolve(result);
       });
@@ -49,25 +50,17 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
   eleventyConfig.addDataExtension('yml, yaml', contents => yaml.load(contents));
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
  /********************
   * Setup views {{{2 *
   ********************/
-  eleventyConfig.addLayoutAlias("base",    "layouts/base.liquid");
-  eleventyConfig.addLayoutAlias("home",    "layouts/home.liquid");
-  eleventyConfig.addLayoutAlias("single",  "layouts/single.liquid");
-  eleventyConfig.addLayoutAlias("archive", "layouts/archive.liquid");
-    eleventyConfig.addTransform("htmlmin", function(content) {
-      // Prior to Eleventy 2.0: use this.outputPath instead
-      if( this.page.outputPath && this.page.outputPath.endsWith(".html") ) {
-        let minified = htmlmin.minify(content, {
-          useShortDoctype: true,
-          removeComments: true,
-          collapseWhitespace: true
-        });
-        return minified;
-      }
-      return content;
-    });
+  eleventyConfig.addLayoutAlias("base",        "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("home",        "layouts/home.njk");
+  eleventyConfig.addLayoutAlias("single",      "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("publication", "layouts/posts.njk");
+  eleventyConfig.addLayoutAlias("splash",      "layouts/splash.njk");
+  eleventyConfig.addLayoutAlias("archive",     "layouts/archive.njk");
+  eleventyConfig.addLayoutAlias("categories",  "layouts/categories.njk");
  /*******************************************************
   * Return is the last instruction to be evaluated {{{2 *
   *******************************************************/

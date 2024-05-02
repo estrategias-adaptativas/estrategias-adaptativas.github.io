@@ -1,22 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-#theme                    : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 # Site Settings
 locale                   : "pt-BR"
-title                    : "Estratégias adaptativas na construção tradicional"
+title                    : "Resiliência urbana"
 title_separator          : "|"
 subtitle                 : "Grupo de pesquisa Documentação, Modelagem e Conservação do Patrimônio"
 name                     : "Pedro P. Palazzo"
@@ -24,11 +8,11 @@ description: >
   Emerging order systems in modern construction, from the mid-18th century to
   the mid-20th, as responses to the present-day challenges of sustainability
   and urban resilience.
-url                      : "https://estrategias-adaptativas.github.io"
+url                      : "https://resiliencia-urbana.tradicional.arq.br"
 baseurl                  : /
-repository               : "estrategias-adaptativas/estrategias-adaptativas.github.io"
-teaser                   : /assets/media/teaser/fragoso-architectural-og.jpg
-logo                     : "https://dmcpatrimonio.github.io/assets/images/icon.png"
+repository               : "tradicional/resiliencia-urbana"
+teaser                   : "/assets/media/teaser/fragoso-architectural-og.jpg"
+logo                     : "/favicon.png"
 #masthead_title           : "Documentação, Modelagem e Conservação do Patrimônio"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -165,123 +149,12 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - "Gemfile*"
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - Makefile
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - "README*"
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-  - slides/
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
-kramdown:
-  input: kramdown
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 2..4
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  #parse_block_html: true
-relative_links:
-  enabled                : true
-  collections            : true
-scholar:
-  bibliography           : "_bibliography/references.bib"
-  group_by               : year, type
-  group_order            : descending, ascending
-  locale                 : pt
-  sort_by                : author
-  source                 : "./"
-  style                  : "chicago-fullnote-bibliography"
-  type_aliases:
-    mvbook               : book
-  type_names:
-    article: "Artigo completo em periódico acadêmico"
-    book: "Livro"
-    incollection: "Capítulo de livro"
-    inproceedings: "Trabalho completo em anais de evento"
-    misc: "Outros trabalhos técnicos"
-    unpublished: "Palestra"
-    thesis: "Dissertação de Mestrado"
-    phdthesis: "Tese de Doutorado"
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "America/Sao_Paulo"
 date_format: "%d/%m/%Y"
-
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-data
-  - jekyll-relative-links
-  - jekyll-seo-tag
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -310,74 +183,3 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
-
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      permalink: /:categories/:year/:title/
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-      sidebar:
-        nav: "mapa"
-      header:
-        overlay_image: "assets/media/fragoso-architectural-og.jpg"
-        overlay_filter: 0.5
-  # _pibic
-  - scope:
-      path: ""
-      type: pibic
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-      sidebar:
-        nav: "mapa"
-      header:
-        overlay_image: "assets/media/fragoso-architectural-og.jpg"
-        overlay_filter: 0.5
-  # _pibit
-  - scope:
-      path: ""
-      type: pibit
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-      sidebar:
-        nav: "mapa"
-      header:
-        overlay_image: "assets/media/fragoso-architectural-og.jpg"
-        overlay_filter: 0.5
-
-
-# Collections
-collections:
-  pibic:
-    output: true
-    permalink: /:collection/:path/
-  pibit:
-    output: true
-    permalink: /:collection/:path/

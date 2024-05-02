@@ -2,22 +2,33 @@
   "name": "resiliencia-urbana",
   "version": "1.0.0",
   "description": "Projeto de pesquisa Resiliência urbana: estratégias adaptativas na construção tradicional",
+  "author": "Pedro P. Palazzo",
+  "license": "CC_BY",
+  "repository": "tradicional/resiliencia-urbana",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "11ty": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve",
+    "css": "npm-run-all css-compile css-prefix",
+    "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules _scss/:src/assets/css/",
+    "css-lint": "stylelint _scss/",
+    "css-prefix": "postcss --replace src/assets/css/main.css --use autoprefixer --map",
+    "watch": "nodemon -e html,scss -x \"npm run css\"",
+    "start": "npm-run-all --parallel watch dev",
+    "build": "npm-run-all css 11ty",
+    "test": "npm-run-all css-lint css"
   },
   "keywords": [
     "Resiliência urbana",
     "construção tradicional",
     "arquitetura vernacular"
   ],
-  "author": "Pedro P. Palazzo",
-  "license": "CC_BY",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "autoprefixer": "^10.4.19",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "js-yaml": "^4.1.0",
     "luxon": "^3.4.4",
     "node-pandoc": "^0.3.0",
