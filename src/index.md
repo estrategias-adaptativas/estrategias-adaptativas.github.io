@@ -1,11 +1,13 @@
 ---
-layout: categories
+title: "Resiliência urbana"
+subtitle: "Estratégias adaptativas na construção tradicional <br /> Projeto de pesquisa"
+layout: "layouts/base.njk"
 entries_layout: grid
-classes: wide
+classes: "wide"
 author_profile: false
 sidebar:
   nav: "mapa"
-tagline: |
+description: |
   Este projeto de pesquisa investiga a ocorrência de sistemas de ordem
   emergente na construção moderna luso-brasileira — da segunda metade do
   século XVIII à primeira metade do século XX —, avaliando a
@@ -13,8 +15,10 @@ tagline: |
   <em>low tech</em> aos problemas atuais da sustentabilidade urbana.
 header:
   overlay_image: "assets/media/fragoso-architectural-og.jpg"
-  overlay_filter: 0.5
+  overlay_filter: 0.7
 ---
+
+Lista da produção intelectual deste projeto de pesquisa.
 
 <!--
    -Compilação sucinta das atividades de pesquisa desenvolvidas,

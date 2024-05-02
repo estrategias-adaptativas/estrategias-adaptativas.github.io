@@ -1,6 +1,6 @@
-{%- if page.authors -%}
-  {% for person in page.authors %}
-    {% assign author = site.data.authors[person] | default: author %}
+{%- if authors -%}
+  {% for person in authors %}
+    {% assign author = site.data.members[person] | default: author %}
 
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 

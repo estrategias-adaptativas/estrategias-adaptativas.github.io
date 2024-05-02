@@ -1,5 +1,62 @@
 ---
 references:
+- id: araujo:2023reconhecimento
+  author:
+    - family: Araujo
+      given: Evillyn Biazatti
+      dropping-particle: de
+  citation-key: araujo:2023reconhecimento
+  event-place: Brasilia
+  genre: Dissertação de Mestrado em Arquitetura e Urbanismo
+  issued:
+    - year: 2023
+      month: 6
+      day: 19
+  language: por
+  publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
+  publisher-place: Brasilia
+  title: Reconhecimento e preservação da arquitetura oficial do Estado Novo em Cuiabá
+  type: thesis
+
+- id: araujo:2024cine
+  abstract: >-
+    Anais do XV Seminário Docomomo Brasil: Arquitetura e urbanismo e a
+    reconstrução  do Estado e da sociedade. (978-65-272-0196-0) - Cine Teatro E
+    Grande Hotel De Cuiabá: A Mão Do Estado Novo Nos Equipamentos De Uso
+    Coletivo
+  accessed:
+    - year: 2024
+      month: 1
+      day: 12
+  author:
+    - family: Araujo
+      given: Evillyn Biazatti
+      dropping-particle: de
+    - family: Palazzo
+      given: Pedro Paulo
+  citation-key: araujo:2024cine
+  container-title: Arquitetura e urbanismo e a reconstrução do Estado e da sociedade
+  DOI: 10.29327/1344945.1-2
+  event-place: São Carlos
+  event-title: XV Seminário Docomomo Brasil 2023
+  ISBN: '9786527201960'
+  issued:
+    - year: 2024
+      month: 1
+      day: 2
+  language: por
+  license: Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)
+  publisher: 'Universidade de São Paulo : Even3'
+  publisher-place: São Carlos
+  source: www.even3.com.br
+  title: >-
+    Cine teatro e Grande hotel de Cuiabá: a mão do Estado Novo nos equipamentos
+    de uso coletivo
+  title-short: Cine teatro e Grande hotel de Cuiabá
+  type: paper-conference
+  URL: >-
+    https://www.even3.com.br//anais/xv-seminario-docomomo-brasil-2023/660832-cine-teatro-e-grande-hotel-de-cuiaba--a-mao-do-estado-novo-nos-equipamentos-de-uso-coletivo
+
 - id: constanti:2020preservacao
   abstract: >-
     Esse trabalho discute o modo como as intervenções realizadas pela arquiteta
@@ -27,7 +84,7 @@ references:
   genre: Dissertação de Mestrado em Arquitetura e Urbanismo
   issued:
     - year: 2020
-  language: pt
+  language: por
   publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
   publisher-place: Brasília
   title: >-
@@ -74,7 +131,7 @@ references:
   ISBN: 978-989-33-4329-6
   issued:
     - year: 2023
-  language: pt
+  language: por
   page: 79-131
   publisher: Fundação Serra Henriques
   publisher-place: Lisboa
@@ -85,7 +142,50 @@ references:
   type: chapter
   URL: https://www.premiorafaelmanzano.com/pt-pt/publicacoes/
 
-- id: garcia:2020caixa7
+- id: florentino:2023dimensoes
+  accessed:
+    - year: 2023
+      month: 9
+      day: 27
+  author:
+    - family: Florentino
+      given: Rui
+    - family: Gaspar
+      given: Cláudia Braga
+    - family: Tenreiro
+      given: José Pedro de Galhardo
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: florentino:2023dimensoes
+  container-title: Ambientes em mudança
+  editor:
+    - family: Lourenço
+      given: Paulo B.
+    - family: Maia
+      given: Carlos
+    - family: Melo
+      given: Arnaldo Sousa
+    - family: Vale
+      given: Clara Pimenta
+      dropping-particle: do
+  event-place: Guimarães
+  event-title: 4.º Congresso Internacional de História da Construção Luso-Brasileira
+  issued:
+    - year: 2023
+  language: por
+  license: Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)
+  page: 749-761
+  publisher: Universidade do Minho
+  publisher-place: Guimarães
+  title: >-
+    Dimensões tradicionais do projeto urbano em cidades portuguesas: do
+    terramoto à República
+  title-short: Dimensões tradicionais do projeto urbano em cidades portuguesas
+  type: paper-conference
+  URL: >-
+    https://drive.google.com/file/d/1SvU-hrDLtBhJUj7SwOXITxOchExBbJtT/view?usp=sharing
+
+- id: garcia:2020caixa
   abstract: >-
     Considerando que o Conjunto Urbanístico de Brasília possui valor
     excepcional, como um sítio cultural e que deve ser protegido para o
@@ -129,14 +229,14 @@ references:
       given: Fábio
     - family: Lima
       given: Celso
-  citation-key: garcia:2020caixa7
+  citation-key: garcia:2020caixa
   container-title: Com Censo
   ISSN: 2359-2494
   issue: '1'
   issued:
     - year: 2020
       month: 3
-  language: pt-BR
+  language: por
   page: 100-112
   source: www.periodicos.se.df.gov.br
   title: >-
@@ -217,7 +317,7 @@ references:
     - year: 2022
       month: 11
       day: 7
-  language: pt
+  language: por
   license: >-
     Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
     License (CC-BY-NC-ND)
@@ -228,6 +328,80 @@ references:
   type: paper-conference
   URL: https://drive.google.com/file/d/1rKVGXUgunh6XanVPjdA2ZWv7XRCAF9bI/view
   volume: '3'
+
+- id: mennucci:2021catetinho15
+  abstract: >-
+    Entre os monumentos da arquitetura modernista brasileira, o Catetinho,
+    construído em 1956 próximo ao canteiro de obras de Brasília, é singular.
+    Única obra existente de Oscar Niemeyer em madeira, que foi destinada a
+    servir de gabinete provisório ao Presidente da República durante a
+    construção da nova capital. Este trabalho discute o estado atual de
+    conservação do Catetinho, como suas técnicas de projeto e construção
+    impactam a sabedoria convencional na preservação de edifícios modernistas e
+    de madeira, e estratégias recomendadas para proteger a integridade do
+    material e a inteligibilidade de seu projeto original. A pesquisa aponta
+    que, embora o sistema estrutural apressadamente detalhado seja em si um
+    fator de risco para a durabilidade do Catetinho, os esforços de conservação
+    podem ser auxiliados por uma visão clara de quais materiais e técnicas
+    existentes são essenciais para a identidade do edifício.
+  accessed:
+    - year: 2021
+      month: 12
+      day: 27
+  author:
+    - family: Mennucci
+      given: Marina Martins
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: mennucci:2021catetinho15
+  container-title: Labor e Engenho
+  container-title-short: Labor e Eng.
+  DOI: 10.20396/labore.v15i00.8665935
+  ISSN: 2176-8846
+  issued:
+    - year: 2021
+      month: 12
+      day: 16
+  language: por
+  page: e021017
+  source: DOI.org (Crossref)
+  title: 'Catetinho: patrimonialização e arquitetura efêmera'
+  title-short: Catetinho
+  type: article-journal
+  URL: https://periodicos.sbu.unicamp.br/ojs/index.php/labore/article/view/8665935
+  volume: '15'
+
+- id: oliveira:2019elementos11
+  abstract: >-
+    Anais do 11º mestres e conselheiros: educação para o patrimônio (2176-2783)
+    - Elementos Da Matriz Urbana Portuguesa Em Goiás: Vila Boa E Suas
+    Identidades Culturais
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2019elementos11
+  event-title: 'Anais do 11º mestres e conselheiros: educação para o patrimônio'
+  ISSN: 2176-2783
+  issued:
+    - year: 2019
+      month: 9
+      day: 24
+  language: por
+  page: '1'
+  source: www.even3.com.br
+  title: >-
+    Elementos da matriz urbana portuguesa em Goiás: Vila Boa e suas identidades
+    culturais
+  title-short: Elementos da matriz urbana portuguesa em Goiás
+  type: paper-conference
+  URL: >-
+    https://www.even3.com.br/anais/11mestreseconselheiros/167873-elementos-da-matriz-urbana-portuguesa-em-goias--vila-boa-e-suas-identidades-culturais
+  volume: '11'
 
 - id: oliveira:2021cronicas15
   abstract: >-
@@ -272,7 +446,7 @@ references:
     - year: 2021
       month: 10
       day: 28
-  language: pt-BR
+  language: por
   license: Copyright (c) 2021 Labor e Engenho
   page: e021013-e021013
   source: periodicos.sbu.unicamp.br
@@ -284,22 +458,190 @@ references:
   URL: https://periodicos.sbu.unicamp.br/ojs/index.php/labore/article/view/8665805
   volume: '15'
 
-- id: oliveira:2023lugares
+- id: oliveira:2021patrimonio
+  abstract: >-
+    Este artigo busca refletir sobre as relações observadas entre a comunidade
+    da cidade de Goiás-GO e 
+
+    seu patrimônio cultural sob a perspectiva dos comuns culturais,
+    especialmente, na primeira de suas 
+
+    três fases de patrimonialização convencionadas. Objetiva-se compreender a
+    existência desses comuns 
+
+    ao longo da trajetória de preservação patrimonial da cidade e como se
+    estruturaram ao longo do tempo, 
+
+    assim como, das práticas sociopolíticas e culturais, memória social,
+    apropriações coletivas e 
+
+    vinculações afetivas articuladas a eles. Visa, enfim, verificar em que
+    medida todos esses elementos 
+
+    poderiam, por meio da participação comunitária, ter contribuído para sua
+    conservação singular. O papel 
+
+    da sociedade civil organizada na área, como a OVAT e o Movimento Pró-Cidade
+    de Goiás, também 
+
+    serão observados atentamente. Para tanto, investiga-se recortes
+    jornalísticos de época, documentos 
+
+    extraídos do Dossiê de tombamento do IPHAN e outras pesquisas sobre a
+    temática, utilizando-se o 
+
+    viés da História Cultural e as perspectivas de autores como Pierre Nora,
+    Antônio Negri e Michael Hardt, 
+
+    David Harvey, Pierre Dardot e Christian Laval. Essa abordagem busca atender
+    à atual demanda por 
+
+    alternativas de conservação não institucionais do patrimônio cultural
+    brasileiro, em razão das 
+
+    circunstâncias críticas enfrentadas por esse campo na contemporaneidade
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
   author:
     - family: Oliveira
       given: Irina Alencar
       dropping-particle: de
-  citation-key: oliveira:2023lugares
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: oliveira:2021patrimonio
+  container-title: '30 anos: atualização crítica'
+  event-place: Salvador
+  event-title: XVI Seminário de História da Cidade e do Urbanimo
+  issued:
+    - year: 2021
+  language: por
+  license: Acesso Aberto
+  page: 1258-1277
+  publisher: UFBA
+  publisher-place: Salvador
+  source: icts.unb.br
+  title: >-
+    O patrimônio histórico como comum cultural durante os primeiros tombamentos
+    na Cidade de Goiás
+  type: paper-conference
+  URL: http://repositorio2.unb.br/jspui/handle/10482/46945
+
+- id: oliveira:2022apropriacoes
+  abstract: >-
+    Essa pesquisa toma o núcleo histórico da cidade de Goiás, Patrimônio da
+    Humanidade desde 2001, como estudo de caso e volta o olhar para as
+    apropriações coletivas observáveis em âmbito urbano pela comunidade local,
+    com destaque para os espaços públicos patrimonializados. Para analisar esses
+    elementos, adota-se conceitos como espaço, lugar e práticas sociais
+    cotidianas, assim como, as relações que estabelecem entre si a partir da
+    perspectiva de autores como Henri Lefèbvre, Michel de Certeau, David Harvey,
+    etc. Em apoio a esse aporte teórico, utiliza-se diversos tipos de imagens da
+    cidade, que vão de mapas do século XVIII a fotografias de época,
+    especialmente, do século passado até a atualidade, por apresentarem maior
+    quantidade e diversidade. Conclui-se destacando a importância dos diferentes
+    modos de apropriações coletivas na cidade e sua perpetuação para as próximas
+    gerações, de modo a permitir a construção de uma consistente preservação do
+    patrimônio cultural, ainda que se verifiquem constantes e complexos
+    conflitos entre os diversos atores nesse cenário.
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2022apropriacoes
+  container-title: Revista Thésis
+  container-title-short: Rev. Thésis
+  DOI: 10.51924/revthesis.2021.v6.297
+  ISSN: 2447-8679
+  issue: '12'
+  issued:
+    - year: 2022
+      month: 4
+      day: 19
+  language: por
+  license: https://creativecommons.org/licenses/by/4.0
+  source: DOI.org (Crossref)
+  title: >-
+    Apropriações coletivas de espaços públicos: um enfoque no Patrimônio
+    Cultural (cidade de Goiás como estudo de caso)
+  title-short: Apropriações coletivas de espaços públicos
+  type: article-journal
+  URL: https://thesis.anparq.org.br/revista-thesis/article/view/297
+  volume: '6'
+
+- id: oliveira:2022participacao
+  abstract: >-
+    Analisa-se as articulações observadas entre os processos de
+    patrimonialização da cidade de Goiás-GO e a participação da comunidade local
+    em sua trajetória, especialmente, sua segunda fase. Observa o
+    desenvolvimento dessa participação e os atores constituintes de tal
+    comunidade, assim como, as práticas sociopolíticas e culturais, memória
+    social, apropriações coletivas, poder, turismo cultural e vinculações
+    afetivas e identitárias vinculadas a eles. Visa verificar em que medida
+    todos esses elementos poderiam, através da participação comunitária, ter
+    contribuído para sua conservação patrimonial singular. O papel da sociedade
+    civil organizada na área, como a OVAT e o Movimento Pró-Cidade de Goiás,
+    também é observado atentamente. Para tanto, investigam-se recortes
+    jornalísticos de época, documentos extraídos do acervo do IPHAN e outras
+    pesquisas sobre a temática, pelo viés da História Cultural e as perspectivas
+    analíticas de diversos autores. Essa abordagem busca atender à atual
+    demanda 
+
+    por alternativas de conservação não institucionais do patrimônio cultural
+    brasileiro, devido às circunstâncias críticas contemporaneamente
+    enfrentadas.
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2022participacao
+  event-place: Blumenau
+  event-title: >-
+    XIX Encontro Nacional da Associação Nacional de Pesquisa em Planejamento
+    Urbano e Regional
+  issued:
+    - year: 2022
+  language: por
+  license: Acesso Aberto
+  publisher: ANPUR
+  publisher-place: Blumenau
+  source: www.realp.unb.br
+  title: >-
+    Participação comunitária na segunda etapa do processo de patrimonialização
+    da Cidade de Goiás
+  type: paper-conference
+  URL: >-
+    https://www.sisgeenco.com.br/anais/enanpur/2022/arquivos/GT2_SEM_503_747_20211214210115.pdf
+
+- id: oliveira:2023fazendo
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2023fazendo
   event-place: Brasília
   genre: Tese de Doutorado em Arquitetura e Urbanismo
   issued:
     - year: 2023
       month: 12
       day: 15
-  language: pt
+  language: por
   publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
   publisher-place: Brasília
-  title: Lugares de memória e apropriações coletivas na cidade de Goiás
+  title: >-
+    Fazendo com as próprias mãos: a preservação patrimonial não institucional na
+    cidade de Goiás até a primeira metade do século <span
+    smallcaps="smallcaps">XX</span>
+  title-short: Fazendo com as próprias mãos
   type: thesis
 
 - id: palazzo:2021casa
@@ -314,18 +656,19 @@ references:
     - family: Palazzo
       given: Pedro P.
   citation-key: palazzo:2021casa
-  container-title: Olhares sobre o Brasil
-  DOI: 10.29327/153996.2-4
+  container-title: Anais…
   event-place: Salvador
-  event-title: III Seminário Arquitetura Vernácula/Popular
+  event-title: Seminário Arquitetura Vernácula/Popular
   ISBN: 978-65-5941-479-6
   issued:
     - year: 2021
-  language: pt
+  language: por
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
-  publisher: <span smallcaps="smallcaps">UFBA</span>
+  publisher: >-
+    Programa de Pós-Graduação em Arquitetura e Urbanismo da <span
+    style="font-variant:all-small-caps" smallcaps="smallcaps">UFBA</span>
   publisher-place: Salvador
   title: 'A casa corrente de 40 palmos (± 2): um tipo português da idade liberal'
   title-short: A casa corrente de 40 palmos
@@ -369,7 +712,7 @@ references:
     - year: 2021
       month: 12
       day: 22
-  language: pt
+  language: por
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
@@ -400,7 +743,7 @@ references:
       day: 13
   author:
     - family: Palazzo
-      given: Pedro P.
+      given: Pedro Paulo
   citation-key: palazzo:2021programa
   container-title: revista PH
   container-title-short: revistaph
@@ -411,7 +754,7 @@ references:
     - year: 2021
       month: 7
       day: 13
-  language: es
+  language: spa
   page: 429-431
   source: DOI.org (Crossref)
   title: >-
@@ -442,7 +785,7 @@ references:
     - year: 2021
       month: 7
       day: 26
-  language: pt
+  language: por
   license: >-
     Creative Commons Attribution-NonCommercial 4.0 International License
     (CC-BY-NC)
@@ -474,21 +817,21 @@ references:
       given: Pedro P.
   citation-key: palazzo:2021vernacular
   container-title: Journal of Traditional Building, Architecture and Urbanism
-  DOI: 10.51303/jtbau.vi2.524
   ISSN: 2660-583X
   issue: '2'
   issued:
     - year: 2021
       month: 11
       day: 10
-  language: en
+  language: eng
   license: >-
     Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
     License (CC-BY-NC-ND)
+  number: '2'
   page: 359-370
   source: traditionalarchitecturejournal.com
   title: 'Vernacular patterns in Portugal and Brazil: evolution and adaptations'
-  title-short: Vernacular patterns in Portugal and Brazil
+  title-short: Vernacular patterns in portugal and brazil
   type: article-journal
   URL: https://traditionalarchitecturejournal.com/index.php/home/article/view/524
 
@@ -508,7 +851,7 @@ references:
   ISBN: '9786556303376'
   issued:
     - year: 2022
-  language: pt
+  language: por
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
@@ -519,4 +862,51 @@ references:
   title: 'A casa corrente de 40 palmos (± 2): um tipo português da idade liberal'
   title-short: A casa corrente de 40 palmos
   type: chapter
+
+- id: palazzo:2024caracterizacao12
+  abstract: >-
+    This paper analyzes the morphological differences in traditional urban
+    architecture in Brazil between the typologies of rowhouses and urban or
+    suburban mansions, from the mid-eighteenth to the early twentieth century.
+    It focuses on the relatively uniform and conservative context of the states
+    of Rio de Janeiro, Goiás (including Tocantins), and Minas Gerais. This study
+    highlights defining characteristics of each of the two typological series.
+    While most previous studies have looked at tree graph analysis to assess the
+    topological connections between individual spaces, this research turns to
+    intervisibility analysis, evidencing the morphological centers of
+    compositions. The results highlight how visual integration analysis confirms
+    the overlap between the spatial composition of both rowhouses and mansions
+    and the attributes of social life specific to each of these typologies.
+    These attributes include the location of the family room in the rear of
+    rowhouses and, in contrast, the primacy of ceremonial spaces in the front of
+    mansions.
+  accessed:
+    - year: 2024
+      month: 4
+      day: 25
+  author:
+    - family: Palazzo
+      given: Pedro Paulo
+    - family: Carvalho
+      given: Eduarda Toscano
+      dropping-particle: de
+  citation-key: palazzo:2024caracterizacao12
+  container-title: Revista de Morfologia Urbana
+  container-title-short: RevMorfologiaUrbana
+  DOI: 10.47235/rmu.v12i1.369
+  ISSN: 2182-7214
+  issue: '1'
+  issued:
+    - year: 2024
+      month: 4
+      day: 4
+  language: por
+  license: https://creativecommons.org/licenses/by/4.0
+  source: DOI.org (Crossref)
+  title: >-
+    Caracterização das tipologias de casas tradicionais luso-brasileiras por
+    meio da integração visual
+  type: article-journal
+  URL: https://revistademorfologiaurbana.org/index.php/rmu/article/view/369
+  volume: '12'
 ...

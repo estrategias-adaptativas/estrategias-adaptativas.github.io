@@ -1,6 +1,6 @@
 ---
 title: "Integrantes do projeto de pesquisa"
-permalink: /integrantes/
+permalink: "/integrantes/"
 layout: archive
 classes: wide
 entries_layout: grid
@@ -17,36 +17,36 @@ header:
 ## Pesquisadores ##
 
 <div class="feature__wrapper">
-{% include author-gallery.html person="Camila Pimentel" %}
-{% include author-gallery.html person="Evillyn Biazatti" %}
+{% include "partials/author-gallery.html" person="Camila Pimentel" %}
+{% include "partials/author-gallery.html" person="Evillyn Biazatti" %}
 </div>
 
 ## Estudantes de pós-graduação ##
 
 <div class="feature__wrapper">
-{% include author-gallery.html person="Irina Oliveira" %}
-{% include author-gallery.html person="Lucas Araújo" %}
+{% include "partials/author-gallery.html" person="Irina Oliveira" %}
+{% include "partials/author-gallery.html" person="Lucas Araújo" %}
 </div>
 
 ## Estudantes de graduação ##
 
 <div class="feature__wrapper">
-{% include author-gallery.html person="Matheus Rudo" %}
-{% include author-gallery.html person="Edmo Cabral" %}
-{% include author-gallery.html person="Eduarda Viana" %}
-{% include author-gallery.html person="Jean Adalto" %}
-{% include author-gallery.html person="Mikael Menezes" %}
-{% include author-gallery.html person="Sara Oliveira" %}
+{% include "partials/author-gallery.html" person="Matheus Rudo" %}
+{% include "partials/author-gallery.html" person="Edmo Cabral" %}
+{% include "partials/author-gallery.html" person="Eduarda Viana" %}
+{% include "partials/author-gallery.html" person="Jean Adalto" %}
+{% include "partials/author-gallery.html" person="Mikael Menezes" %}
+{% include "partials/author-gallery.html" person="Sara Oliveira" %}
 </div>
 
 ## Egressos ##
 
 <div class="feature__wrapper">
-{% include author-gallery.html person="Bruna Leite Lopes" %}
-{% include author-gallery.html person="Caroline Paiva" %}
-{% include author-gallery.html person="Eduarda Toscano" %}
-{% include author-gallery.html person="Iriani Jéssica" %}
-{% include author-gallery.html person="Mariana Azevedo" %}
-{% include author-gallery.html person="Tainá Abreu" %}
+{% include "partials/author-gallery.html" person="Bruna Leite Lopes" %}
+{% include "partials/author-gallery.html" person="Caroline Paiva" %}
+{% include "partials/author-gallery.html" person="Eduarda Toscano" %}
+{% include "partials/author-gallery.html" person="Iriani Jéssica" %}
+{% include "partials/author-gallery.html" person="Mariana Azevedo" %}
+{% include "partials/author-gallery.html" person="Tainá Abreu" %}
 </div>
 
