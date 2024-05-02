@@ -1,0 +1,9 @@
+{% extends "layouts/archive.njk" %}
+{%- block archive -%}
+  {% set categories_max = 0 %}
+  {% for category in site.categories %}
+    {% if category[1].size > categories_max %}
+      {% set categories_max = category[1].size %}
+    {% endif %}
+  {% endfor %}
+{%- endblock -%}

@@ -1,0 +1,11 @@
+{%- extends "layouts/base.njk" -%}
+{%- block pagecontent -%}
+<div class="container">
+  <div class="row"{% if classes %} class="{{ classes }}"{% endif %}>
+  {{ content | safe }}
+  <div class="w-100"></div>
+  {% block archive %}
+  {% endblock %}
+  </div>
+</div>
+{%- endblock -%}

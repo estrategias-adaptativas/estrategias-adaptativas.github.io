@@ -1,0 +1,18 @@
+{% extends "layouts/base.njk" %}
+{%- block pagecontent -%}
+<div class="container">
+  <div class="row">
+  {{ content | safe }}
+    {%- if citekey -%}
+    <div class="infobox">
+      {%- include "partials/infobox.njk" -%}
+    </div>
+    {%- endif -%}
+    {%- if sidebar -%}
+    <div class="sidebar">
+      {%- include "partials/sidebar.njk" -%}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
+{%- endblock -%}
