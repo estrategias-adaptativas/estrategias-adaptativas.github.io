@@ -269,14 +269,6 @@ body {
   counter-reset: sidenote-counter;
 }
 
-main {
-  h2,
-  h3:not(.card-title) {
-    @extend .mt-5;
-    @extend .w-100;
-  }
-}
-
 main figure {
   @extend .figure;
   img {
@@ -365,6 +357,13 @@ tfoot,
         text-transform: uppercase;
       }
     }
+  }
+}
+
+.capitalize-first {
+  @extend .d-inline-block;
+  &:first-letter {
+    text-transform: uppercase;
   }
 }
 
@@ -479,6 +478,11 @@ blockquote > footer {
 
 // Tufte and CSL classes {{{2
 // Columns {{{3
+main > .container.has-sidebar {
+  @extend .ms-lg-0;
+  @extend .flex-grow-1;
+}
+
 main > .container > .row {
   @extend .gx-3;
   &:not(.wide) {
@@ -499,7 +503,7 @@ main > .container > .row {
     > table,
     > figure:not(.subfigures) img:not(.col-lg-12):not(.aside),
     #refs {
-      @extend .col-lg-7;
+      @extend .col-lg-8;
     }
     > blockquote,
     > .blockquote {
@@ -508,50 +512,6 @@ main > .container > .row {
       @extend .offset-md-1;
     }
   }
-}
-
-main > .container > .row:not(.has-sidebar) {
-  > p,
-  > h2,
-  > h3, 
-  > h4, 
-  > h5, 
-  > h6, 
-  > hr,
-  > ol, 
-  > ul, 
-  > pre, 
-  > address, 
-  > dl, 
-  > fieldset, 
-  > form, 
-  > table,
-  > figure:not(.subfigures) img:not(.col-lg-12):not(.aside),
-  #refs {
-    @extend .offset-lg-2;
-  }
-}
-
-main > .container > .row.wide.has-sidebar {
-    > p,
-    > h2,
-    > h3, 
-    > h4, 
-    > h5, 
-    > h6, 
-    > hr,
-    > ol, 
-    > ul, 
-    > pre, 
-    > address, 
-    > dl, 
-    > fieldset, 
-    > form, 
-    > table,
-    > figure:not(.subfigures) img:not(.col-lg-12):not(.aside),
-    #refs {
-      @extend .col-lg-10;
-    }
 }
 
 .epigraph {
@@ -583,7 +543,12 @@ main > .container > .row.wide.has-sidebar {
 
 .sidebar {
   @extend .order-first;
-  @extend .col-lg-2;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .flex-shrink-1;
+  @extend .mt-3;
+  @extend .me-5;
+  @extend .ms-auto;
   @extend .opacity-50;
   &:hover {
     @extend .opacity-100;

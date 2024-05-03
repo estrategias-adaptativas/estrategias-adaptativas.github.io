@@ -1,7 +1,7 @@
 ---
 title: "Integrantes do projeto de pesquisa"
 permalink: "/integrantes/"
-layout: archive
+layout: "layouts/base.njk"
 classes: wide
 entries_layout: grid
 author: Pedro Palazzo

@@ -1,30 +1,24 @@
-{%- block clearWhitespace -%}
-<div class="container-fluid p-0">
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-6 g-3 my-3">
-  {% for a in album %}
-    <div class="col">
-      <div class="card mb-3 h-100">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img class="img-fluid rounded-start" alt="Imagem do(a) {{ a.data.title }}" src="{{ a.data.teaser | url }}" />
-          </div><!--/div containing img-->
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">
-                <a class="stretched-link" href="{{ a.url }}" class="text-decoration-none link-body-emphasis">{{ a.data.title }}</a>
-              </h3>
-              <p class="card-text">{{ a.data.description | safe }}</p>
-            </div><!--/.card-body-->
-            <div class="card-footer">
-              <small class="text-body-secondary">
-                Publicado em: {{ a.data.date | dateFilter }}
-              </small>
-            </div><!--/.card-footer-->
-          </div><!--/.col-md-8-->
-        </div><!--/.row g-0-->
-      </div><!--/.card-->
-    </div><!--/.col-->
-  {% endfor %}
-  </div><!--/.row-->
-</div><!--/.container-fluid-->
-{%- endblock -%}
+{% for a in album %}
+<div class="col">
+  <div class="card mb-3 h-100">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img class="img-fluid rounded-start" src="{{ a.teaser }}" />
+      </div><!--/div containing img-->
+      <div class="col-md-8">
+        <div class="card-body fs-6">
+          <h3 class="card-title fs-5">
+            <a class="stretched-link text-decoration-none link-body-emphasis" href="{{ a.url }}" >{{ a.title }}</a>
+          </h3>
+          <p class="card-text">{{ a.description | safe }}</p>
+        </div><!--/.card-body-->
+        <div class="card-footer">
+          <small class="text-body-secondary">
+            Publicado em: {{ a.date | dateFilter }}
+          </small>
+        </div><!--/.card-footer-->
+      </div><!--/.col-md-8-->
+    </div><!--/.row g-0-->
+  </div><!--/.card-->
+</div><!--/.col-->
+{% endfor %}

@@ -1,10 +1,11 @@
 {%- extends "layouts/base.njk" -%}
 {%- block pagecontent -%}
-<div class="container">
-  <div class="row"{% if classes %} class="{{ classes }}"{% endif %}>
+<div class="container{% if sidebar %} has-sidebar{% endif %}">
+  <div class="row wide has-sidebar row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 my-3">
   {{ content | safe }}
-  <div class="w-100"></div>
   {% block archive %}
+    {% set album = pagination.items %}
+    {% include "partials/album.njk" %}
   {% endblock %}
   </div>
 </div>

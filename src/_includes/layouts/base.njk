@@ -40,19 +40,19 @@
 {% endif %}
 {%- endblock %}
 
-<main>
+<main class="d-flex flex-nowrap">
 {% block pagecontent -%}
-<div class="container">
-  <div class="row{% if classes %} {{ classes }}{% endif %}{% if sidebar %} has-sidebar{% endif %}">
+<div class="container d-flex">
+  <div class="row{% if classes %} {{ classes }}{% endif %}">
   {{ content | safe }}
-  {%- if sidebar -%}
-    <div class="sidebar">
-    {%- include "partials/sidebar.njk" -%}
-    </div>
-  {%- endif -%}
   </div>
 </div>
 {%- endblock %}
+{%- if sidebar -%}
+<div class="sidebar">
+  {%- include "partials/sidebar.njk" -%}
+  </div>
+{%- endif -%}
 </main>
 
 {% block pagefooter -%}
