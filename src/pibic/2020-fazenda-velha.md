@@ -77,7 +77,14 @@ Modeling (HBIM) e dos Sistemas de Informação Geográfica (SIG).
    -->
 
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
 ## Bibliografia ##
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+---
+nocite: ""
+---
 
 <!--
    -Preenchimento não obrigatório, caso a bibliografia do plano de trabalho

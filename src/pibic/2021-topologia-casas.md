@@ -151,7 +151,15 @@ processamento pode ser executado de modo não assistido, e eventualmente
 ser realizado num servidor virtual; há recursos remanescentes do edital
 DPI/DPG 02/2020 que podem ser alocados nessa tarefa, caso necessário.
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
 ## Bibliografia ##
+
+---
+nocite: ""
+---
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## Competências e habilidades ##
 

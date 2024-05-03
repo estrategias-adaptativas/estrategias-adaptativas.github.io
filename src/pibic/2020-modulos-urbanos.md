@@ -4,10 +4,10 @@ author          : Daniela Matias
 date            : 2020-05-20
 toc             : true
 header:
-  teaser        : /assets/media/teaser/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg
+  teaser        : "/assets/media/teaser/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
   overlay_image : "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
   overlay_filter: 0.5
-category        : "Pibic"
+category        : "pibic"
 tags            : ["urbanismo", "módulo", "século XIX", "vernacular", "padrões"]
 excerpt: >
   Análise morfológica do parcelamento do solo urbano no Brasil do
@@ -107,10 +107,15 @@ plano de trabalho, a pesquisa prosseguirá remotamente utilizando os
 mesmos softwares e com a comunicação exclusivamente realizada por meios
 digitais, uma vez que o programa QGIS é software livre.
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
 
 ## Bibliografia ##
 
-{% include biblio-pibic-modulos.html %}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+---
+nocite: ""
+---
 
 ## Competências e habilidades ##
 

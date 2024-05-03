@@ -7,8 +7,8 @@ header:
   teaser        : /assets/media/teaser/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg
   overlay_image : "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
   overlay_filter: 0.5
-category        : "Pibic"
-tags            : ["urbanismo", "módulo", "século XIX", "vernacular", "padrões"]
+tags            : [ "pibic" ]
+categories      : ["urbanismo", "módulo", "século XIX", "vernacular", "padrões"]
 excerpt: >
   Análise morfológica do parcelamento do solo urbano no Brasil do
   século XIX, verificando dimensões de lotes e vias por meio do
@@ -108,9 +108,15 @@ mesmos softwares e com a comunicação exclusivamente realizada por meios
 digitais, uma vez que o programa QGIS é software livre.
 
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
 ## Bibliografia ##
 
-{% include biblio-pibic-modulos.html %}
+---
+nocite: ""
+---
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## Competências e habilidades ##
 

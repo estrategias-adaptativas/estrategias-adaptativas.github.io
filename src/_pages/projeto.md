@@ -251,6 +251,15 @@ taxonomias de sistemas edilícios tradicionais.
 
 ## Resultados pretendidos ##
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
+## Bibliografia crítica ##
+
+---
+nocite: ""
+---
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Impacto e relevância ##
 
 <!--
@@ -271,8 +280,4 @@ taxonomias de sistemas edilícios tradicionais.
    -   requeridas/concedidas/licenciadas que demonstre(m) a sua experiência
    -   de pesquisa. 
    -->
-
-## Bibliografia crítica ##
-
-{% include biblio-projeto-cientifico.html %}
 

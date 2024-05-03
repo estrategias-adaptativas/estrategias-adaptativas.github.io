@@ -166,13 +166,16 @@ Todos os recursos elencados acima já se encontram à disposição do grupo
 de pesquisa ou estima-se que possam ser obtidos ou remanejados em tempo
 hábil.
 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
 ## Bibliografia ##
 
-<!--2000 caracteres-->
+---
+nocite: ""
+---
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-<div class="full">
-{% include biblio-pibic-documentario-civico.html %}
-</div>
 
 ## Competências ##
 

@@ -87,6 +87,16 @@ O regime de trabalho adotado faz com que a pesquisa possa ser
 desenvolvida com pouca necessidade de disponibilidade presencial de
 recursos, sendo estes principalmente o acervo bibliográfico da BCE.
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
+## Bibliografia ##
+
+---
+nocite: ""
+---
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 ## Cronograma de execução
 
 ## Competências e habilidades do aluno para desenvolver o plano de trabalho

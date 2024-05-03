@@ -157,11 +157,15 @@ podendo ser equipamento próprio do aluno, do orientador, ou um
 computador da UnB que já se encontra disponível para o grupo de pesquisa
 no Laboratório de Estudos da Urbe (LabeUrbe) do PPG–FAU.
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
 ## Bibliografia ##
 
-<!--2000 caracteres-->
+---
+nocite: ""
+---
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-{% include biblio-pibit-blender-hbim.html %}
 
 ## Competências ##
 

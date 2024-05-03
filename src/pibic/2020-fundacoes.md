@@ -55,7 +55,14 @@ Texto com 5000 caracteres.
    -->
 
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
+
 ## Bibliografia ##
+
+---
+nocite: ""
+---
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <!--
    -Preenchimento não obrigatório, caso a bibliografia do plano de trabalho
