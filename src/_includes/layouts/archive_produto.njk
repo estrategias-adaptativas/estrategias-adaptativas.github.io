@@ -1,0 +1,5 @@
+{%- extends "layouts/archive.njk" -%}
+{% block archive %}
+  {% set album = collections.produtos %}
+  {% include "partials/cards_produto.njk" %}
+{% endblock %}

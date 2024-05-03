@@ -8,6 +8,7 @@ const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const yaml = require('js-yaml');
 const nodePandoc = require('node-pandoc');
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const fs = require("fs");
 /********************************
  * eleventyConfig function {{{1 *
  ********************************/
@@ -55,9 +56,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
   eleventyConfig.addDataExtension('yml, yaml', contents => yaml.load(contents));
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
- /********************
-  * Setup views {{{2 *
-  ********************/
+ /***********************
+  * Layout aliases {{{2 *
+  ***********************/
   eleventyConfig.addLayoutAlias("base",        "layouts/base.njk");
   eleventyConfig.addLayoutAlias("home",        "layouts/home.njk");
   eleventyConfig.addLayoutAlias("single",      "layouts/base.njk");
@@ -65,6 +66,31 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("splash",      "layouts/splash.njk");
   eleventyConfig.addLayoutAlias("archive",     "layouts/archive.njk");
   eleventyConfig.addLayoutAlias("categories",  "layouts/categories.njk");
+ /****************************
+  * Dynamic collections {{{2 *
+  ****************************/
+  eleventyConfig.addCollection("produtos", function(collection) {
+    // Read the YAML file
+    const fileContent = fs.readFileSync("src/_data/produtos.yaml", "utf8");
+    // Parse YAML into JavaScript object
+    const data = yaml.load(fileContent);
+    // Extract the 'references' array from the data
+    const produtos = data.references || [];
+    // Convert the 'issued' field into a JavaScript Date object
+    produtos.forEach(produto => {
+      if (typeof produto.issued[0].month == 'undefined') {
+        produto.yearOnly = true;
+        produto.issued[0].month = 01;
+      }
+      if (typeof produto.issued[0].day == 'undefined') {
+        produto.issued[0].day = 01;
+      }
+      const issuedDate = new Date(produto.issued[0].year, produto.issued[0].month - 1, produto.issued[0].day || 1);
+      produto.issuedDate = issuedDate;
+    });
+    // Return publications sorted by the new 'issuedDate' field
+    return produtos.sort((a, b) => b.issuedDate - a.issuedDate);
+  });
  /*******************************************************
   * Return is the last instruction to be evaluated {{{2 *
   *******************************************************/
