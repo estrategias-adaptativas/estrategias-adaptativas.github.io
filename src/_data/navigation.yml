@@ -37,3 +37,9 @@ mapa:
     url  : /integrantes/
   - title: "Prestação de contas"
     url  : /contas/
+  - title: "Laboratórios"
+    children:
+      - title: "LabeUrbe"
+        url  : "http://labeurbe.unb.br"
+      - title: "LaTec"
+        url  : "https://ppgfau.unb.br/institucional/lab/56-latec"
