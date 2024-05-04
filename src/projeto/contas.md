@@ -1,15 +1,8 @@
 ---
 title: "Prestação de contas"
 date: 2024-04-24
-layout: single
 classes: wide
 permalink: /contas/
-author_profile: false
-sidebar:
-  nav: "mapa"
-header:
-  overlay_image: "assets/media/fragoso-architectural-og.jpg"
-  overlay_filter: 0.5
 ---
 
 | Fonte     |     Exercício | Natureza                                         |          Valor |

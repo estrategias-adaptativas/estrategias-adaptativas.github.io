@@ -4,6 +4,7 @@
    Font providers {{{1
    ========================================================================== */
 
+@import url("https://use.typekit.net/hny1sfi.css");
 @import "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css";
 
 @font-face { // Swis721 Cn BT 300 {{{2
@@ -194,16 +195,18 @@ $color-mode-type: media-query;
 //$link-decoration: none;
 //$success: #7952b3;
 
+$font-family-serif:      "eb-garamond", "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 $font-family-sans-serif: "UnB Pro", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-narrow:     "Swis721 Cn BT", "league-gothic", "Arial Narrow", sans-serif;
+$font-family-narrow:     "Swis721 Cn BT", "league-gothic-condensed", "Arial Narrow", sans-serif;
+$garamond:               "cormorant-garamond", "eb-garamond", Georgia, Times, serif;
 
-$font-family-base: $font-family-sans-serif;
+$font-family-base: $font-family-serif;
 $font-size-base: 1.3rem;
-$headings-font-family: $font-family-narrow;
+$headings-font-family: $garamond;
 $headings-font-weight: 300;
 $headings-font-style: normal;
 $headings-color: $body-color;
-$legend-font-weight: 400;
+$legend-font-weight: 500;
 
 /* ==========================================================================
    Imports {{{1
@@ -307,8 +310,11 @@ h3:not(.card-title) {
   @extend .fs-5;
 }
 
-h2 + h3 {
-  @extend .mt-0;
+.subtitle,
+h2,
+h3 {
+  @extend .fst-italic;
+  font-variant-numeric: lining-nums;
 }
 
 h1,
@@ -333,6 +339,11 @@ dt {
   @extend .fw-medium;
 }
 
+form,
+input {
+  font-family: $font-family-sans-serif;
+}
+
 main .row > ul li::marker {
   content: "– ";
 }
@@ -340,6 +351,27 @@ main .row > ul li::marker {
 tfoot,
 .keywords-title {
   @extend .fw-bold;
+}
+
+.site-title {
+  @extend .lh-1;
+  @extend .text-body-secondary;
+  @extend .text-decoration-none;
+  @extend .fw-light;
+  font-family: $font-family-narrow;
+  font-variant: lowercase;
+  .site-subtitle {
+    @extend .fs-6;
+    @extend .fw-bold;
+  }
+}
+
+.subtitle {
+  @extend .display-6;
+}
+
+.lead {
+  @extend .fw-medium;
 }
 
 .sidebar {
@@ -368,6 +400,20 @@ tfoot,
   @extend .d-inline-block;
   &:first-letter {
     text-transform: uppercase;
+  }
+}
+
+.card {
+  font-family: $font-family-sans-serif;
+}
+
+.card h3,
+.btn {
+  font-family: $font-family-narrow;
+  @extend .fst-normal;
+  @extend .fw-normal;
+  a {
+    @extend .link-dark;
   }
 }
 
@@ -420,42 +466,17 @@ blockquote > footer {
 
 // Bootstrap Classes {{{2
 .site-title {
-  font-variant: lowercase;
-  @extend .text-body-secondary;
   @extend .mb-3;
   @extend .me-2;
   @extend .mb-md-0;
-  @extend .lh-1;
-  @extend .text-decoration-none;
-  @extend .fw-light;
-  font-family: $headings-font-family;
   .site-subtitle {
     @extend .d-inline;
     @extend .ps-3;
-    @extend .fw-normal;
-    @extend .fs-6;
-    font-family: "Swis721 BT", $font-family-base;
   }
-}
-
-.subtitle {
-  @extend .display-5;
-  @extend .fw-normal;
-  font-family: "Swis721 BT", $font-family-base;
 }
 
 .lead {
   @extend .col-lg-7;
-}
-
-.card h3,
-.btn {
-  font-family: $font-family-narrow;
-  @extend .fst-normal;
-  @extend .fw-normal;
-  a {
-    @extend .link-dark;
-  }
 }
 
 .card-img-top {

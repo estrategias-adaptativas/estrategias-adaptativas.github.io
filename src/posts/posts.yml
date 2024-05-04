@@ -1,1 +1,2 @@
 layout: "layouts/posts.njk"
+tags: [ "posts" ]

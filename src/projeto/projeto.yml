@@ -1,0 +1,8 @@
+author_profile: false
+layout: "layouts/base.njk"
+tags: [ "projeto" ]
+header:
+  overlay_image: "/assets/media/fragoso-architectural-og.jpg"
+  overlay_filter: 0.5
+sidebar:
+  nav: "mapa"
