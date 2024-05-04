@@ -1,7 +1,7 @@
 {%- extends "layouts/base.njk" -%}
 {%- block pagecontent -%}
 <div class="container{% if sidebar %} has-sidebar{% endif %}">
-  <div class="row wide has-sidebar row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 my-3">
+  <div class="row wide has-sidebar row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 my-3">
   {{ content | safe }}
   {% block archive %}
     {% set album = pagination.items %}

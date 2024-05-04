@@ -87,6 +87,8 @@ module.exports = function(eleventyConfig) {
       }
       const issuedDate = new Date(produto.issued[0].year, produto.issued[0].month - 1, produto.issued[0].day || 1);
       produto.issuedDate = issuedDate;
+      const issuedYear = produto.issued[0].year;
+      produto.issuedYear = issuedYear;
     });
     // Return publications sorted by the new 'issuedDate' field
     return produtos.sort((a, b) => b.issuedDate - a.issuedDate);

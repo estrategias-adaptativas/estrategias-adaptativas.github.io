@@ -1,22 +1,21 @@
 ---
 references:
-- id: almeida:2021papel
+- id: almeida:2021arquitetura
   author:
     - family: Almeida
       given: Sarah da Silva
-  citation-key: almeida:2021papel
+  citation-key: almeida:2021arquitetura
   event-place: Brasília
   genre: Dissertação de Mestrado em Arquitetura e Urbanismo
   issued:
     - year: 2021
-  language: pt
+  language: por
   publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
   publisher-place: Brasília
-  title: >-
-    O papel da arquitetura na narrativa cinematográfica: um estudo sobre os
-    filmes de Hayao Miyazaki
-  title-short: Um estudo sobre os filmes de Hayao Miyazaki
+  title: 'Arquitetura animada: a representação do espaço nas obras de Hayao Miyazaki'
+  title-short: A representação do espaço nas obras de Hayao Miyazaki
   type: thesis
+  URL: http://repositorio2.unb.br/jspui/handle/10482/43151
 
 - id: araujo:2023reconhecimento
   author:
@@ -197,7 +196,7 @@ references:
   ISBN: 978-989-33-4329-6
   issued:
     - year: 2023
-  language: pt
+  language: por
   page: 133-162
   publisher: Fundação Serra Henriques
   publisher-place: Lisboa
@@ -220,7 +219,7 @@ references:
   event-place: Rio de Janeiro
   issued:
     - year: 2021
-  language: pt
+  language: por
   publisher: Associação Nacional de Pesquisa e Pós-graduação em Arquitetura e Urbanismo
   publisher-place: Rio de Janeiro
   title: 'Limiaridade: processos e práticas em arquitetura e urbanismo'
@@ -743,7 +742,7 @@ references:
   ISBN: 978-85-00-13970-9
   issued:
     - year: 2020
-  language: pt-br
+  language: por
   page: 118-120
   publisher: >-
     Fundo de Apoio à Cultura, Secretaria de Cultura e Economia Criativa do
@@ -846,7 +845,7 @@ references:
     - year: 2021
       month: 8
       day: 7
-  language: fr
+  language: fre
   publisher-place: 'Bruxelles: La Table Ronde de l''Architecture'
   title: Le parcellaire comme support de l’architecture traditionnelle
   type: speech
@@ -1008,7 +1007,7 @@ references:
     - year: 2022
       month: 7
       day: 29
-  language: fr
+  language: fre
   publisher-place: Bruges
   title: Histoire de l'urbanisme et du parcellaire de Bruges
   type: speech
@@ -1035,32 +1034,6 @@ references:
   title: The rural-to-urban transect in the Portuguese periphery
   type: speech
   URL: https://www.premiorafaelmanzano.com/escuelas-de-verano/2022-azores/
-
-- id: palazzo:2023repensar
-  author:
-    - family: Palazzo
-      given: Pedro P.
-  citation-key: palazzo:2023repensar
-  container-title: Proximidades distantes
-  event-place: Brasília
-  event-title: >-
-    V Seminário Internacional da Academia das Escolas de Arquitetura e Urbanismo
-    de Língua Portuguesa
-  issued:
-    - year: 2023
-      month: 12
-      day: 8
-  language: pt
-  publisher: >-
-    <span smallcaps="smallcaps">AEAULP</s> : Faculdade de Arquitetura e
-    Urbanismo da Universidade de Brasília</span>
-  publisher-place: Brasília
-  source: Zotero
-  title: >-
-    Repensar a periodização da construção vernacular luso-brasileira: ou, como a
-    nossa arquitetura tradicional é mais recente do que parece
-  title-short: Repensar a periodização da construção vernacular luso-brasileira
-  type: paper-conference
 
 - id: palazzo:2024caracterizacao12
   abstract: >-
@@ -1108,4 +1081,35 @@ references:
   type: article-journal
   URL: https://revistademorfologiaurbana.org/index.php/rmu/article/view/369
   volume: '12'
+
+- id: palazzo:2024repensar
+  accessed:
+    - year: 2024
+      month: 4
+      day: 18
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: palazzo:2024repensar
+  container-title: Proximidades distantes
+  event-place: Brasília
+  event-title: >-
+    V Seminário Internacional da Academia das Escolas de Arquitetura e Urbanismo
+    de Língua Portuguesa 2023
+  issued:
+    - year: 2024
+      month: 4
+      day: 16
+  language: por
+  publisher: >-
+    <span smallcaps="smallcaps">AEAULP</s> : Faculdade de Arquitetura e
+    Urbanismo da Universidade de Brasília</span>
+  publisher-place: Brasília
+  source: Zotero
+  title: >-
+    Repensar a periodização da construção vernacular luso-brasileira: ou, como a
+    nossa arquitetura tradicional é mais recente do que parece
+  title-short: Repensar a periodização da construção vernacular luso-brasileira
+  type: paper-conference
+  URL: https://aeaulp.fa.ulisboa.pt/index.php/pt/publicacoes
 ...
