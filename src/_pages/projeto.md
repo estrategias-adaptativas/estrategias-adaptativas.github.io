@@ -18,7 +18,7 @@ tagline: |
   <em>low tech</em> aos problemas atuais da sustentabilidade urbana.
 ---
 
-## Objeto ##
+# Objeto #
 
 Atuamos
 sobre três escalas da produção do tecido edificado: configurações de
@@ -70,7 +70,7 @@ cambiantes cenários cultural, político e tecnológico. Para tanto,
 estipulamos os objetivos a seguir.
 
 
-## Objetivos ##
+# Objetivos #
 
 Objetivo geral
 
@@ -100,7 +100,7 @@ Objetivos específicos
   políticas e técnicas.
 
 
-## Justificativa ##
+# Justificativa #
 
 A resiliência da gestão urbana tem recebido, ao longo das últimas
 décadas, crescente destaque na literatura acadêmica e na formulação de
@@ -162,7 +162,7 @@ construção vernácula numa perspectiva histórica oferece panoramas
 alternativos às contingências do contexto econômico, produtivo e
 normativo da atualidade.
 
-## Metodologia ##
+# Metodologia #
 
 Os objetivos desta pesquisa implicam uma sucessão de etapas consistindo
 em documentar, classificar e analisar vestígios materiais e registros
@@ -249,18 +249,18 @@ aproximações e divergências eventualmente verificadas no universo de
 objetos a serem documentados oferecerão os indícios para elaborar
 taxonomias de sistemas edilícios tradicionais.
 
-## Resultados pretendidos ##
+# Resultados pretendidos #
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
 
-## Bibliografia crítica ##
+# Bibliografia crítica #
 
 ---
 nocite: ""
 ---
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Impacto e relevância ##
+# Impacto e relevância #
 
 <!--
    -- Com relação a si próprio - Qual(is) a(s) principal(is)

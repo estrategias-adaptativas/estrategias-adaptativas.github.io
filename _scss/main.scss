@@ -269,6 +269,10 @@ body {
   counter-reset: sidenote-counter;
 }
 
+h2 {
+  @extend .w-100;
+}
+
 main figure {
   @extend .figure;
   img {

@@ -18,7 +18,9 @@ header:
   overlay_filter: 0.7
 ---
 
-<h2 class="col-lg-10">Produção bibliográfica e técnica</h2>
+# Notícias #
+
+# Produção bibliográfica e técnica #
 
 <!--
    -Compilação sucinta das atividades de pesquisa desenvolvidas,
