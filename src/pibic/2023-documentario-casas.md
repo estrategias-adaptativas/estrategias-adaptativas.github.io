@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.5
 category        : "Pibic"
 tags            : ["casa", "vernacular", "século XIX", "documentário", "padrões"]
-excerpt: >
+description: >
   Análise gráfica de casas urbanas brasileiras 1780–1890, por meio
   do redesenho e análise de dimensões, proporções e distribuição
   espacial.

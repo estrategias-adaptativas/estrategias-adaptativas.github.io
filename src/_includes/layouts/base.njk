@@ -40,9 +40,9 @@
 {% endif %}
 {%- endblock %}
 
-<main class="d-flex flex-nowrap">
+<main>
 {% block pagecontent -%}
-<div class="container d-flex">
+<div class="container">
   <div class="row{% if classes %} {{ classes }}{% endif %}">
   {{ content | safe }}
   </div>

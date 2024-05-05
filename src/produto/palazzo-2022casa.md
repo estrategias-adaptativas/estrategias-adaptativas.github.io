@@ -2,7 +2,7 @@
 title     : 'A casa corrente de 40 palmos (± 2): um tipo português da idade liberal'
 author    : Pedro Palazzo
 date      : 2022-12-07
-tags      : [ "posts", "capítulo" ]
+tags      : [ "produto", "capítulo" ]
 categories: ["casa", "40 palmos", "vernacular", "Coimbra", "Portugal"]
 citekey   : 'palazzo:2022casa'
 layout    : publication

@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.5
 tags            : [ "pibic" ]
 categories      : ["urbanismo", "módulo", "século XIX", "vernacular", "padrões"]
-excerpt: >
+description: >
   Análise morfológica do parcelamento do solo urbano no Brasil do
   século XIX, verificando dimensões de lotes e vias por meio do
   redesenho da cartografia histórica ou atual.

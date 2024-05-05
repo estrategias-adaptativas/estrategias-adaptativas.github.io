@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.5
 category        : "Pibic"
 tags            : ["arquitetura cívica", "neoclassicismo", "século XIX", "documentário", "padrões"]
-excerpt: >
+description: >
   Análise gráfica de edifícios cívicos brasileiros 1780–1890, por
   meio do redesenho e análise de dimensões, proporções, distribuição
   espacial e elementos ornamentais.

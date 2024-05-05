@@ -25,7 +25,7 @@ entries_end   : 2021-12-31
 ## Iniciação tecnológica ##
 
 <div class="entries-{{ entries_layout }}">
-  {%- include "partials/documents-collection.html" collection='pibit' sort_by=page.sort_by sort_order=page.sort_order type=entries_layout entries_start=page.entries_start entries_end=page.entries_end -%}
+  {%- include "partials/documents-collection.html" collection='pibiti' sort_by=page.sort_by sort_order=page.sort_order type=entries_layout entries_start=page.entries_start entries_end=page.entries_end -%}
 </div>
 
 <div style="clear: both">&nbsp;</div>

@@ -2,12 +2,7 @@
 title  : "Arqueologia da morada suburbana na rua do Rosário, Luziânia"
 author : Mariana Azevedo
 date   : 2020-04-13
-excerpt: "Projeto de iniciação científica 2020–2021"
-sidebar:
-  nav: "mapa"
-header:
-  overlay_image: "assets/media/fragoso-architectural-og.jpg"
-  overlay_filter: 0.5
+description: "Projeto de iniciação científica 2020–2021"
 ---
 
 ## Objetivos, problema e justificativa ##

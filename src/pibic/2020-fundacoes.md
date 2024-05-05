@@ -2,7 +2,7 @@
 title  : "Tipologias de fundações na construção tradicional do Brasil central"
 author : Iriani Jéssica
 date   : 2020-05-20
-excerpt: "Projeto de iniciação científica 2020–2021"
+description: "Projeto de iniciação científica 2020–2021"
 sidebar:
   nav: "mapa"
 header:

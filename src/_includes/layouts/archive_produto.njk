@@ -1,7 +1,7 @@
 {%- extends "layouts/archive.njk" -%}
 {% block archive %}
-  {% set album = collections.produtos %}
-  {% for issuedYear, items in album | groupby("issuedYear") | dictsort | reverse %}
+  {% set produtos = collections.produtos %}
+  {% for issuedYear, items in produtos | groupby("issuedYear") | dictsort | reverse %}
     <h3 class="w-100">{{ issuedYear }}</h3>
     {% for a in items %}
       {% include "partials/cards_produto.njk" %}

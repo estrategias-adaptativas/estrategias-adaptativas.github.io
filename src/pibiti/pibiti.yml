@@ -1,5 +1,5 @@
 layout: "layouts/base.njk"
-tags: [ "pibic", "iniciação científica e tecnológica" ]
+tags: [ "pibiti", "iniciação científica e tecnológica" ]
 author_profile: true
 header:
   overlay_image: "assets/media/fragoso-architectural-og.jpg"

@@ -305,16 +305,20 @@ main p:not(.card-text) {
   hyphens: auto;
 }
 
-h3:not(.card-title) {
-  @extend .fw-medium;
-  @extend .fs-5;
+h1 {
+  font-family: $font-family-narrow;
 }
 
 .subtitle,
 h2,
 h3 {
+  font-family: $headings-font-family;
   @extend .fst-italic;
   font-variant-numeric: lining-nums;
+}
+
+h3:not(.card-title) {
+  @extend .fw-medium;
 }
 
 h1,
@@ -374,7 +378,8 @@ tfoot,
   @extend .fw-medium;
 }
 
-.sidebar {
+.sidebar,
+.toc {
   @extend .fs-6;
   @extend .text-secondary;
   @extend .fw-light;
@@ -407,11 +412,11 @@ tfoot,
   font-family: $font-family-sans-serif;
 }
 
-.card h3,
+h3.card-title,
 .btn {
   font-family: $font-family-narrow;
   @extend .fst-normal;
-  @extend .fw-normal;
+  @extend .fw-light;
   a {
     @extend .link-dark;
   }
@@ -433,6 +438,10 @@ blockquote + figcaption {
 
 figcaption,
 blockquote > footer {
+  @extend .fw-medium;
+}
+
+small {
   @extend .fw-medium;
 }
 
@@ -503,8 +512,14 @@ blockquote > footer {
 
 // Tufte and CSL classes {{{2
 // Columns {{{3
+main {
+  @extend .d-md-flex;
+  @extend .flex-md-nowrap;
+}
+
 main > .container.has-sidebar {
   @extend .ms-lg-0;
+  @extend .d-md-flex;
   @extend .flex-grow-1;
 }
 
@@ -568,12 +583,12 @@ main > .container > .row {
 
 .sidebar {
   @extend .order-first;
-  @extend .d-flex;
+  @extend .d-md-flex;
   @extend .flex-column;
   @extend .flex-shrink-1;
-  @extend .mt-3;
   @extend .me-5;
   @extend .ms-auto;
+  @extend .ps-5;
   @extend .opacity-50;
   &:hover {
     @extend .opacity-100;

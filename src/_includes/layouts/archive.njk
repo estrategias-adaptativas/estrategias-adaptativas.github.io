@@ -1,11 +1,16 @@
 {%- extends "layouts/base.njk" -%}
 {%- block pagecontent -%}
-<div class="container{% if sidebar %} has-sidebar{% endif %}">
-  <div class="row wide has-sidebar row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 my-3">
+<div class="container{% if sidebar or author_profile %} has-sidebar{% endif %}">
+  <div class="row wide row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-3 my-3">
   {{ content | safe }}
   {% block archive %}
-    {% set album = pagination.items %}
+  {%- if tags[0] %}{% set posts = tags[0] %}
+  {% elseif tags %}{% set posts = tags %}
+  {% else %}       {% set posts = 'posts' %}
+  {% endif -%}
+  {% for post in posts %}
     {% include "partials/album.njk" %}
+  {% endfor %}
   {% endblock %}
   </div>
 </div>

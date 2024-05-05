@@ -3,7 +3,7 @@ title  : "Arqueologia da casa da fazenda Gama"
 author : Caroline Paiva
 date   : 2020-04-13
 layout : single
-excerpt: "Projeto de iniciação científica 2020–2021"
+description: "Projeto de iniciação científica 2020–2021"
 sidebar:
   nav: "mapa"
 header:

@@ -7,9 +7,9 @@ header:
   teaser        : /assets/media/teaser/blenderbim-mus-deco.jpg
   overlay_image : "/assets/media/blenderbim-mus-deco.jpg"
   overlay_filter: 0.5
-category        : "Pibit"
-tags            : ["HBIM", "Blender", "patrimônio cultural", "fotogrametria", "visualização"]
-excerpt: >
+tags            : "pibiti"
+categories      : ["HBIM", "Blender", "patrimônio cultural", "fotogrametria", "visualização"]
+description: >
   Compilar as melhores práticas consagradas na literatura científica
   sobre a implementação de Historic Building Information Modeling
   aplicáveis ao software livre Blender.
