@@ -278,7 +278,7 @@ pt-BR:
   skip_footer                : "Pular para rodapé"
   page                       : "Página"
   pagination_previous        : "Anterior"
-  pagination_next            : "Próxima"
+  pagination_next            : "Seguinte"
   breadcrumb_home_label      : "Início"
   breadcrumb_separator       : "/"
   menu_label                 : "Alternar menu"

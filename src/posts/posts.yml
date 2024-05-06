@@ -1,2 +1,5 @@
 layout: "layouts/posts.njk"
 tags: [ "post" ]
+header:
+  overlay_image : "/assets/media/fragoso-architectural-og.jpg"
+  overlay_filter: 0.7

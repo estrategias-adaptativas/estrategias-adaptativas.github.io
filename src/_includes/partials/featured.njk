@@ -1,0 +1,27 @@
+{%- if not lang -%}
+  {%- set lang = site.locale -%}
+{%- endif %}
+<div class="col{% if (loop.length > 1) %} col-lg-6{% endif %}">
+  <div class="row g-0 border rounded overflow-hidden flex-lg-row align-items-lg-stretch mb-3 shadow-sm position-relative">
+    <div class="col-md-8 p-3 d-flex flex-column position-static">
+      <small class="d-inline-block text-body-secondary card-header capitalize-first">
+        {%- if post.data.tags[0] -%}
+        {{ post.data.tags[0] }}
+        {%- elseif post.data.tags -%}
+        {{ post.data.tags }}
+        {%- endif -%}
+      </small>
+      <h3 class="mb-0 card-title">{{ post.data.title | safe }}</h3>
+      <small class="mb-2 text-body-secondary">
+        {{ post.data.date | dateFilter }}
+      </small>
+      <p class="card-text mb-auto">{{ post.data.description | safe }}</p>
+      <a class="icon-link gap-1 icon-link-hover stretched-link link-secondary text-decoration-none" href="{{ post.url }}">
+        {{ ui_text[lang].more_label }} ›
+      </a>
+    </div><!--/.col .position-static-->
+    <div class="col-lg-4 d-none d-lg-flex">
+      <img class="object-fit-cover mx-auto d-block" src="{{ post.data.teaser }}" />
+    </div><!--/.col-auto-->
+  </div><!--/.row .border-->
+</div><!--/.col-xl-6-->

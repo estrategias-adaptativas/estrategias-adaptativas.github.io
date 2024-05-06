@@ -3,57 +3,37 @@
 <div class="container{% if sidebar or author_profile %} has-sidebar{% endif %}">
   <div class="row wide">
     {{ content | safe }}
-    <h2>Notícias</h2>
+    <h2 id="noticias">Notícias</h2>
     <div class="col col-md-6 col-lg-9">
-      {%- block featured -%}
-      {%- set destaque = collections.destaque -%}
-      {%- for post in destaque -%}
-      <div class="col col-xl-6">
-        <div class="row g-0 border rounded overflow-hidden flex-xl-row mb-3 shadow-sm h-md-250 position-relative">
-          <div class="col p-3 d-flex flex-column position-static">
-            <small class="d-inline-block text-body-secondary card-header capitalize-first">
-              {%- if post.data.tags[0] -%}
-              {{ post.data.tags[0] }}
-              {%- elseif post.data.tags -%}
-              {{ post.data.tags }}
-              {%- endif -%}
-            </small>
-            <h3 class="mb-0 card-title">{{ post.data.title }}</h3>
-            <small class="mb-2 text-body-secondary">
-              {{ post.data.date | dateFilter }}
-            </small>
-            <p class="card-text mb-auto">{{ post.data.description }}</p>
-            <a class="icon-link gap-1 icon-link-hover stretched-link link-secondary text-decoration-none" href="{{ post.url }}">
-              {{ ui_text[lang].more_label }} ›
-            </a>
-          </div><!--/.col .position-static-->
-          <div class="col-auto d-none d-lg-block">
-            <img src="{{ post.data.teaser }}" />
-          </div><!--/.col-auto-->
-        </div><!--/.row .border-->
-      </div><!--/.col-xl-6-->
-      {%- endfor -%}
-      {%- endblock -%}
+    {%- block featured -%}
+    {%- set destaque = collections.destaque -%}
+    {%- for post in destaque -%}
+      {% include "partials/featured.njk" %}
+    {%- endfor -%}
+    {%- endblock -%}
     </div>
     <div class="col col-md-6 col-lg-3">
     {% block archive %}
       <ul class="list-unstyled toc">
-        {% for post in collections.post | reverse %}{% if (loop.index <= 3) %}
+        {% for post in pagination.items %}
         <li>
           <a class="d-flex flex-column flex-lg-row gap-3 my-3 align-items-start align-items-lg-center link-body-emphasis text-decoration-none border-bottom" href="{{ post.url }}">
-            <img class="object-fit-cover" src="{{ post.data.teaser }}" />
+            <div class="ratio ratio-1x1 my-2">
+              <img class="object-fit-cover" src="{{ post.data.teaser }}" />
+            </div>
             <div class="col-lg-8">
               {{ post.data.title }}
               <small class="d-block body-tertiary my-2">{{ post.data.date | dateFilter }}</small>
             </div>
           </a>
         </li>
-        {% endif %}{% endfor %}
+        {% endfor %}
       </ul>
+      <a class="icon-link icon-link-hover link-secondary link-underline-opacity-25 float-end" href="/posts/">Todas as notícias ›</a>
     {% endblock %}
     </div>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 my-5">
-      <h2>Produção bibliográfica e técnica</h2>
+      <h2 id="produtos">Produção bibliográfica e técnica</h2>
       {% block publications %}
       {% set produtos = collections.produtos %}
       {% for issuedYear, items in produtos | groupby("issuedYear") | dictsort | reverse %}

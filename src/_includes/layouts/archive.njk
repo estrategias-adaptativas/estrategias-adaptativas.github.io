@@ -1,17 +1,55 @@
 {%- extends "layouts/base.njk" -%}
 {%- block pagecontent -%}
 <div class="container{% if sidebar or author_profile %} has-sidebar{% endif %}">
-  <div class="row wide row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-3 my-3">
+  <div class="row{% if classes %} {{ classes }}{% endif %}">
   {{ content | safe }}
   {% block archive %}
-  {%- if tags[0] %}{% set posts = tags[0] %}
-  {% elseif tags %}{% set posts = tags %}
-  {% else %}       {% set posts = 'posts' %}
-  {% endif -%}
-  {% for post in posts %}
-    {% include "partials/album.njk" %}
+  {% for post in pagination.items %}
+    {% include "partials/archive__item.njk" %}
   {% endfor %}
+  {% if pagination %}
+  <nav class="paginator my-5 col-lg-8">
+    <ol class="list-group list-group-horizontal mx-auto hstack justify-content-center">
+      {% if page.url != pagination.href.first %}
+      <li class="list-group-item list-group-item-action position-relative text-center">
+        <a href="{{ pagination.href.first }}"
+           class="stretched-link link-secondary text-decoration-none"> « </a>
+      </li>
+      {% endif %}
+      {%- if pagination.href.previous %}
+      <li class="list-group-item list-group-item-action position-relative text-center">
+        <a href="{{ pagination.href.previous }}"
+           class="stretched-link link-secondary text-decoration-none"> ‹ </a>
+      </li>
+      {%- endif %}
+      {%- for pageEntry in pagination.pages %}
+      <li class="list-group-item list-group-item-action position-relative
+                 text-center
+                 {% if page.url == pagination.hrefs[ loop.index0 ] %}
+                 active list-group-item-secondary disabled{% endif %}">
+        <a href="{{ pagination.hrefs[ loop.index0 ] }}"
+           class="stretched-link link-secondary text-decoration-none"
+           {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>
+          {{ loop.index }}
+        </a>
+      </li>
+      {%- endfor %}
+      {%- if pagination.href.next %}
+      <li class="list-group-item list-group-item-action position-relative text-center">
+        <a href="{{ pagination.href.next }}"
+           class="stretched-link link-secondary text-decoration-none"> › </a>
+      </li>
+      {%- endif %}
+      {% if page.url != pagination.href.last %}
+      <li class="list-group-item list-group-item-action position-relative text-center">
+        <a href="{{ pagination.href.last }}"
+           class="stretched-link link-secondary text-decoration-none"> » </a>
+      </li>
+      {% endif %}
+    </ol>
+  </nav>
+  {% endif %}
   {% endblock %}
-  </div>
-</div>
+  </div><!--/.row-->
+</div><!--/.container-->
 {%- endblock -%}

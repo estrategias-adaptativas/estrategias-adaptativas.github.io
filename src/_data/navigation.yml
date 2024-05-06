@@ -14,8 +14,13 @@ main:
 
 # mapa do site
 mapa:
-  - title: "Notícias e Produção"
+  - title: "Página principal"
     url  : /
+    children:
+      - title: "Notícias"
+        url  : "/#noticias"
+      - title: "Produção"
+        url  : "/#produtos"
   - title: "Projeto de pesquisa"
     url  : /projeto/
     children:
