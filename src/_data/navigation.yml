@@ -1,0 +1,50 @@
+# main links
+main:
+  - title: |
+      <div class="btn-group btn-group-sm" role="group" aria-label="Situação do projeto em andamento">
+        <button type="button" class="btn btn-secondary py-0 rounded-start-pill">Situação</button>
+        <button type="button" class="btn btn-primary py-0 rounded-end-pill">Em andamento</button>
+      </div>
+  - title: |
+      <div class="btn-group btn-group-sm" role="group" aria-label="Situação do projeto em andamento">
+        <button type="button" class="btn btn-secondary py-0 rounded-start-pill">Valor financiado</button>
+        <button type="button" class="btn btn-success py-0 rounded-end-pill">R$ 137.781</button>
+      </div>
+    url  : /contas/
+
+# mapa do site
+mapa:
+  - title: "Página principal"
+    url  : /
+    children:
+      - title: "Notícias"
+        url  : "/#noticias"
+      - title: "Produção"
+        url  : "/#produtos"
+  - title: "Projeto de pesquisa"
+    url  : /projeto/
+    children:
+      - title: "Objeto"
+        url  : /projeto/#objeto
+      - title: "Objetivos"
+        url  : /projeto/#objetivos
+      - title: "Justificativa"
+        url  : /projeto/#justificativa
+      - title: "Metodologia"
+        url  : /projeto/#metodologia
+      - title: "Resultados pretendidos"
+        url  : /projeto/#resultados-pretendidos
+      - title: "Impacto"
+        url  : /projeto/#impacto-e-relevncia
+      - title: "Bibliografia"
+        url  : /projeto/#bibliografia-crtica
+  - title: "Integrantes"
+    url  : /integrantes/
+  - title: "Prestação de contas"
+    url  : /contas/
+  - title: "Laboratórios"
+    children:
+      - title: "LabeUrbe"
+        url  : "http://labeurbe.unb.br"
+      - title: "LaTec"
+        url  : "https://ppgfau.unb.br/institucional/lab/56-latec"

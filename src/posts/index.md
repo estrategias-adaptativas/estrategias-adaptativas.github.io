@@ -1,0 +1,25 @@
+---
+title : "Notícias do projeto"
+layout: "layouts/archive.njk"
+author_profile: false
+sidebar:
+  nav: "mapa"
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.post
+  reverse: true
+  size: 10
+  alias: posts
+templateEngineOverride: njk,md
+---
+
+```{=html}
+<div class="col-lg-12">
+{%- block featured -%}
+{%- set destaque = collections.destaque -%}
+{%- for post in destaque -%}
+{% include "partials/featured.njk" %}
+{%- endfor -%}
+{%- endblock -%}
+</div>
+```

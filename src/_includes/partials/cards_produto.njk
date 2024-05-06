@@ -1,0 +1,49 @@
+{%- set slug = a.id | replace(":", "-") -%}
+{%- set teaser = [ "/assets/media/teaser/biblio-", slug, ".jpg" ] | join -%}
+<div class="col">
+  <div class="card mb-3 overflow-hidden">
+    <div class="row g-0">
+      <div class="card-header fs-6 capitalize-first justify-content-around">
+        <small class="text-body-secondary">
+          {{ ui_text[lang].type[a.type] }}
+        </small>
+        <small class="float-end text-body-secondary">
+        {%- if a.yearOnly -%}
+          {{ a.issuedYear }}
+        {%- else -%}
+          {{ a.issuedDate | dateFilter }}
+        {%- endif -%}
+        </small>
+      </div>
+      <div class="col-md-4">
+          <img class="img-fluid object-fit-cover h-100" src="{{ teaser }}" />
+      </div><!--/div containing img-->
+      <div class="col-md-8">
+        <div class="card-body fs-6">
+          <small class="text-body-secondary">
+            {%- set authors = a.author | length -%}
+            {%- if authors > 2 -%}
+              {{ a.author[0].given }}
+              {{ a.author[0]['dropping-particle'] }}
+              {{ a.author[0].family }} <i>et al.</i>
+            {%- else -%}
+              {%- for author in a.author -%}
+                {{ author.given }}
+                {{ author['dropping-particle'] }}
+                {{ author.family }}
+                {%- if not loop.last -%}, {% endif %}
+              {%- endfor -%}
+            {%- endif -%}
+          </small>
+          <h3 class="card-title fs-5">
+            {%- if a.URL -%}
+            <a class="stretched-link text-decoration-none link-body-emphasis" href="{{ a.URL }}" >{{ a.title | safe }}</a>
+            {%- else -%}
+            {{ a.title | safe }}
+            {%- endif -%}
+          </h3>
+        </div><!--/.card-body-->
+      </div><!--/.col-md-8-->
+    </div><!--/.row g-0-->
+  </div><!--/.card-->
+</div><!--/.col-->

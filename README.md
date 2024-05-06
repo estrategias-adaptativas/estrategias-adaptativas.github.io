@@ -20,10 +20,12 @@
 
 ## License
 
-Adaptive Strategies in Traditional Building (c) 2020 by Pedro P. Palazzo
-
-Adaptive Strategies for Traditional Building is licensed under a
-Creative Commons Attribution 3.0 Unported License.
+Adaptive Strategies in Traditional Building (c) 2020–24 by Pedro P. Palazzo
+is licensed under
+Creative Commons Attribution 4.0 International
+![](https://mirrors.creativecommons.org/presskit/icons/cc.svg)
+![](https://mirrors.creativecommons.org/presskit/icons/by.svg)
 
 You should have received a copy of the license along with this
-work.  If not, see <http://creativecommons.org/licenses/by/3.0/>.
+work.  If not, see <https://creativecommons.org/licenses/by/4.0/>.
+

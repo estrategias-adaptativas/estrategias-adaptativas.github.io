@@ -1,0 +1,36 @@
+<svg class="d-none" xmlns="http://www.w3.org/2000/svg">
+   <symbol viewBox="0 0 36 36" id="labeurbe">
+   <path d="m 0,0 v 2.4746093 h 29.857422 v -2.4746093 z m 0,4.5664062 v 2.4765626 h 13.451172 v -2.4765626 z m 22.548828,3.8125001 v 2.4746097 h 13.451172 v -2.4746097 z m -22.548828,0.720703 v 2.4746097 h 13.451172 v -2.4746097 z m 22.548828,3.7617187 v 2.476563 h 13.451172 v -2.476563 z m -22.548828,2.914063 v 2.476562 h 13.451172 v -2.476562 z m 8.2050779,5.082031 v 2.474609 h 13.4492191 v -2.474609 z m 25.3183591,0 v 15.142578 h 2.476563 v -15.142578 z m -33.523437,1.693359 v 13.449219 h 2.4765625 v -13.449219 z m 16.648437,3.386719 v 2.474609 h 13.451172 v -2.474609 z m -8.4433591,5.080078 v 2.476563 h 13.4492191 v -2.476563 z" />
+  </symbol>
+</svg>
+
+<header class="px-3 py-1 border-bottom">
+  <div class="container-fluid">
+    <nav id="site-nav" class="masthead d-flex flex-wrap align-items-center justify-content-center fw-medium">
+      <a href="/" class="site-title d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none text-dark">
+        <svg class="bi me-2" width="36" height="36"><use xlink:href="#labeurbe" fill="currentColor" /></svg>
+        {{ site.title }}
+        <span class="site-subtitle">
+          {{ site.subtitle }}
+        </span>
+      </a>
+
+      {% if navigation.main %}
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0 ps-3">
+        {% for item in navigation.main -%}
+        <li>
+          <a href="{{ item.url }}" target="_blank" class="nav-link px-2">
+            {{ item.title | safe }}
+          </a>
+        </li>
+        {%- endfor %}
+      </ul>
+      {% endif %}
+
+      <form class="col-12 col-lg-auto my-1 me-lg-3" role="search">
+        <input type="search" class="form-control" placeholder="{{ ui_text[lang].search_label }}..." aria-label="{{ ui_text[lang].search_label }}">
+      </form>
+
+    </nav>
+  </div>
+</header>

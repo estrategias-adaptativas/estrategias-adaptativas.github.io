@@ -1,0 +1,30 @@
+{% set work = site.data.produtos.references | filter(attribute='id', value=citekey) %}
+{% set work = work[0] %}
+{% if work.DOI %}
+  {% set URI=work.DOI | prepend: 'https://doi.org/' %}
+{% elsif work.URL %}
+  {% set URI=work.URL %}
+{% elsif catalog %}
+  {% set URI=catalog %}
+{% endif %}
+
+<ul class="toc__menu">
+  {% if header.teaser %}
+  <li>
+    <a href="{{ URI }}">
+      <img src="{{ header.teaser }}" alt="{{ header.caption | default: 'miniatura da publicação' }}" />
+    </a>
+  </li>
+{% endif %}
+  {% if URI %}
+  <li><a href="{{ URI }}">Link para a publicação</a>
+    <ul>
+    {%- if work.DOI -%}
+      <li>
+        <a href="{{ URI }}">DOI: {{ work.DOI }}</a>
+      </li>
+    {%- endif -%}
+    </ul>
+  </li>
+  {% endif %}
+</ul>
