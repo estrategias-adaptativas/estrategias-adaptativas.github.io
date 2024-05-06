@@ -4,7 +4,7 @@
   <div class="row wide">
     {{ content | safe }}
     <h2 id="noticias">Notícias</h2>
-    <div class="col col-md-6 col-lg-9">
+    <div class="col col-md-6 col-lg-8">
     {%- block featured -%}
     {%- set destaque = collections.destaque -%}
     {%- for post in destaque -%}
@@ -12,7 +12,7 @@
     {%- endfor -%}
     {%- endblock -%}
     </div>
-    <div class="col col-md-6 col-lg-3">
+    <div class="col col-md-6 col-lg-4">
     {% block archive %}
       <ul class="list-unstyled toc">
         {% for post in pagination.items %}
