@@ -69,10 +69,6 @@ module.exports = function(eleventyConfig) {
  /****************************
   * Dynamic collections {{{2 *
   ****************************/
-  // Set the collection to reverse chronological order
-  //eleventyConfig.addCollection("post", (collection) => {
-    //return collection.getFilteredByTag("post").reverse();
-  //});
   eleventyConfig.addCollection("produtos", function(collection) {
     // Read the YAML file
     const fileContent = fs.readFileSync("src/_data/produtos.yaml", "utf8");
