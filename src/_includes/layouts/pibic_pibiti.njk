@@ -1,0 +1,16 @@
+{%- extends "layouts/archive.njk" -%}
+{% block archive %}
+<h2 id="iniciacao-cientifica">Iniciação científica</h2>
+<div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+{%- for post in collections.pibic %}{% if (post.data.valid == valid) %}
+{% include "partials/album.njk" %}
+{%- endif %}{% endfor %}
+</div>
+<hr class="my-5">
+<h2 id="iniciacao-tecnologica">Iniciação tecnológica</h2>
+<div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+{%- for post in collections.pibiti %}{% if post.data.valid == valid %}
+{% include "partials/album.njk" %}
+{%- endif %}{% endfor %}
+</div>
+{% endblock %}

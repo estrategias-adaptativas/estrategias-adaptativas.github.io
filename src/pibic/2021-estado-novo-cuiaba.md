@@ -2,6 +2,7 @@
 title: "Arquitetura no Estado Novo (1937–1945): a presença do neocolonial em edifícios institucionais em Cuiabá"
 author: Bruna Leite Lopes
 date: 2021-06-06
+valid: 2021
 description: "Projeto de iniciação científica 2021–2022"
 ---
 

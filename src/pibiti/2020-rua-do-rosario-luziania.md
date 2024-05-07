@@ -2,6 +2,7 @@
 title  : "Arqueologia da morada suburbana na rua do Rosário, Luziânia"
 author : Mariana Azevedo
 date   : 2020-04-13
+valid  : 2020
 description: "Projeto de iniciação científica 2020–2021"
 ---
 

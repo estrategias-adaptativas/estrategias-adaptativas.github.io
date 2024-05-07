@@ -2,6 +2,7 @@
 title: "Representação topológica digital da edilícia de base"
 author: Eduarda Toscano
 date: 2021-06-06
+valid: 2021
 description: "Plano de trabalho de Iniciação Científica 2021–2022"
 ---
 

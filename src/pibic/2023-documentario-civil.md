@@ -2,9 +2,10 @@
 title           : "Documentário de arquitetura cívica tradicional"
 author          : Sara Oliveira
 date            : 2023-06-02
+valid           : 2023
 toc             : true
 header:
-  teaser        : /assets/media/teaser/br-rj-rj-an-arquivonacional-1905.jpg
+  teaser        : "/assets/media/teaser/br-rj-rj-an-arquivonacional-1905.jpg"
   overlay_image : "/assets/media/br-rj-rj-an-arquivonacional-1905.jpg"
   overlay_filter: 0.5
 category        : "Pibic"

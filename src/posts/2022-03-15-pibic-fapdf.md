@@ -1,18 +1,16 @@
 ---
 title         : "Iniciação científica FAPDF 2022–2023"
 date          : 2022-03-15
-author_profile: true
+valid         : 2022
+author_profile: false
 toc           : false
-categories    : ["Iniciação científica e tecnológica"]
+categories    : ["iniciação científica e tecnológica"]
 tags          : ["plano de trabalho", "projeto de pesquisa"]
-excerpt       : "Planos finalizados"
-classes       : wide
-entries_layout: grid
-entries_start : 2022-01-01
-entries_end   : 2022-12-31
+description: "Planos finalizados"
+sidebar:
+  nav: "mapa"
+layout: "layouts/pibic_pibiti.njk"
 ---
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
 
 ## Iniciação científica ##
 

@@ -2,6 +2,7 @@
 title           : "Módulos do parcelamento urbano tradicional"
 author          : Daniela Matias
 date            : 2020-05-20
+valid           : 2020
 toc             : true
 header:
   teaser        : "/assets/media/teaser/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"

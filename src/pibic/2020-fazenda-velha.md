@@ -2,6 +2,7 @@
 title  : "Arqueologia da casa da fazenda Velha, Distrito Federal"
 author : Tainá Abreu
 date   : 2020-04-13
+valid: 2020
 description: "Projeto de iniciação científica 2020–2021"
 ---
 

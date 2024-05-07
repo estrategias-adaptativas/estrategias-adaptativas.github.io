@@ -1,13 +1,9 @@
 {% extends "layouts/base.njk" %}
 {%- block pagecontent -%}
-<div class="container{% if classes %} {{ classes }}{% endif %}{% if sidebar or author_profile %} has-sidebar{% endif %}">
-  <div class="row">
-  {{ content | safe }}
-    {%- if citekey -%}
-    <div class="infobox">
-      {%- include "partials/infobox.njk" -%}
-    </div>
-    {%- endif -%}
-  </div>
+{{ content | safe }}
+{%- if citekey -%}
+<div class="infobox">
+  {%- include "partials/infobox.njk" -%}
 </div>
+{%- endif -%}
 {%- endblock -%}
