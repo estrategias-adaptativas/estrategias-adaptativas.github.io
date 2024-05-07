@@ -1,18 +1,16 @@
 ---
 title         : "Iniciação científica e tecnológica 2020–2021"
 date          : 2020-05-20
-author_profile: true
+valid         : 2020
+author_profile: false
 toc           : false
-categories    : ["Iniciação científica e tecnológica"]
+categories    : ["iniciação científica e tecnológica"]
 tags          : ["plano de trabalho", "projeto de pesquisa"]
-excerpt       : "Planos de trabalho finalizados"
-classes       : wide
-entries_layout: grid
-entries_start : 2020-01-01
-entries_end   : 2020-12-31
+description: "Planos de trabalho finalizados"
+sidebar:
+  nav: "mapa"
+layout: "layouts/pibic_pibiti.njk"
 ---
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
 
 ## Iniciação científica ##
 

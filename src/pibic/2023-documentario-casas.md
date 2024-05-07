@@ -2,6 +2,7 @@
 title           : "Padrões de casas tradicionais"
 author          : Eduarda Viana
 date            : 2023-06-02
+valid           : 2023
 toc             : true
 header:
   teaser        : /assets/media/teaser/br-mg-op-contos-070828-pp-0577.jpg

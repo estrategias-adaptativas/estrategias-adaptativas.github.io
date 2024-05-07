@@ -2,10 +2,8 @@
 title  : "Arqueologia da casa da fazenda Gama"
 author : Caroline Paiva
 date   : 2020-04-13
-layout : single
+valid  : 2020
 description: "Projeto de iniciação científica 2020–2021"
-sidebar:
-  nav: "mapa"
 header:
   overlay_image: "assets/media/fragoso-architectural-og.jpg"
   overlay_filter: 0.5

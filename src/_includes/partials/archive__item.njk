@@ -20,10 +20,10 @@
       {{ ui_text[lang].more_label }} ›
     </a>
   </div><!--/.col-lg-8-->
-  {% if post.data.teaser %}
+  {% if post.data.header.teaser %}
   <div class="d-none d-lg-flex col-lg-4">
     <div class="ratio ratio-1x1">
-      <img class="img-thumbnail object-fit-cover" src="{{ post.data.teaser }}" />
+      <img class="img-thumbnail object-fit-cover" src="{{ post.data.header.teaser }}" />
     </div>
   </div><!--/.ratio-->
   {% endif %}

@@ -2,6 +2,7 @@
 title : "Espaços públicos em quadrinhos"
 author:
 date  : 2024-05-04
+valid : 2024
 tags  : [ "pibic", "iniciação científica e tecnológica" ]
 categories:
   - urbanismo
@@ -9,8 +10,8 @@ categories:
   - quadrinhos
 description: >-
   Escalas, proporções, estilos e papel na narrativa.
-teaser: "/assets/media/teaser/320px-manara-caravaggio.jpg"
 header:
+  teaser: "/assets/media/teaser/320px-manara-caravaggio.jpg"
   overlay_image: "/assets/media/manara-caravaggio.jpg"
   caption: >
     Palazzo Madama, Roma, segundo Milo Manara,

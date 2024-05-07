@@ -4,6 +4,7 @@ date  : 2024-04-25
 author:
 toc   : true
 tags  : [ "pibic", "iniciação científica e tecnológica" ]
+valid: "2024"
 categories:
   - urbanismo
   - cidades ideais
@@ -12,6 +13,13 @@ description: >-
   Análise e reconstituição virtual de praças não construídas,
   inconclusas, alteradas ou destruídas, com foco no mundo
   luso-brasileiro dos séculos XVIII e XIX.
+header:
+  teaser: "/assets/media/teaser/320px-br-rj-rj-palacio-grandjean-icon325971.jpg"
+  overlay_image: "/assets/media/br-rj-rj-palacio-grandjean-icon325971.jpg"
+  caption: >-
+    A.H.V. Grandjean de Montigny,
+    <a href="https://heritage.bnf.fr/france-bresil/fr/grandjean-de-montigny">
+    <cite>Projeto para a nova implantação do Paço imperial</cite></a>, 1826
 ---
 
 # Objetivos, problema e justificativa #

@@ -1,6 +1,7 @@
 ---
 title           : "Manual de boas práticas em Open HBIM com o programa Blender"
 date            : 2023-06-02
+valid           : 2023
 author          : Edmo Cabral
 toc             : true
 header:

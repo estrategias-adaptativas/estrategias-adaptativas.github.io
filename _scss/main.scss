@@ -344,7 +344,8 @@ dt {
 }
 
 form,
-input {
+input,
+table {
   font-family: $font-family-sans-serif;
 }
 
@@ -375,6 +376,7 @@ tfoot,
 }
 
 .lead {
+  @extend .fs-3;
   @extend .fw-medium;
 }
 

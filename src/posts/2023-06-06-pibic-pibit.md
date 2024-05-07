@@ -1,15 +1,15 @@
 ---
 title         : "Iniciação científica e tecnológica 2023–2024"
 date          : 2023-06-19
-author_profile: true
+valid         : 2023
+author_profile: false
 toc           : false
-categories    : ["Iniciação científica e tecnológica"]
+categories    : ["iniciação científica e tecnológica"]
 tags          : ["plano de trabalho", "projeto de pesquisa"]
-excerpt       : "Em execução"
-classes       : wide
-entries_layout: grid
-entries_start : 2023-01-01
-entries_end   : 2023-12-31
+description: "Em execução"
+sidebar:
+  nav: "mapa"
+layout: "layouts/pibic_pibiti.njk"
 ---
 
 <!--
@@ -23,8 +23,6 @@ entries_end   : 2023-12-31
    -espaços) apontando as suas competências e habilidades relevantes para o
    -desenvolvimento deste plano.
    -->
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
 
 ## Iniciação científica ##
 

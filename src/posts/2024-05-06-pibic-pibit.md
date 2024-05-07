@@ -1,7 +1,7 @@
 ---
 title         : "Iniciação científica e tecnológica 2024–2025"
 date          : 2024-05-06
-author_profile: true
+author_profile: false
 toc           : false
 override:tags : [ "iniciação científica e tecnológica", "destaque" ]
 categories    : ["plano de trabalho", "projeto de pesquisa"]
@@ -10,8 +10,8 @@ description: >-
   público tradicional.
 sidebar:
   nav: "mapa"
-teaser: "/assets/media/teaser/320px-manara-caravaggio.jpg"
 header:
+  teaser: "/assets/media/teaser/320px-manara-caravaggio.jpg"
   overlay_image: "/assets/media/manara-caravaggio.jpg"
   caption: >
     Palazzo Madama, Roma, segundo Milo Manara,
@@ -19,9 +19,8 @@ header:
       <cite>Caravaggio</cite></a>,
     v. 1 p. 37.
 entries_layout: grid
-entries_start : 2024-01-01
-entries_end   : 2024-12-31
-templateEngineOverride: njk,md
+valid: "2024"
+layout: "layouts/pibic_pibiti.njk"
 ---
 
 Temos cinco planos de trabalho abertos e concorrendo a bolsas, sendo
@@ -33,13 +32,4 @@ vestibular indígena. Para pleitear um dos planos de trabalho, envie até
 pesquisa indicando o plano de seu interesse e um texto de até 1000
 caracteres (com espaços) apontando as suas competências e habilidades
 relevantes para o desenvolvimento deste plano.
-
-# Iniciação científica #
-
-```{=html}
-{% for pibic in collections.pibic %}
-{% endfor %}
-```
-
-# Iniciação tecnológica #
 

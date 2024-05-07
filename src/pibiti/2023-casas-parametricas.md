@@ -1,10 +1,13 @@
 ---
 title          : "Parametrização de arquitetura vernácula com software Blender"
-author         : Mikael Menezes
+# author       : Mikael Menezes
 date           : 2023-06-02
+valid          : 2024
 toc            : true
+sidebar:
+  nav          : "mapa"
 header:
-  teaser       : /assets/media/teaser/br-go-plantas_residenciais-fig_58.jpg
+  teaser       : "/assets/media/teaser/br-go-plantas_residenciais-fig_58.jpg"
   overlay_image: "/assets/media/br-go-plantas_residenciais-fig_58.jpg"
 tags           : "pibiti"
 categories     : ["casa", "parametrização", "Blender", "visualização"]
@@ -14,7 +17,7 @@ description: >
   paramétricas no software livre Blender.
 ---
 
-## Objetivos, problema e justificativa ##
+# Objetivos, problema e justificativa #
 
 <!--5000 caracteres-->
 
@@ -85,7 +88,7 @@ esse algoritmo oferece uma descrição explícita dos processos de
 composição que resultam na harmonia e compatibilidade entre as variadas
 casas que compõem o tecido construído vernáculo.
 
-## Viabilidade, recursos e metodologia ##
+# Viabilidade, recursos e metodologia #
 
 <!--4000 caracteres-->
 
@@ -143,7 +146,7 @@ no Laboratório de Estudos da Urbe (LabeUrbe) do PPG–FAU.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs}
 
-## Bibliografia ##
+# Bibliografia #
 
 ---
 nocite: ""

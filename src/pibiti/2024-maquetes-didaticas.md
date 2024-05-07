@@ -2,6 +2,7 @@
 title : "Maquetes no ensino de história da construção"
 author:
 date  : 2024-05-06
+valid : 2024
 tags  : [ "pibiti", "iniciação científica e tecnológica", "aberto", "pibiti_2024" ]
 categories:
   - história da construção
@@ -52,4 +53,5 @@ nocite: ""
 | Mês | Tarefa                                                                |
 |----:|:----------------------------------------------------------------------|
 |  01 | Definição do procedimento de pesquisa e revisão bibliográfica inicial |
+|  02 | Pesquisa de estudos de caso                                           |
 

@@ -2,9 +2,10 @@
 title           : "Módulos do parcelamento urbano tradicional"
 author          : Jean Adalto
 date            : 2023-06-02
+valid           : 2023
 toc             : true
 header:
-  teaser        : /assets/media/teaser/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg
+  teaser        : "/assets/media/teaser/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
   overlay_image : "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rua_de_S_Pedro_from_the_Gotto_Plan_of_Rio_de_Janeiro_1871_stitched.jpg"
   overlay_filter: 0.5
 tags            : [ "pibic" ]

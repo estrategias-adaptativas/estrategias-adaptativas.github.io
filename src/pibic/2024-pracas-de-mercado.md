@@ -1,6 +1,7 @@
 ---
 title : "Praças de mercado de Portugal medieval ao Brasil imperial"
 date  : 2024-04-24
+valid : "2024"
 author:
 toc   : true
 tags  : [ "pibic", "iniciação científica e tecnológica" ]
@@ -12,7 +13,14 @@ categories:
 description: >-
   Análise das dimensões, proporções e processo de adensamento das
   praças de mercado luso-brasileiras desde a Idade Média até o
-  século XIX, incluindo suas edificações notáveis.
+  século <span style="font-variant:all-small-caps">XIX</span>,
+  incluindo suas edificações notáveis.
+header:
+  teaser: "/assets/media/teaser/380px-pt-coimbra-goullard-1874-c07-praca-velha.jpg"
+  overlay_image: "/assets/media/pt-coimbra-goullard-1874-c07-praca-velha.jpg"
+  caption: >-
+    Francisco e César Goullard, <cite>Planta topographica da cidade
+    de Coimbra</cite>, 1874
 ---
 
 # Objetivos, problema e justificativa #
@@ -23,16 +31,18 @@ Este plano de trabalho propõe um apanhado da urbanização de praças de
 mercado tradicionais em Portugal e no Brasil numa perspetiva de longa
 duração, desde os terreiros de feiras na Idade Média até as vésperas da
 transferência dos mercados públicos para edificações modernas em finais
-do século XIX. A análise de algumas praças selecionadas permitirá
-compreender os processos de diversificação morfológica e socioeconômica
-dos tecidos urbanos luso-brasileiros.
+do século <span style="font-variant:all-small-caps">XIX</span>. A
+análise de algumas praças selecionadas permitirá compreender os
+processos de diversificação morfológica e socioeconômica dos tecidos
+urbanos luso-brasileiros.
 
 ## Objetivo Geral ##
 
 Analisar as dimensões, proporções e processo de adensamento das praças
-de mercado luso-brasileiras desde a Idade Média até o século XIX,
-incluindo suas edificações notáveis, representando-as comparativamente
-em classificação cronológica e tipológica.
+de mercado luso-brasileiras desde a Idade Média até o século <span
+style="font-variant:all-small-caps">XIX</span>, incluindo suas
+edificações notáveis, representando-as comparativamente em classificação
+cronológica e tipológica.
 
 ## Objetivos específicos ##
 
