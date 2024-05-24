@@ -1,3 +1,4 @@
+author: "Pedro Palazzo"
 author_profile: false
 layout: "layouts/base.njk"
 tags: [ "projeto" ]

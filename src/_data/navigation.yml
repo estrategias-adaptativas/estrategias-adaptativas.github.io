@@ -40,6 +40,17 @@ mapa:
         url  : /projeto/#bibliografia-crtica
   - title: "Integrantes"
     url  : /integrantes/
+    children:
+      - title: "Coordenador"
+        url  : /integrantes/#coordenador
+      - title: "Pesquisadoras"
+        url  : /integrantes/#pesquisadoras
+      - title: "Pós-graduação"
+        url  : /integrantes/#estudantes-de-pós-graduação
+      - title: "Graduação"
+        url  : /integrantes/#estudantes-de-graduação
+      - title: "Egressas"
+        url  : /integrantes/#egressas
   - title: "Prestação de contas"
     url  : /contas/
   - title: "Laboratórios"

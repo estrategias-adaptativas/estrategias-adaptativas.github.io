@@ -4,49 +4,53 @@ permalink: "/integrantes/"
 layout: "layouts/base.njk"
 classes: wide
 entries_layout: grid
-author: Pedro Palazzo
 author_profile: true
 read_time: false
-sidebar:
-  nav: "mapa"
-header:
-  overlay_image: "assets/media/fragoso-architectural-og.jpg"
-  overlay_filter: 0.5
+templateEngineOverride: njk,md
 ---
 
-## Pesquisadores ##
+# Pesquisadoras #
 
+```{=html}
 <div class="feature__wrapper">
-{% include "partials/author-gallery.html" person="Camila Pimentel" %}
-{% include "partials/author-gallery.html" person="Evillyn Biazatti" %}
+{% set person = "Irina Oliveira" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Evillyn Biazatti" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Camila Pimentel" %}{% include "partials/author-gallery.njk" %}
 </div>
+```
 
-## Estudantes de pós-graduação ##
+# Estudantes de pós-graduação #
 
+```{=html}
 <div class="feature__wrapper">
-{% include "partials/author-gallery.html" person="Irina Oliveira" %}
-{% include "partials/author-gallery.html" person="Lucas Araújo" %}
+{% set person = "Bruno Minchilo" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Constanza Manzochi" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Lucas Araújo" %}{% include "partials/author-gallery.njk" %}
 </div>
+```
 
-## Estudantes de graduação ##
+# Estudantes de graduação #
 
+```{=html}
 <div class="feature__wrapper">
-{% include "partials/author-gallery.html" person="Matheus Rudo" %}
-{% include "partials/author-gallery.html" person="Edmo Cabral" %}
-{% include "partials/author-gallery.html" person="Eduarda Viana" %}
-{% include "partials/author-gallery.html" person="Jean Adalto" %}
-{% include "partials/author-gallery.html" person="Mikael Menezes" %}
-{% include "partials/author-gallery.html" person="Sara Oliveira" %}
+{% set person = "Edmo Cabral" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Eduarda Viana" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Jean Adalto" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Sara Oliveira" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Matheus Rudo" %}{% include "partials/author-gallery.njk" %}
 </div>
+```
 
-## Egressos ##
+# Egressas #
 
+```{=html}
 <div class="feature__wrapper">
-{% include "partials/author-gallery.html" person="Bruna Leite Lopes" %}
-{% include "partials/author-gallery.html" person="Caroline Paiva" %}
-{% include "partials/author-gallery.html" person="Eduarda Toscano" %}
-{% include "partials/author-gallery.html" person="Iriani Jéssica" %}
-{% include "partials/author-gallery.html" person="Mariana Azevedo" %}
-{% include "partials/author-gallery.html" person="Tainá Abreu" %}
+{% set person = "Bruna Leite Lopes" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Caroline Paiva" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Eduarda Toscano" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Iriani Jéssica" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Mariana Azevedo" %}{% include "partials/author-gallery.njk" %}
+{% set person = "Tainá Abreu" %}{% include "partials/author-gallery.njk" %}
 </div>
+```
 

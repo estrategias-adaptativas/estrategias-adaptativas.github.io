@@ -1,26 +1,22 @@
 # Pesquisadores
 
 Pedro Palazzo:
-  name    : "Pedro P. Palazzo"
+  name    : "Pedro Paulo Palazzo"
   avatar  : "https://avatars3.githubusercontent.com/u/8295666"
   bio     : 'Coordenador do projeto'
   location: "Universidade de Brasília"
+  email   : "palazzo@unb.br"
+  uri     : "https://palazzo.pt"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:palazzo@unb.br"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://palazzo.pt"
+      icon: "bi bi-globe"
+      #url: "https://palazzo.pt"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       #url: "https://twitter.com/p3palazzo"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -36,16 +32,20 @@ Pedro Palazzo:
     - label: "ResearchGate"
       icon: "ai fa-fw ai-researchgate"
       url: "https://www.researchgate.net/profile/Pedro-Palazzo"
+    - label: "LinkedIn"
+      icon : "bi bi-linkedin"
+      url  : "https://linkedin.com/in/p3palazzo"
+    - label: "GitHub"
+      icon: "bi bi-github"
+      url: "https://github.com/p3palazzo"
 
 Camila Pimentel:
   name    : "Camila de Queiroz Pimentel Lopes"
   bio     : "Pesquisadora Mestre"
   avatar  : /assets/media/avatar-camila-pimentel.jpg
-  location: "CEAULP/ULBRA Palmas (TO)"
+  location: '<span style="font-variant:all-small-caps">CEAULP/ULBRA</span> Palmas'
+  email   : "camila.qpimentel@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:camila.qpimentel@gmail.com"
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0000-0003-3446-3321"
@@ -53,17 +53,12 @@ Camila Pimentel:
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/3613601942031627"
 
-# Doutorado
-
 Irina Oliveira:
   name    : "Irina Alencar de Oliveira"
-  bio     : "Doutoranda"
+  bio     : "Pesquisadora Doutora"
   avatar  : /assets/media/avatar-irina-oliveira.jpg
-  location: "Universidade de Brasília"
+  email   : "irina.oliveira@aluno.unb.br"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:irina.oliveira@aluno.unb.br"
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0000-0002-6649-263X"
@@ -71,29 +66,14 @@ Irina Oliveira:
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/6535350966278993"
 
-# Mestrado
-
-Lucas Araújo:
-  name    : "Lucas Nunes Bastos de Araújo"
-  bio     : "Mestrando"
-  avatar  : /assets/media/avatar-lucas-araujo.jpg
-  location: "Universidade de Brasília"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:lucas.araujo.2@aluno.unb.br"
-    - label: "CV Lattes"
-      icon: "ai ai-lattes"
-      url: "http://lattes.cnpq.br/3491873026701980"
-
 Evillyn Biazatti:
   name    : "Evillyn Biazatti de Araújo"
-  bio     : "Mestre"
+  bio     : "Pesquisadora Mestre"
   avatar  : /assets/media/avatar-evillyn-biazatti.jpg
-  #location: "Universidade de Brasília"
+  location: "Duke University"
   links:
     #- label: "Email"
-      #icon: "fas fa-fw fa-envelope-square"
+      #icon: "bi bi-envelope"
       #url: "mailto:evillyn.araujo@aluno.unb.br"
     - label: "ORCID"
       icon: "ai ai-orcid"
@@ -101,6 +81,52 @@ Evillyn Biazatti:
     - label: "CV Lattes"
       icon: "ai ai-lattes"
       url: "http://lattes.cnpq.br/3547858649033111"
+
+# Doutorado
+
+# Mestrado
+
+Constanza Manzochi:
+  name    : "Constanza Ceschin Manzochi"
+  bio     : "Mestranda 2024–2025"
+  avatar  : "/assets/media/avatar-constanza-manzochi.jpg"
+  location: "Universidade de Brasília"
+  email   : "constanza.manzochi@aluno.unb.br"
+  links:
+  - label: "ORCID"
+    icon : "ai ai-orcid"
+    url  : "https://orcid.org/0009-0007-0073-6658"
+  - label: "CV Lattes"
+    icon : "ai ai-lattes"
+    url  : "http://lattes.cnpq.br/5835823170035695"
+  - label: "Instagram"
+    icon : "bi bi-instagram"
+    url  : "https://instagram.com/cons_marceneira"
+
+Bruno Minchilo:
+  name    : "Bruno Quinaud Minchilo"
+  bio     : "Mestrando 2024–2025"
+  avatar  : "/assets/media/avatar-bruno-minchilo.jpg"
+  location: "Universidade de Brasília"
+  email   : "bruno.minchilo@aluno.unb.br"
+  links:
+  - label: "ORCID"
+    icon : "ai ai-orcid"
+    url  : "https://orcid.org/0009-0006-1242-3176"
+  - label: "CV Lattes"
+    icon : "ai ai-lattes"
+    url  : "http://lattes.cnpq.br/0138903086763086"
+
+Lucas Araújo:
+  name    : "Lucas Nunes Bastos de Araújo"
+  bio     : "Mestrando 2023–2024"
+  avatar  : /assets/media/avatar-lucas-araujo.jpg
+  location: "Universidade de Brasília"
+  email   : "lucas.araujo.2@aluno.unb.br"
+  links:
+    - label: "CV Lattes"
+      icon: "ai ai-lattes"
+      url: "http://lattes.cnpq.br/3491873026701980"
 
 # Pibic 2023-2024
 
@@ -150,21 +176,6 @@ Jean Adalto:
     icon: "ai ai-lattes"
     url: "http://lattes.cnpq.br/4906420903336595"
 
-Mikael Menezes:
-  name          : "Mikael Douglas Santos Menezes"
-  givenName     : "Mikael Douglas Santos"
-  familyName    : "Menezes"
-  avatar        : /assets/media/avatar-mikael-menezes.jpg
-  bio           : "Iniciação científica"
-  location      : "Universidade de Brasília"
-  links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0009-0006-9856-8359"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "https://lattes.cnpq.br/7233503686915019"
-
 Sara Oliveira:
   name          : "Sara Guimarães de Oliveira"
   givenName     : "Sara Guimarães"
@@ -188,10 +199,8 @@ Matheus Rudo:
   bio     : "Iniciação científica"
   avatar  : /assets/media/avatar-matheus-rudo.jpg
   location: "Universidade de Brasília"
+  email   : "rudo.matheus@aluno.unb.br"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:rudo.matheus@aluno.unb.br"
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0009-0007-2296-1696"
