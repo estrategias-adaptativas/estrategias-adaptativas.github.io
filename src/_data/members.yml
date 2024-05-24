@@ -41,7 +41,7 @@ Pedro Palazzo:
 
 Camila Pimentel:
   name    : "Camila de Queiroz Pimentel Lopes"
-  bio     : "Pesquisadora Mestre"
+  bio     : "Mestre"
   avatar  : /assets/media/avatar-camila-pimentel.jpg
   location: '<span style="font-variant:all-small-caps">CEAULP/ULBRA</span> Palmas'
   email   : "camila.qpimentel@gmail.com"
@@ -55,7 +55,7 @@ Camila Pimentel:
 
 Irina Oliveira:
   name    : "Irina Alencar de Oliveira"
-  bio     : "Pesquisadora Doutora"
+  bio     : "Doutora"
   avatar  : /assets/media/avatar-irina-oliveira.jpg
   email   : "irina.oliveira@aluno.unb.br"
   links:
@@ -68,7 +68,7 @@ Irina Oliveira:
 
 Evillyn Biazatti:
   name    : "Evillyn Biazatti de Araújo"
-  bio     : "Pesquisadora Mestre"
+  bio     : "Mestre"
   avatar  : /assets/media/avatar-evillyn-biazatti.jpg
   location: "Duke University"
   links:
@@ -88,7 +88,7 @@ Evillyn Biazatti:
 
 Constanza Manzochi:
   name    : "Constanza Ceschin Manzochi"
-  bio     : "Mestranda 2024–2025"
+  bio     : "Mestrado 2024–2025"
   avatar  : "/assets/media/avatar-constanza-manzochi.jpg"
   location: "Universidade de Brasília"
   email   : "constanza.manzochi@aluno.unb.br"
@@ -105,7 +105,7 @@ Constanza Manzochi:
 
 Bruno Minchilo:
   name    : "Bruno Quinaud Minchilo"
-  bio     : "Mestrando 2024–2025"
+  bio     : "Mestrado 2024–2025"
   avatar  : "/assets/media/avatar-bruno-minchilo.jpg"
   location: "Universidade de Brasília"
   email   : "bruno.minchilo@aluno.unb.br"
@@ -119,7 +119,7 @@ Bruno Minchilo:
 
 Lucas Araújo:
   name    : "Lucas Nunes Bastos de Araújo"
-  bio     : "Mestrando 2023–2024"
+  bio     : "Mestrado 2023–2024"
   avatar  : /assets/media/avatar-lucas-araujo.jpg
   location: "Universidade de Brasília"
   email   : "lucas.araujo.2@aluno.unb.br"
@@ -135,7 +135,7 @@ Edmo Cabral:
   givenName     : "Edmo Nunes Oliveira"
   familyName    : "Cabral"
   avatar        : /assets/media/avatar-edmo-cabral.jpg
-  bio           : "Iniciação científica"
+  bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
   links:
   - label: "ORCID"
@@ -150,7 +150,7 @@ Eduarda Viana:
   givenName     : "Eduarda de Sousa"
   familyName    : "Viana de Santana"
   avatar        : /assets/media/avatar-eduarda-viana.jpg
-  bio           : "Iniciação científica"
+  bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
   links:
   - label: "ORCID"
@@ -166,7 +166,7 @@ Jean Adalto:
   additionalName: "dos"
   familyName    : "Santos"
   avatar        : /assets/media/avatar-jean-adalto.jpg
-  bio           : "Iniciação científica"
+  bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
   links:
   - label: "ORCID"
@@ -182,7 +182,7 @@ Sara Oliveira:
   additionalName: "de"
   familyName    : "Oliveira"
   avatar        : /assets/media/avatar-sara-oliveira.jpg
-  bio           : "Iniciação científica"
+  bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
   links:
   - label: "ORCID"
@@ -196,7 +196,7 @@ Sara Oliveira:
 
 Matheus Rudo:
   name    : "Matheus Rudo Antoniassi Pereira de Oliveira"
-  bio     : "Iniciação científica"
+  bio     : "Iniciação científica 2022–2023"
   avatar  : /assets/media/avatar-matheus-rudo.jpg
   location: "Universidade de Brasília"
   email   : "rudo.matheus@aluno.unb.br"
@@ -212,7 +212,7 @@ Matheus Rudo:
 
 Bruna Leite Lopes:
   name    : "Bruna Leite Lopes"
-  bio     : "Arquiteta e Urbanista"
+  bio     : "Iniciação científica 2021–2022"
   avatar  : /assets/media/avatar-bruna-leite-lopes.jpg
   links:
   - label: "CV Lattes"
@@ -221,7 +221,7 @@ Bruna Leite Lopes:
 
 Eduarda Toscano:
   name    : "Eduarda Toscano de Carvalho"
-  bio     : "Arquiteta e Urbanista"
+  bio     : "Iniciação científica 2021–2022"
   avatar  : /assets/media/avatar-eduarda-toscano.jpg
   links:
   - label: "CV Lattes"
@@ -235,7 +235,7 @@ Caroline Paiva:
   familyName: "Paiva"
   givenName: "Ana Caroline dos Santos"
   avatar: /assets/media/avatar-caroline-paiva.jpg
-  bio: "Arquiteta e Urbanista"
+  bio: "Iniciação científica 2021–2022"
   links:
   - label: "ORCID"
     icon: "ai ai-orcid"
@@ -249,7 +249,7 @@ Daniela Matias:
   givenName: "Daniela Matias"
   familyName: "Xavier"
   avatar: /assets/media/avatar-daniela-matias.jpg
-  bio: "Arquiteta e Urbanista"
+  bio: "Iniciação científica 2021–2022"
   links:
   - label: "CV Lattes"
     icon: "ai ai-lattes"
@@ -260,7 +260,7 @@ Iriani Jéssica:
   familyName: "Gangá"
   givenName: "Iriani Jéssica Pinto"
   avatar: /assets/media/avatar-iriani-jessica.jpg
-  bio: "Arquiteta e Urbanista"
+  bio: "Iniciação científica 2021–2022"
   links:
   - label: "ORCID"
     icon: "ai ai-orcid"
@@ -275,7 +275,7 @@ Mariana Azevedo:
   givenName: "Mariana de Fátima Macedo Nunes"
   additionalName: "de"
   avatar: /assets/media/avatar-mariana-azevedo.jpg
-  bio: "Arquiteta e Urbanista"
+  bio: "Iniciação científica 2021–2022"
   links:
   - label: "ORCID"
     icon: "ai ai-orcid"
@@ -290,7 +290,7 @@ Tainá Abreu:
   givenName: "Tainá Lourenço"
   additionalName: "de"
   avatar: /assets/media/avatar-taina-abreu.jpg
-  bio: "Arquiteta e Urbanista"
+  bio: "Iniciação científica 2021–2022"
   links:
   - label: "ORCID"
     icon: "ai ai-orcid"
