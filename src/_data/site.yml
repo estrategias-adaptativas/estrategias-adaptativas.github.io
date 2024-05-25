@@ -2,15 +2,15 @@
 locale                   : "pt-BR"
 title                    : "Resiliência urbana"
 title_separator          : "|"
-subtitle                 : "Grupo de pesquisa Documentação, Modelagem e Conservação do Patrimônio"
+#subtitle                 : "Grupo de pesquisa Documentação, Modelagem e Conservação do Patrimônio"
 name                     : "Pedro Palazzo"
 description: >
   Emerging order systems in modern construction, from the mid-18th century to
   the mid-20th, as responses to the present-day challenges of sustainability
   and urban resilience.
-url                      : "https://resiliencia-urbana.tradicional.arq.br"
+url                      : "https://estrategias-construcao.tradicional.arq.br"
 baseurl                  : /
-repository               : "tradicional/resiliencia-urbana"
+repository               : "estrategias-adaptativas/estrategias-adaptativas.github.io"
 teaser                   : "/assets/media/teaser/fragoso-architectural-og.jpg"
 logo                     : "/favicon.png"
 #masthead_title           : "Documentação, Modelagem e Conservação do Patrimônio"

@@ -16,7 +16,7 @@
       </a>
 
       {% if navigation.main %}
-      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0 ps-3">
+      <ul id="navMain" class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0 ps-3">
         {% for item in navigation.main -%}
         <li>
           <a href="{{ item.url }}" target="_blank" class="nav-link px-2">

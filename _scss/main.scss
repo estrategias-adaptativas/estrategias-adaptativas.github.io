@@ -359,16 +359,18 @@ tfoot,
   @extend .fw-bold;
 }
 
-.site-title {
-  @extend .lh-1;
+.masthead {
+  @extend .lh-lg;
   @extend .text-body-secondary;
-  @extend .text-decoration-none;
   @extend .fw-light;
   font-family: $font-family-narrow;
   font-variant: lowercase;
-  .site-subtitle {
-    @extend .fs-6;
+  .site-title {
     @extend .fw-bold;
+  }
+  .site-title,
+  ul {
+    @extend .text-decoration-none;
   }
 }
 

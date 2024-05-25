@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Grupo de pesquisa Documentação, Modelagem e Conservação do Patrimônio"
+    url  : "http://dgp.cnpq.br/dgp/espelhogrupo/0050065016863402"
   - title: |
       <div class="btn-group btn-group-sm" role="group" aria-label="Situação do projeto em andamento">
         <button type="button" class="btn btn-secondary py-0 rounded-start-pill">Situação</button>
