@@ -8,21 +8,20 @@
 <div class="card mb-5">
   <div class="card-body author__content">
     <h3 class="author__name card-title" itemprop="name">{{ author.name }}</h3>
-    {% if author.bio %}
+    {%- if author.bio %}
     <small class="author__bio" itemprop="description">
       {{ author.bio | safe }}
     </small>
-    {% endif %}
+    {%- endif %}
   </div>
   <div class="author__urls-wrapper">
-    {% if author.location %}
+    {%- if author.location %}
     <div class="card-header" itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
       <span itemprop="name" class="p-locality">{{ author.location | safe }}</span>
     </div>
-    {% endif %}
-    {% if author.email or author.uri or author.links %}
+    {%- endif %}
     <ul class="author__urls social-icons list-group list-group-flush">
-    {% if author.email %}
+    {%- if author.email %}
       <li class="list-group-item">
         <a href="mailto:{{ author.email }}" rel="me" class="u-email">
           <meta itemprop="email" content="{{ author.email }}" />
@@ -32,8 +31,8 @@
           </span>
         </a>
       </li>
-    {% endif %}
-    {% if author.uri %}
+    {%- endif %}
+    {%- if author.uri %}
       <li class="list-group-item">
         <a href="{{ author.uri }}" itemprop="url" rel="me">
           <i class="bi bi-globe" aria-hidden="true"></i>
@@ -42,9 +41,25 @@
           </span>
         </a>
       </li>
-    {% endif %}
-    {% if author.links %}{% for link in author.links %}
-      {% if link.label and link.url %}
+    {%- endif %}
+    {%- if author.orcid %}
+      <li class="list-group-item">
+        <a href="{{ author.orcid }}" itemprop="url" rel="me">
+          <i class="ai ai-orcid" aria-hidden="true"></i>
+          <span class="label" style="font-variant:all-small-caps">ORCID</span>
+        </a>
+      </li>
+    {%- endif %}
+    {%- if author.lattes %}
+      <li class="list-group-item">
+        <a href="{{ author.lattes }}" itemprop="url" rel="me">
+          <i class="ai ai-lattes" aria-hidden="true"></i>
+          <span class="label">CV Lattes</span>
+        </a>
+      </li>
+    {%- endif %}
+    {%- if author.links %}{%- for link in author.links %}
+      {%- if link.label and link.url %}
       <li class="list-group-item">
         {% set containsHttp %}{{ link.url | truncate(4) }}{% endset %}
         <a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if containsHttp === 'http' %} itemprop="sameAs"{% endif %}>
@@ -52,9 +67,8 @@
           <span class="label">{{ link.label }}</span>
         </a>
       </li>
-      {% endif %}
-    {% endfor %}{% endif %}
+      {%- endif %}
+    {%- endfor %}{%- endif %}
     </ul>
-    {% endif %}
   </div><!--/.author__urls-wrapper-->
 </div><!--/.card-->
