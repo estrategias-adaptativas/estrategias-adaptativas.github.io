@@ -7,6 +7,8 @@ Pedro Palazzo:
   location: "Universidade de Brasília"
   email   : "palazzo@unb.br"
   uri     : "https://palazzo.pt"
+  orcid: "https://orcid.org/0000-0002-0187-774X"
+  lattes: "http://lattes.cnpq.br/5767592881382885"
   links:
     - label: "Website"
       icon: "bi bi-globe"
@@ -20,17 +22,11 @@ Pedro Palazzo:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "ORCID"
-      icon: "ai fa-fw ai-orcid"
-      url: "https://orcid.org/0000-0002-0187-774X"
-    - label: "CV Lattes"
-      icon: "ai fa-fw ai-lattes"
-      url: "http://lattes.cnpq.br/5767592881382885"
     - label: "Ciência Vitæ"
-      icon: "ai fa-fw ai-ciencia-vitae"
+      icon: "ai ai-ciencia-vitae"
       url: "https://www.cienciavitae.pt//pt/D91E-0C60-B56B"
     - label: "ResearchGate"
-      icon: "ai fa-fw ai-researchgate"
+      icon: "ai ai-researchgate"
       url: "https://www.researchgate.net/profile/Pedro-Palazzo"
     - label: "LinkedIn"
       icon : "bi bi-linkedin"
@@ -45,42 +41,29 @@ Camila Pimentel:
   avatar  : /assets/media/avatar-camila-pimentel.jpg
   location: '<span style="font-variant:all-small-caps">CEAULP/ULBRA</span> Palmas'
   email   : "camila.qpimentel@gmail.com"
+  orcid: "https://orcid.org/0000-0003-3446-3321"
+  lattes: "http://lattes.cnpq.br/3613601942031627"
   links:
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0003-3446-3321"
-    - label: "CV Lattes"
-      icon: "ai ai-lattes"
-      url: "http://lattes.cnpq.br/3613601942031627"
 
 Irina Oliveira:
   name    : "Irina Alencar de Oliveira"
   bio     : "Doutora"
   avatar  : /assets/media/avatar-irina-oliveira.jpg
+  location: "Caixa Econômica Federal"
   email   : "irina.oliveira@aluno.unb.br"
+  orcid: "https://orcid.org/0000-0002-6649-263X"
+  lattes: "http://lattes.cnpq.br/6535350966278993"
   links:
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0002-6649-263X"
-    - label: "CV Lattes"
-      icon: "ai ai-lattes"
-      url: "http://lattes.cnpq.br/6535350966278993"
 
 Evillyn Biazatti:
   name    : "Evillyn Biazatti de Araújo"
   bio     : "Mestre"
-  avatar  : /assets/media/avatar-evillyn-biazatti.jpg
+  avatar  : "/assets/media/avatar-evillyn-biazatti.jpg"
   location: "Duke University"
+  email   : "evillynaraujo@gmail.com"
+  orcid   : "https://orcid.org/0000-0003-0295-1283"
+  lattes  : "http://lattes.cnpq.br/3547858649033111"
   links:
-    #- label: "Email"
-      #icon: "bi bi-envelope"
-      #url: "mailto:evillyn.araujo@aluno.unb.br"
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0003-0295-1283"
-    - label: "CV Lattes"
-      icon: "ai ai-lattes"
-      url: "http://lattes.cnpq.br/3547858649033111"
 
 # Doutorado
 
@@ -92,13 +75,9 @@ Constanza Manzochi:
   avatar  : "/assets/media/avatar-constanza-manzochi.jpg"
   location: "Universidade de Brasília"
   email   : "constanza.manzochi@aluno.unb.br"
+  orcid: "https://orcid.org/0009-0007-0073-6658"
+  lattes: "http://lattes.cnpq.br/5835823170035695"
   links:
-  - label: "ORCID"
-    icon : "ai ai-orcid"
-    url  : "https://orcid.org/0009-0007-0073-6658"
-  - label: "CV Lattes"
-    icon : "ai ai-lattes"
-    url  : "http://lattes.cnpq.br/5835823170035695"
   - label: "Instagram"
     icon : "bi bi-instagram"
     url  : "https://instagram.com/cons_marceneira"
@@ -109,13 +88,9 @@ Bruno Minchilo:
   avatar  : "/assets/media/avatar-bruno-minchilo.jpg"
   location: "Universidade de Brasília"
   email   : "bruno.minchilo@aluno.unb.br"
+  orcid: "https://orcid.org/0009-0006-1242-3176"
+  lattes: "http://lattes.cnpq.br/0138903086763086"
   links:
-  - label: "ORCID"
-    icon : "ai ai-orcid"
-    url  : "https://orcid.org/0009-0006-1242-3176"
-  - label: "CV Lattes"
-    icon : "ai ai-lattes"
-    url  : "http://lattes.cnpq.br/0138903086763086"
 
 Lucas Araújo:
   name    : "Lucas Nunes Bastos de Araújo"
@@ -123,10 +98,40 @@ Lucas Araújo:
   avatar  : /assets/media/avatar-lucas-araujo.jpg
   location: "Universidade de Brasília"
   email   : "lucas.araujo.2@aluno.unb.br"
+  lattes: "http://lattes.cnpq.br/3491873026701980"
   links:
-    - label: "CV Lattes"
-      icon: "ai ai-lattes"
-      url: "http://lattes.cnpq.br/3491873026701980"
+
+# Pibic 2024–2025
+
+Jennyfer Lopes:
+  name          : "Jennyfer Nixon Tavares de Mesquita Lopes"
+  avatar        : "/assets/media/avatar-jennyfer-lopes.jpg"
+  bio           : "Iniciação científica 2024–2025"
+  location      : "Universidade de Brasília"
+  email         :
+  orcid         : "https://orcid.org/0009-0001-3387-6952"
+  lattes        : "http://lattes.cnpq.br/6974553870494397"
+  links:
+
+Maria Meira:
+  name          : "Maria Gabriella Damasceno Meira"
+  avatar        : "/assets/media/avatar-maria-meira.jpg"
+  bio           : "Iniciação científica 2024–2025"
+  location      : "Universidade de Brasília"
+  email         :
+  orcid         : "https://orcid.org/0009-0003-6924-8530"
+  lattes        : "http://lattes.cnpq.br/2628666659941091"
+  links:
+
+Isabela Martins:
+  name          : "Isabela Silva Cunha Martins"
+  avatar        : "/assets/media/avatar-isabela-martins.jpg"
+  bio           : "Iniciação científica 2024–2025"
+  location      : "Universidade de Brasília"
+  email         :
+  orcid         :
+  lattes        : "http://lattes.cnpq.br/2576992932320061"
+  links:
 
 # Pibic 2023-2024
 
@@ -135,15 +140,11 @@ Edmo Cabral:
   givenName     : "Edmo Nunes Oliveira"
   familyName    : "Cabral"
   avatar        : /assets/media/avatar-edmo-cabral.jpg
-  bio           : "Iniciação científica 2023–2024"
+  bio           : "Iniciação tecnológica 2023–2024"
   location      : "Universidade de Brasília"
+  orcid: "https://orcid.org/0009-0007-2497-6218"
+  lattes: "http://lattes.cnpq.br/1494348412828945"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0009-0007-2497-6218"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/1494348412828945"
 
 Eduarda Viana:
   name          : "Eduarda de Sousa Viana de Santana"
@@ -152,13 +153,9 @@ Eduarda Viana:
   avatar        : /assets/media/avatar-eduarda-viana.jpg
   bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
+  orcid: "https://orcid.org/0009-0006-7479-6365"
+  lattes: "https://lattes.cnpq.br/9477579135674413"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0009-0006-7479-6365"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "https://lattes.cnpq.br/9477579135674413"
 
 Jean Adalto:
   name          : "Jean Adalto Ferreira dos Santos"
@@ -168,13 +165,9 @@ Jean Adalto:
   avatar        : /assets/media/avatar-jean-adalto.jpg
   bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
+  orcid: "https://orcid.org/0009-0005-8143-2079"
+  lattes: "http://lattes.cnpq.br/4906420903336595"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0009-0005-8143-2079"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/4906420903336595"
 
 Sara Oliveira:
   name          : "Sara Guimarães de Oliveira"
@@ -184,13 +177,9 @@ Sara Oliveira:
   avatar        : /assets/media/avatar-sara-oliveira.jpg
   bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
+  orcid: "https://orcid.org/0009-0001-0286-1870"
+  lattes: "http://lattes.cnpq.br/0122614630973026"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0009-0001-0286-1870"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/0122614630973026"
 
 # Pibic 2022-2023
 
@@ -200,13 +189,12 @@ Matheus Rudo:
   avatar  : /assets/media/avatar-matheus-rudo.jpg
   location: "Universidade de Brasília"
   email   : "rudo.matheus@aluno.unb.br"
+  orcid: "https://orcid.org/0009-0007-2296-1696"
+  lattes: "http://lattes.cnpq.br/7823073064110642"
   links:
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0009-0007-2296-1696"
-    - label: "CV Lattes"
-      icon: "ai ai-lattes"
-      url: "http://lattes.cnpq.br/7823073064110642"
+    - label: "Behance"
+      icon : "bi bi-behance"
+      url  : "https://www.behance.net/matheusrudo"
 
 # Pibic 2021-2022
 
@@ -214,19 +202,15 @@ Bruna Leite Lopes:
   name    : "Bruna Leite Lopes"
   bio     : "Iniciação científica 2021–2022"
   avatar  : /assets/media/avatar-bruna-leite-lopes.jpg
+  lattes: "http://lattes.cnpq.br/0632871780940274"
   links:
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/0632871780940274"
 
 Eduarda Toscano:
   name    : "Eduarda Toscano de Carvalho"
   bio     : "Iniciação científica 2021–2022"
   avatar  : /assets/media/avatar-eduarda-toscano.jpg
+  lattes: "http://lattes.cnpq.br/7412720893793734"
   links:
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/7412720893793734"
 
 # Pibic 2020-2021
 
@@ -236,13 +220,9 @@ Caroline Paiva:
   givenName: "Ana Caroline dos Santos"
   avatar: /assets/media/avatar-caroline-paiva.jpg
   bio: "Iniciação científica 2021–2022"
+  orcid: "https://orcid.org/0000-0003-4299-6291"
+  lattes: "http://lattes.cnpq.br/3443287356411632"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0000-0003-4299-6291"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/3443287356411632"
 
 Daniela Matias:
   name: "Daniela Matias Xavier"
@@ -250,10 +230,8 @@ Daniela Matias:
   familyName: "Xavier"
   avatar: /assets/media/avatar-daniela-matias.jpg
   bio: "Iniciação científica 2021–2022"
+  lattes: "http://lattes.cnpq.br/6880371959324159"
   links:
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/6880371959324159"
 
 Iriani Jéssica:
   name: "Iriani Jéssica Pinto  Gangá"
@@ -261,13 +239,9 @@ Iriani Jéssica:
   givenName: "Iriani Jéssica Pinto"
   avatar: /assets/media/avatar-iriani-jessica.jpg
   bio: "Iniciação científica 2021–2022"
+  orcid: "https://orcid.org/0000-0001-5942-9459"
+  lattes: "http://lattes.cnpq.br/8596533347836400"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0000-0001-5942-9459"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/8596533347836400"
 
 Mariana Azevedo:
   name: "Mariana de Fátima Macedo Nunes de Azevedo"
@@ -276,13 +250,9 @@ Mariana Azevedo:
   additionalName: "de"
   avatar: /assets/media/avatar-mariana-azevedo.jpg
   bio: "Iniciação científica 2021–2022"
+  orcid: "https://orcid.org/0000-0003-0476-6962"
+  lattes: "http://lattes.cnpq.br/4452882297765384"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0000-0003-0476-6962"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/4452882297765384"
 
 Tainá Abreu:
   name: "Tainá Lourenço de Abreu"
@@ -291,10 +261,6 @@ Tainá Abreu:
   additionalName: "de"
   avatar: /assets/media/avatar-taina-abreu.jpg
   bio: "Iniciação científica 2021–2022"
+  orcid: "https://orcid.org/0000-0002-0167-6024"
+  lattes: "http://lattes.cnpq.br/3323229615714709"
   links:
-  - label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/0000-0002-0167-6024"
-  - label: "CV Lattes"
-    icon: "ai ai-lattes"
-    url: "http://lattes.cnpq.br/3323229615714709"

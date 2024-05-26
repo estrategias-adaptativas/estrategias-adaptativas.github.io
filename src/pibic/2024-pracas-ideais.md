@@ -1,7 +1,7 @@
 ---
 title : "Praças ideais do Iluminismo ao século XIX"
 date  : 2024-04-25
-author:
+author: "Jennyfer Lopes"
 toc   : true
 tags  : [ "pibic", "iniciação científica e tecnológica" ]
 valid: "2024"

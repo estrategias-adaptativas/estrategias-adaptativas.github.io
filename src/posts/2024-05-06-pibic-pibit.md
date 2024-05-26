@@ -28,7 +28,7 @@ quatro bolsas para estudantes de qualquer instituição de ensino superior
 do Distrito Federal e uma bolsa exclusiva para quem ingressou na
 Universidade de Brasília por meio de ações afirmativas raciais ou
 vestibular indígena. Para pleitear um dos planos de trabalho, envie até
-**10 de maio de 2024** um e-mail para o coordenador deste projeto de
+**31 de maio de 2024** um e-mail para o coordenador deste projeto de
 pesquisa indicando o plano de seu interesse e um texto de até 1000
 caracteres (com espaços) apontando as suas competências e habilidades
 relevantes para o desenvolvimento deste plano.

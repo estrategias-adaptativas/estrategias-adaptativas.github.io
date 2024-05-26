@@ -142,21 +142,6 @@ references:
   title: Abrigo Bom Jesus
   type: article-newspaper
 
-- id: abrigo:1945a
-  archive: Hemeroteca Digital
-  archive_location: >-
-    http://memoria.bn.br/DocReader/DocReader.aspx?bib=765880&pesq=Inaugura%C3%A7%C3%A3o&pasta=ano%20194&hf=memoria.bn.br&pagfis=6793
-  citation-key: abrigo:1945a
-  container-title: A Cruz
-  event-place: Cuiabá
-  issued:
-    - year: 1945
-      month: 4
-      day: 29
-  publisher-place: Cuiabá
-  title: Abrigo Bom Jesus
-  type: article-newspaper
-
 - id: agarez:2016algarve
   author:
     - family: Agarez
@@ -586,6 +571,23 @@ references:
   type: thesis
   URL: http://repositorio.ulusiada.pt/handle/11067/1814
 
+- id: almeida:2021arquitetura
+  author:
+    - family: Almeida
+      given: Sarah da Silva
+  citation-key: almeida:2021arquitetura
+  event-place: Brasília
+  genre: Dissertação de Mestrado em Arquitetura e Urbanismo
+  issued:
+    - year: 2021
+  language: por
+  publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
+  publisher-place: Brasília
+  title: 'Arquitetura animada: a representação do espaço nas obras de Hayao Miyazaki'
+  title-short: A representação do espaço nas obras de Hayao Miyazaki
+  type: thesis
+  URL: http://repositorio2.unb.br/jspui/handle/10482/43151
+
 - id: alvares:1978historia
   author:
     - family: Álvares
@@ -618,6 +620,23 @@ references:
   source: Google Books
   title: 'A hispanidade em São Paulo: da casa rural à Capela de Santo Antônio'
   title-short: A hispanidade em São Paulo
+  type: book
+
+- id: amaral:1994arquitectura
+  author:
+    - family: Amaral
+      given: Aracy A.
+  citation-key: amaral:1994arquitectura
+  event-place: São Paulo
+  ISBN: 85-85373-08-3 978-85-85373-08-5
+  issued:
+    - year: 1994
+  language: spa
+  publisher: 'Memorial : Fondo de Cultura Económica'
+  publisher-place: São Paulo
+  source: Open WorldCat
+  title: 'Arquitectura neocolonial: América Latina, Caribe, Estados Unidos'
+  title-short: Arquitectura neocolonial
   type: book
 
 - id: ambouroue:1996aide
@@ -1430,22 +1449,80 @@ references:
     study object, resulting in a brief compilation of the history of the modern
     architecture of Cuiabá.
   author:
-    - family: Araújo
-      given: Evillyn Biazatti De
+    - family: Araujo
+      given: Evillyn Biazatti
+      dropping-particle: de
     - family: Castor
       given: Ricardo Silveira
     - family: Tapajós
       given: Victória Ferreira Soares
   citation-key: araujo:2018edificio
-  container-title: 7º Seminário Docomomo Norte e Nordeste
   event-place: Manaus
-  event-title: 7º Seminário Docomomo Norte e Nordeste
+  event-title: 7.º Seminário Docomomo Norte e Nordeste
   issued:
     - year: 2018
-  language: pt
+  language: por
   publisher-place: Manaus
-  title: 'Edifício Maria Joaquina: Origens da Arquitetura Moderna em Cuiabá, MT'
+  title: 'Edifício Maria Joaquina: origens da arquitetura moderna em Cuiabá'
+  title-short: Edifício Maria Joaquina
   type: paper-conference
+
+- id: araujo:2023reconhecimento
+  author:
+    - family: Araujo
+      given: Evillyn Biazatti
+      dropping-particle: de
+  citation-key: araujo:2023reconhecimento
+  event-place: Brasilia
+  genre: Dissertação de Mestrado em Arquitetura e Urbanismo
+  issued:
+    - year: 2023
+      month: 6
+      day: 19
+  language: por
+  publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
+  publisher-place: Brasilia
+  title: Reconhecimento e preservação da arquitetura oficial do Estado Novo em Cuiabá
+  type: thesis
+
+- id: araujo:2024cine
+  abstract: >-
+    Anais do XV Seminário Docomomo Brasil: Arquitetura e urbanismo e a
+    reconstrução  do Estado e da sociedade. (978-65-272-0196-0) - Cine Teatro E
+    Grande Hotel De Cuiabá: A Mão Do Estado Novo Nos Equipamentos De Uso
+    Coletivo
+  accessed:
+    - year: 2024
+      month: 1
+      day: 12
+  author:
+    - family: Araujo
+      given: Evillyn Biazatti
+      dropping-particle: de
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: araujo:2024cine
+  container-title: Arquitetura e urbanismo e a reconstrução do Estado e da sociedade
+  DOI: 10.29327/1344945.1-2
+  event-place: São Carlos
+  event-title: XV Seminário Docomomo Brasil 2023
+  ISBN: '9786527201960'
+  issued:
+    - year: 2024
+      month: 1
+      day: 2
+  language: por
+  license: Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)
+  publisher: 'Universidade de São Paulo : Even3'
+  publisher-place: São Carlos
+  source: www.even3.com.br
+  title: >-
+    Cine teatro e Grande hotel de Cuiabá: a mão do Estado Novo nos equipamentos
+    de uso coletivo
+  title-short: Cine teatro e Grande hotel de Cuiabá
+  type: paper-conference
+  URL: >-
+    https://www.even3.com.br//anais/xv-seminario-docomomo-brasil-2023/660832-cine-teatro-e-grande-hotel-de-cuiaba--a-mao-do-estado-novo-nos-equipamentos-de-uso-coletivo
 
 - id: araujo:modernismo
   author:
@@ -2902,6 +2979,50 @@ references:
   title: Formação da arquitetura moderna no Brasil (1920-1940)
   type: paper-conference
   URL: https://docomomo.org.br/wp-content/uploads/2016/01/William-Bittar.pdf
+
+- id: bittar:2023igrejas1
+  accessed:
+    - year: 2024
+      month: 5
+      day: 25
+  author:
+    - family: Bittar
+      given: William
+  citation-key: bittar:2023igrejas1
+  container-title: Diário do Rio de Janeiro
+  event-place: Rio de Janeiro
+  issued:
+    - year: 2023
+      month: 2
+      day: 8
+  language: por
+  publisher-place: Rio de Janeiro
+  title: 'Igrejas católicas neocoloniais no Rio de Janeiro: parte 1/2'
+  type: article-newspaper
+  URL: >-
+    https://diariodorio.com/william-bittar-igrejas-catolicas-neocoloniais-no-rio-de-janeiro-parte-1-2/
+
+- id: bittar:2023igrejas2
+  accessed:
+    - year: 2024
+      month: 5
+      day: 25
+  author:
+    - family: Bittar
+      given: William
+  citation-key: bittar:2023igrejas2
+  container-title: Diário do Rio de Janeiro
+  event-place: Rio de Janeiro
+  issued:
+    - year: 2023
+      month: 2
+      day: 15
+  language: por
+  publisher-place: Rio de Janeiro
+  title: 'Igrejas católicas neocoloniais no Rio de Janeiro: parte 2/2'
+  type: article-newspaper
+  URL: >-
+    https://diariodorio.com/igrejas-catolicas-neocoloniais-no-rio-de-janeiro-parte-2-2/
 
 - id: bloem:1850carta
   accessed:
@@ -8449,6 +8570,43 @@ references:
   type: book
   volume: 28 (1)
 
+- id: constanti:2020preservacao
+  abstract: >-
+    Esse trabalho discute o modo como as intervenções realizadas pela arquiteta
+    Lina Bo Bardi e sua equipe estabelecem a inserção arquitetônica em sítios
+    com valor de patrimônio histórico. Como objeto de pesquisa destaca-se o
+    partido de intervenções do projeto-piloto para a Ladeira da Misericórdia em
+    Salvador. Implementado em um contexto urbano e político dos anos 70 e 80,
+    tinha a intenção de ser um piloto para intervenções no centro histórico de
+    Salvador com peculiaridades semelhantes. Ao mesmo tempo em que esse contexto
+    urbano e político torna viável a realização do projeto-piloto, ela também
+    limita a sua narrativa em prol de uma arquitetura interventiva padronizada.
+    Assim, essa pesquisa reúne e expõe as circunstâncias que enquadram a
+    experiência projetual elaborada pela Lina Bo Bardi e colaboradores. Expõe,
+    também, a concepção do projeto da arquiteta como uma relação direta entre
+    forma e construção, influenciada por uma sólida intenção, traduzida em seus
+    desenhos aliados a suas categóricas anotações. Por fim, tais formulações,
+    pretende possibilitar um panorama de leitura da intervenção realizada na
+    Ladeira da Misericórdia e evidenciar a pertinência das escolhas
+    arquitetônicas técnicas e formais
+  author:
+    - family: Constanti
+      given: Andressa Pinheiro
+  citation-key: constanti:2020preservacao
+  event-place: Brasília
+  genre: Dissertação de Mestrado em Arquitetura e Urbanismo
+  issued:
+    - year: 2020
+  language: por
+  publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
+  publisher-place: Brasília
+  title: >-
+    Preservação e inserção da arquitetura moderna em sítios do patrimônio
+    cultural: A ladeira da misericórdia de Lina Bo Bardi em Salvador
+  title-short: A ladeira da misericórdia de Lina Bo Bardi em Salvador
+  type: thesis
+  URL: http://repositorio2.unb.br/jspui/handle/10482/39803
+
 - id: conto:2017certificacoes12
   abstract: >-
     O crescimento das atividades industriais contribuiu para o surgimento de
@@ -10283,6 +10441,100 @@ references:
   title-short: O século XIX e o neogótico na Arquitetura brasileira
   type: article-journal
 
+- id: diez:2023documentacao
+  accessed:
+    - year: 2023
+      month: 10
+      day: 17
+  author:
+    - family: Díez Oronoz
+      given: Aritz
+    - family: Baganha
+      given: José Franqueira
+    - family: García Hermida
+      given: Alejandro
+    - family: Iparraguirre Barbero
+      given: Imanol
+    - family: Martinez
+      given: Frank
+    - family: Palazzo
+      given: Pedro P.
+    - family: Silva
+      given: Jorge Santos
+    - family: Steil
+      given: Lucien
+  citation-key: diez:2023documentacao
+  container-title: >-
+    Um projecto de futuro para Lajes do Pico: com base na arquitectura e
+    urbanismo da tradição local
+  editor:
+    - family: García Hermida
+      given: Alejandro
+    - family: Gil Fernández
+      given: Guillermo
+    - family: Gómez-Gordo Villa
+      given: Rebeca
+  event-place: Lisboa
+  ISBN: 978-989-33-4329-6
+  issued:
+    - year: 2023
+  language: por
+  page: 79-131
+  publisher: Fundação Serra Henriques
+  publisher-place: Lisboa
+  source: dialnet.unirioja.es
+  title: >-
+    Documentação da construção, arquitetura e urbanismo tradicionais da ilha do
+    Pico
+  type: chapter
+  URL: https://www.premiorafaelmanzano.com/pt-pt/publicacoes/
+
+- id: diez:2023masterplan
+  accessed:
+    - year: 2023
+      month: 10
+      day: 17
+  author:
+    - family: Díez Oronoz
+      given: Aritz
+    - family: Baganha
+      given: José Franqueira
+    - family: García Hermida
+      given: Alejandro
+    - family: Iparraguirre Barbero
+      given: Imanol
+    - family: Martinez
+      given: Frank
+    - family: Palazzo
+      given: Pedro P.
+    - family: Silva
+      given: Jorge Santos
+    - family: Steil
+      given: Lucien
+  citation-key: diez:2023masterplan
+  container-title: >-
+    Um projecto de futuro para Lajes do Pico: com base na arquitectura e
+    urbanismo da tradição local
+  editor:
+    - family: García Hermida
+      given: Alejandro
+    - family: Gil Fernández
+      given: Guillermo
+    - family: Gómez-Gordo Villa
+      given: Rebeca
+  event-place: Lisboa
+  ISBN: 978-989-33-4329-6
+  issued:
+    - year: 2023
+  language: por
+  page: 133-162
+  publisher: Fundação Serra Henriques
+  publisher-place: Lisboa
+  source: dialnet.unirioja.es
+  title: Masterplan das Lajes do Pico
+  type: chapter
+  URL: https://www.premiorafaelmanzano.com/pt-pt/publicacoes/
+
 - id: diniz:2007historia
   author:
     - family: Diniz
@@ -11988,11 +12240,33 @@ references:
   container-title: mdc . revista de arquitetura e urbanismo
   issued:
     - year: 2015
+  language: por
   title: 'Antonio Garcia Moya, um arquiteto da Semana de 22 : parte 2'
-  title-short: Antonio Garcia Moya, um arquiteto da Semana de 22
   type: article-journal
   URL: >-
     https://mdc.arq.br/2015/02/25/antonio-garcia-moya-um-arquiteto-da-semana-de-22-parte-2/
+
+- id: ficher:2021limiaridade
+  citation-key: ficher:2021limiaridade
+  editor:
+    - family: Ficher
+      given: Sylvia
+    - family: Trevisan
+      given: Ricardo
+    - family: Palazzo
+      given: Pedro P.
+    - family: Pescatori
+      given: Carolina
+  event-place: Rio de Janeiro
+  issued:
+    - year: 2021
+  language: por
+  publisher: Associação Nacional de Pesquisa e Pós-graduação em Arquitetura e Urbanismo
+  publisher-place: Rio de Janeiro
+  title: 'Limiaridade: processos e práticas em arquitetura e urbanismo'
+  title-short: Limiaridade
+  type: book
+  URL: http://enanparq2020.com.br/anais-2/
 
 - id: fichet:1979theorie
   author:
@@ -12115,8 +12389,8 @@ references:
   container-title: mdc . revista de arquitetura e urbanismo
   issued:
     - year: 2012
+  language: por
   title: 'Antonio Garcia Moya, um arquiteto da Semana de 22 : parte 1'
-  title-short: Antonio Garcia Moya, um arquiteto da Semana de 22
   type: article-journal
   URL: >-
     https://mdc.arq.br/2012/03/20/antonio-garcia-moya-um-arquiteto-da-semana-de-22/
@@ -12238,14 +12512,14 @@ references:
   event-title: 4.º Congresso Internacional de História da Construção Luso-Brasileira
   issued:
     - year: 2023
-  language: pt
+  language: por
   license: Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)
   page: 749-761
   publisher: Universidade do Minho
   publisher-place: Guimarães
   title: >-
     Dimensões tradicionais do projeto urbano em cidades portuguesas: do
-    terramoto à república
+    terramoto à República
   title-short: Dimensões tradicionais do projeto urbano em cidades portuguesas
   type: paper-conference
   URL: >-
@@ -13027,6 +13301,96 @@ references:
   title: Goyaz, uma província do sertão
   title-short: Goyaz
   type: book
+
+- id: garcia:2020caixa
+  abstract: >-
+    Considerando que o Conjunto Urbanístico de Brasília possui valor
+    excepcional, como um sítio cultural e que deve ser protegido para o
+    benefício da humanidade, a pesquisa objetiva questões sobre a importância de
+    se preservar não somente o significado histórico, artístico e cultural
+    implícito no desenho original de Lucio Costa, mas associar ao projeto de
+    educação patrimonial do Distrito Federal as histórias das pré-existências da
+    formação do DF, além das culturas que foram trazidas pelos candangos e
+    incorporadas como saberes locais de suas 32 regiões administrativas. Desta
+    maneira, objetiva fomentar as relações socioculturais entre essas regiões
+    administrativas, além de buscar promover uma articulação entre a
+    Universidade de Brasília/Faculdade de Arquitetura e Urbanismo, o
+    IPHAN/DF/Nacional e as Secretariarias de Educação e de Cultura do Distrito
+    Federal por meio de ensino e pesquisa, a partir de programas de colaboração
+    técnica e de convênios. A pesquisa propõe a construção de material
+    pedagógico que possa contribuir para a abordagem do tema “educação
+    patrimonial” de maneira eficiente, lúdica e esclarecedora, a fim de
+    sensibilizar as crianças nas primeiras fases de sua formação e,
+    concomitantemente, situar a consciência de cidadania, implícita ao desenho
+    da cidade. Além disso, permitir que os jovens adquiram as competências
+    necessárias para promover a conservação dos bens patrimoniais e culturais e,
+    assim, formem novas atitudes, com vistas a estabelecer um compromisso
+    permanente ao exercício da cidadania e que inclua o entendimento da
+    preservação da cidade para as gerações presentes e futuras, e assim
+    desempenhem um papel decisivo na salvaguarda de suas cidades.Palavras-chave:
+    Brasília. Cidadania. Desenho. Distrito Federal. Educação Patrimonial. Jogos
+    educativos.
+  accessed:
+    - year: 2020
+      month: 4
+      day: 23
+  author:
+    - family: Garcia
+      given: Cláudia da Conceição
+    - family: Josetti Fuensalida
+      given: Maria Paz
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+    - family: Silva
+      given: Fábio
+    - family: Lima
+      given: Celso
+  citation-key: garcia:2020caixa
+  container-title: Com Censo
+  ISSN: 2359-2494
+  issue: '1'
+  issued:
+    - year: 2020
+      month: 3
+  language: por
+  page: 100-112
+  source: www.periodicos.se.df.gov.br
+  title: >-
+    A caixa patrimonial: Um projeto de Educação Patrimonial para escolas do
+    Distrito Federal
+  title-short: A caixa patrimonial
+  type: article-journal
+  URL: http://www.periodicos.se.df.gov.br/index.php/comcenso/article/view/793
+  volume: '7'
+
+- id: garcia:2023projecto
+  accessed:
+    - year: 2023
+      month: 10
+      day: 17
+  citation-key: garcia:2023projecto
+  editor:
+    - family: García Hermida
+      given: Alejandro
+    - family: Gil Fernández
+      given: Guillermo
+    - family: Gómez-Gordo Villa
+      given: Rebeca
+  event-place: Lisboa
+  ISBN: 978-989-33-4329-6
+  issued:
+    - year: 2023
+  language: pt
+  publisher: Fundação Serra Henriques
+  publisher-place: Lisboa
+  source: dialnet.unirioja.es
+  title: >-
+    Um projecto de futuro para Lajes do Pico: com base na arquitectura e
+    urbanismo da tradição local
+  title-short: Um projecto de futuro para Lajes do Pico
+  type: book
+  URL: https://www.premiorafaelmanzano.com/pt-pt/publicacoes/
 
 - id: gargiani:2008colonnea
   citation-key: gargiani:2008colonnea
@@ -17722,6 +18086,88 @@ references:
   type: chapter
   URL: https://ler.letras.up.pt/site/default.aspx?qry=id024id1532&sum=sim
 
+- id: lopes:2022manifestacoes
+  abstract: >-
+    O trabalho busca analisar sobre como se deu o emprego da linguagem
+    neocolonial em edifícios cívicos de Cuiabá, construídos no final da década
+    de 1930 e durante a década de 1940, como fruto de políticas do governo
+    Vargas durante o regime conhecido por Estado Novo. Para isso, foi realizada
+    a análise do movimento neocolonial desde sua gênese e, sobretudo, sua
+    proposta de ruptura em relação a arquitetura eclética, em oposição ao uso de
+    estilos importados e de busca por uma arquitetura nacionalista, responsável
+    por justificar suas características arquitetônicas. Em Cuiabá, foram
+    encontrados edifícios que utilizam o neocolonial em um estágio de
+    simplificação, com supressão dos elementos decorativos e com incorporações
+    de atributos do chamado estilo missões, além da mesclagem de elementos de
+    outros estilos. Em sua maioria, as edificações aparentam uma preocupação
+    maior com as questões funcionais e buscam resolver a estética do edifício
+    com jogo de volumes operado principalmente pela presença de varandas e
+    arcos. Através desta análise foi possível perceber algumas diferenças entre
+    o neocolonial presente nos edifícios de Cuiabá e aqueles construídos durante
+    a década de 1920 nos grandes centros, a principal delas seria o abandono da
+    carga ideológica original do movimento na arquitetura do início do século
+    XX.
+  accessed:
+    - year: 2023
+      month: 6
+      day: 12
+  author:
+    - family: Lopes
+      given: Bruna Leite
+    - family: Araujo
+      given: Evillyn Biazatti
+      dropping-particle: de
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: lopes:2022manifestacoes
+  container-title: Refazer, restaurar, revisar
+  editor:
+    - family: Buzzar
+      given: Miguel Antonio
+    - family: Moreira
+      given: Tomás Antonio
+    - family: Rodrigues Alves
+      given: Manoel
+    - family: Lopes
+      given: Ruy Sardinha
+    - family: Silva
+      given: Jasmine Luiza Souza
+    - family: Fachi
+      given: Fernanda Millan
+    - family: Franco
+      given: Diandra Rodrigues
+    - family: Freitas
+      given: Tatiani Amadeu
+      dropping-particle: de
+    - family: Santos
+      given: Paul Newman
+      dropping-particle: dos
+    - family: Marques
+      given: Daniel Nardini
+    - family: Paula
+      given: Carolina Cardi Pifano
+      dropping-particle: de
+  event-place: São Carlos
+  event-title: >-
+    VII Encontro da Associação Nacional de Pesquisa e Pós-graduação em
+    Arquitetura e Urbanismo
+  ISSN: 2358-6214
+  issued:
+    - year: 2022
+      month: 11
+      day: 7
+  language: por
+  license: >-
+    Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+    License (CC-BY-NC-ND)
+  page: 559-570
+  publisher: Anparq
+  publisher-place: São Carlos
+  title: Manifestações da linguagem neocolonial na arquitetura cívica de Cuiabá
+  type: paper-conference
+  URL: https://drive.google.com/file/d/1rKVGXUgunh6XanVPjdA2ZWv7XRCAF9bI/view
+  volume: '3'
+
 - id: losa:2004influencia
   abstract: >-
     Extraído de Actas do IV Congresso de Estudos Árabes e Islâmicos,
@@ -17764,16 +18210,6 @@ references:
       month: 11
       day: 15
   citation-key: 'm1:'
-  title: M1 A2 Bibliografia Complementar - Google Drive
-  type: webpage
-  URL: https://drive.google.com/drive/folders/1xXURDaD99vTaVev6_f8TSvwGsltbtNTm
-
-- id: m1:a
-  accessed:
-    - year: 2021
-      month: 11
-      day: 15
-  citation-key: m1:a
   title: M1 A2 Bibliografia Complementar - Google Drive
   type: webpage
   URL: https://drive.google.com/drive/folders/1xXURDaD99vTaVev6_f8TSvwGsltbtNTm
@@ -18686,23 +19122,37 @@ references:
     profissionais que estavam em contato com os debates que se desenrolavam na
     capital paulista e pela implantação de obras emblemáticas em cidades do
     interior do estado. Verifica também que parte significativa da produção de
-    baixo padrão – ou simplificada – da arquitetura que pretendia expressar a
+    baixo padrão - ou simplificada - da arquitetura que pretendia expressar a
     tendência neocolonial foi de responsabilidade de profissionais diplomados.
     Utiliza o método de levantamento de processos de aprovação de obras,
     arquivados em prefeituras municipais, levantamento de dados em museus e
     outras instituições e levantamentos fotográficos para registrar e analisar a
     produção de interesse. Representa uma contribuição para o conhecimento da
     arquitetura neocolonial fora da capital paulista.
+  accessed:
+    - year: 2024
+      month: 5
+      day: 25
   author:
     - family: Mascaro
       given: Luciana Pelaes
   citation-key: mascaro:2008difusao
+  DOI: 10.11606/T.18.2008.tde-06082008-102451
+  event-place: São Carlos
+  genre: Tese de Doutorado em Arquitetura e Urbanismo
   issued:
     - year: 2008
-  number-of-pages: 1-578
-  publisher: Universidade de São Paulo
-  title: Difusão da Arquitetura Neocolonial no Interior Paulista , 1920-1950
+      month: 6
+      day: 30
+  language: por
+  number-of-pages: '578'
+  publisher: Universidade de São Paulo, Instituto de Arquitetura e Urbanismo
+  publisher-place: São Carlos
+  source: teses.usp.br
+  title: Difusão da arquitetura neocolonial no interior paulista, 1920-1950
+  title-short: Difusão da arquitetura neocolonial no interior paulista
   type: thesis
+  URL: http://www.teses.usp.br/teses/disponiveis/18/18142/tde-06082008-102451/
 
 - id: masseran:2014casas
   accessed:
@@ -19434,7 +19884,7 @@ references:
     - year: 2021
       month: 12
       day: 16
-  language: pt-BR
+  language: por
   page: e021017
   source: DOI.org (Crossref)
   title: 'Catetinho: patrimonialização e arquitetura efêmera'
@@ -20211,36 +20661,6 @@ references:
   type: article-journal
   URL: http://www.jstor.org/stable/991812
   volume: '61'
-
-- id: murphy:2009historic
-  accessed:
-    - year: 2017
-      month: 1
-      day: 29
-  author:
-    - family: Murphy
-      given: Maurice
-    - family: McGovern
-      given: Eugene
-    - family: Pavia
-      given: Sara
-  citation-key: murphy:2009historic
-  container-title: Structural Survey
-  container-title-short: Structural Survey
-  DOI: 10.1108/02630800910985108
-  ISSN: 0263-080X
-  issue: '4'
-  issued:
-    - year: 2009
-      month: 8
-      day: 27
-  language: English
-  page: 311-327
-  source: emeraldinsight.com (Atypon)
-  title: Historic building information modelling (HBIM)
-  type: article-journal
-  URL: http://www.emeraldinsight.com/doi/abs/10.1108/02630800910985108
-  volume: '27'
 
 - id: murphy:2009historic27
   abstract: |-
@@ -21363,6 +21783,38 @@ references:
   URL: https://periodicos.ufac.br/index.php/jamaxi/article/view/2210
   volume: '2'
 
+- id: oliveira:2019elementos11
+  abstract: >-
+    Anais do 11º mestres e conselheiros: educação para o patrimônio (2176-2783)
+    - Elementos Da Matriz Urbana Portuguesa Em Goiás: Vila Boa E Suas
+    Identidades Culturais
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2019elementos11
+  event-title: 'Anais do 11º mestres e conselheiros: educação para o patrimônio'
+  ISSN: 2176-2783
+  issued:
+    - year: 2019
+      month: 9
+      day: 24
+  language: por
+  page: '1'
+  source: www.even3.com.br
+  title: >-
+    Elementos da matriz urbana portuguesa em Goiás: Vila Boa e suas identidades
+    culturais
+  title-short: Elementos da matriz urbana portuguesa em Goiás
+  type: paper-conference
+  URL: >-
+    https://www.even3.com.br/anais/11mestreseconselheiros/167873-elementos-da-matriz-urbana-portuguesa-em-goias--vila-boa-e-suas-identidades-culturais
+  volume: '11'
+
 - id: oliveira:2020introducao12
   accessed:
     - year: 2020
@@ -21386,6 +21838,247 @@ references:
   title: Uma introdução ao estudo da forma urbana no Brasil
   type: article-journal
   volume: '12'
+
+- id: oliveira:2021cronicas15
+  abstract: >-
+    O presente artigo investiga o imaginário urbano criado pela escritora Rachel
+    de Queiroz sobre a cidade de Goiás, observado através de algumas de suas
+    crônicas jornalísticas que contemplam essa temática, publicadas entre 1948 e
+    1988. Propõe-se o estudo de seu familiar e perspicaz olhar sobre a cidade,
+    ainda que externo, originado no fato de essa ser a terra natal de seu
+    segundo marido, Oyama de Macedo. Para isso, utiliza-se a História Cultural
+    como suporte teórico-metodológico, sendo exploradas as complexas relações
+    entre história e ficção e abordando o conceito de imaginário urbano, a
+    partir dos discursos e imagens vinculados a Goiás refletidos pela autora.
+    Nesse contexto, são analisadas as perspectivas de teóricos como Michel de
+    Certeau, Paul Ricoeur, Roger Chartier, Sandra Pesavento, etc. Tal
+    embasamento objetiva justificar a utilização da literatura como fonte
+    histórica, também apoiada por uma breve investigação biográfica sobre a
+    autora, de modo a permitir a melhor contextualização de seus escritos.
+    Destaca-se, ainda, que a ausência de pesquisas com esse recorte temático e
+    teórico, articulando a obra de Queiroz e a cidade de Goiás, despertou o
+    interesse por esse campo investigativo, sobretudo, por viabilizar o alcance
+    de abordagens diferenciadas. Por fim, constata-se que o imaginário
+    vilaboense construído pela autora é bastante coerente e complementar ao
+    verificado na bibliografia existente, consolidando-o. Nele são
+    recorrentemente observados os conflitos locais entre passado e presente, a
+    riqueza cultural e natural de seu patrimônio e de seus habitantes, os
+    efeitos do secular isolamento geográfico da região, os traumas deixados pela
+    transferência da capital na década de 1930, o bandeirante Anhanguera como
+    mito originário, entre outros temas.
+  accessed:
+    - year: 2021
+      month: 10
+      day: 30
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2021cronicas15
+  container-title: Labor e Engenho
+  DOI: 10.20396/labore.v15i00.8665805
+  ISSN: 2176-8846
+  issued:
+    - year: 2021
+      month: 10
+      day: 28
+  language: por
+  license: Copyright (c) 2021 Labor e Engenho
+  page: e021013-e021013
+  source: periodicos.sbu.unicamp.br
+  title: >-
+    Crônicas de Rachel de Queiroz e a cidade de Goiás: um familiar olhar
+    estrangeiro
+  title-short: Crônicas de Rachel de Queiroz e a cidade de Goiás
+  type: article-journal
+  URL: https://periodicos.sbu.unicamp.br/ojs/index.php/labore/article/view/8665805
+  volume: '15'
+
+- id: oliveira:2021patrimonio
+  abstract: >-
+    Este artigo busca refletir sobre as relações observadas entre a comunidade
+    da cidade de Goiás-GO e 
+
+    seu patrimônio cultural sob a perspectiva dos comuns culturais,
+    especialmente, na primeira de suas 
+
+    três fases de patrimonialização convencionadas. Objetiva-se compreender a
+    existência desses comuns 
+
+    ao longo da trajetória de preservação patrimonial da cidade e como se
+    estruturaram ao longo do tempo, 
+
+    assim como, das práticas sociopolíticas e culturais, memória social,
+    apropriações coletivas e 
+
+    vinculações afetivas articuladas a eles. Visa, enfim, verificar em que
+    medida todos esses elementos 
+
+    poderiam, por meio da participação comunitária, ter contribuído para sua
+    conservação singular. O papel 
+
+    da sociedade civil organizada na área, como a OVAT e o Movimento Pró-Cidade
+    de Goiás, também 
+
+    serão observados atentamente. Para tanto, investiga-se recortes
+    jornalísticos de época, documentos 
+
+    extraídos do Dossiê de tombamento do IPHAN e outras pesquisas sobre a
+    temática, utilizando-se o 
+
+    viés da História Cultural e as perspectivas de autores como Pierre Nora,
+    Antônio Negri e Michael Hardt, 
+
+    David Harvey, Pierre Dardot e Christian Laval. Essa abordagem busca atender
+    à atual demanda por 
+
+    alternativas de conservação não institucionais do patrimônio cultural
+    brasileiro, em razão das 
+
+    circunstâncias críticas enfrentadas por esse campo na contemporaneidade
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: oliveira:2021patrimonio
+  container-title: '30 anos: atualização crítica'
+  event-place: Salvador
+  event-title: XVI Seminário de História da Cidade e do Urbanimo
+  issued:
+    - year: 2021
+  language: por
+  license: Acesso Aberto
+  page: 1258-1277
+  publisher: UFBA
+  publisher-place: Salvador
+  source: icts.unb.br
+  title: >-
+    O patrimônio histórico como comum cultural durante os primeiros tombamentos
+    na Cidade de Goiás
+  type: paper-conference
+  URL: http://repositorio2.unb.br/jspui/handle/10482/46945
+
+- id: oliveira:2022apropriacoes
+  abstract: >-
+    Essa pesquisa toma o núcleo histórico da cidade de Goiás, Patrimônio da
+    Humanidade desde 2001, como estudo de caso e volta o olhar para as
+    apropriações coletivas observáveis em âmbito urbano pela comunidade local,
+    com destaque para os espaços públicos patrimonializados. Para analisar esses
+    elementos, adota-se conceitos como espaço, lugar e práticas sociais
+    cotidianas, assim como, as relações que estabelecem entre si a partir da
+    perspectiva de autores como Henri Lefèbvre, Michel de Certeau, David Harvey,
+    etc. Em apoio a esse aporte teórico, utiliza-se diversos tipos de imagens da
+    cidade, que vão de mapas do século XVIII a fotografias de época,
+    especialmente, do século passado até a atualidade, por apresentarem maior
+    quantidade e diversidade. Conclui-se destacando a importância dos diferentes
+    modos de apropriações coletivas na cidade e sua perpetuação para as próximas
+    gerações, de modo a permitir a construção de uma consistente preservação do
+    patrimônio cultural, ainda que se verifiquem constantes e complexos
+    conflitos entre os diversos atores nesse cenário.
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2022apropriacoes
+  container-title: Revista Thésis
+  container-title-short: Rev. Thésis
+  DOI: 10.51924/revthesis.2021.v6.297
+  ISSN: 2447-8679
+  issue: '12'
+  issued:
+    - year: 2022
+      month: 4
+      day: 19
+  language: por
+  license: https://creativecommons.org/licenses/by/4.0
+  source: DOI.org (Crossref)
+  title: >-
+    Apropriações coletivas de espaços públicos: um enfoque no Patrimônio
+    Cultural (cidade de Goiás como estudo de caso)
+  title-short: Apropriações coletivas de espaços públicos
+  type: article-journal
+  URL: https://thesis.anparq.org.br/revista-thesis/article/view/297
+  volume: '6'
+
+- id: oliveira:2022participacao
+  abstract: >-
+    Analisa-se as articulações observadas entre os processos de
+    patrimonialização da cidade de Goiás-GO e a participação da comunidade local
+    em sua trajetória, especialmente, sua segunda fase. Observa o
+    desenvolvimento dessa participação e os atores constituintes de tal
+    comunidade, assim como, as práticas sociopolíticas e culturais, memória
+    social, apropriações coletivas, poder, turismo cultural e vinculações
+    afetivas e identitárias vinculadas a eles. Visa verificar em que medida
+    todos esses elementos poderiam, através da participação comunitária, ter
+    contribuído para sua conservação patrimonial singular. O papel da sociedade
+    civil organizada na área, como a OVAT e o Movimento Pró-Cidade de Goiás,
+    também é observado atentamente. Para tanto, investigam-se recortes
+    jornalísticos de época, documentos extraídos do acervo do IPHAN e outras
+    pesquisas sobre a temática, pelo viés da História Cultural e as perspectivas
+    analíticas de diversos autores. Essa abordagem busca atender à atual
+    demanda 
+
+    por alternativas de conservação não institucionais do patrimônio cultural
+    brasileiro, devido às circunstâncias críticas contemporaneamente
+    enfrentadas.
+  accessed:
+    - year: 2024
+      month: 5
+      day: 1
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2022participacao
+  event-place: Blumenau
+  event-title: >-
+    XIX Encontro Nacional da Associação Nacional de Pesquisa em Planejamento
+    Urbano e Regional
+  issued:
+    - year: 2022
+  language: por
+  license: Acesso Aberto
+  publisher: ANPUR
+  publisher-place: Blumenau
+  source: www.realp.unb.br
+  title: >-
+    Participação comunitária na segunda etapa do processo de patrimonialização
+    da Cidade de Goiás
+  type: paper-conference
+  URL: >-
+    https://www.sisgeenco.com.br/anais/enanpur/2022/arquivos/GT2_SEM_503_747_20211214210115.pdf
+
+- id: oliveira:2023fazendo
+  author:
+    - family: Oliveira
+      given: Irina Alencar
+      dropping-particle: de
+  citation-key: oliveira:2023fazendo
+  event-place: Brasília
+  genre: Tese de Doutorado em Arquitetura e Urbanismo
+  issued:
+    - year: 2023
+      month: 12
+      day: 15
+  language: por
+  publisher: Universidade de Brasília, Faculdade de Arquitetura e Urbanismo
+  publisher-place: Brasília
+  title: >-
+    Fazendo com as próprias mãos: a preservação patrimonial não institucional na
+    cidade de Goiás até a primeira metade do século <span
+    style="font-variant:all-small-caps" smallcaps="smallcaps">XX</span>
+  title-short: Fazendo com as próprias mãos
+  type: thesis
 
 - id: oliveira:brasil
   accessed:
@@ -21817,6 +22510,31 @@ references:
   title-short: SIG como Ferramenta de Análise em Patrimônio Histórico
   type: paper-conference
 
+- id: palazzo:2017patrimonializacao
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: palazzo:2017patrimonializacao
+  editor:
+    - family: Andrade Junior
+      given: Nivaldo Vieira
+      dropping-particle: de
+  event-place: Salvador
+  event-title: >-
+    Encontro Internacional Arquimemória 5 sobre preservação do patrimônio
+    edificado
+  issued:
+    - year: 2017
+  language: por
+  page: E1 069
+  publisher: Universidade Federal da Bahia
+  publisher-place: Salvador
+  title: >-
+    Patrimonialização e exemplaridade da arquitetura religiosa: paralelos entre
+    o Renascimento e o Neocolonial no Brasil
+  title-short: Patrimonialização e exemplaridade da arquitetura religiosa
+  type: paper-conference
+
 - id: palazzo:2020funcao
   author:
     - family: Palazzo
@@ -21830,7 +22548,7 @@ references:
   ISBN: 978-85-00-13970-9
   issued:
     - year: 2020
-  language: pt-br
+  language: por
   page: 118-120
   publisher: >-
     Fundo de Apoio à Cultura, Secretaria de Cultura e Economia Criativa do
@@ -21852,22 +22570,25 @@ references:
       given: Pedro P.
   citation-key: palazzo:2021casa
   container-title: Anais…
+  DOI: 10.29327/153996.2-4
   event-place: Salvador
   event-title: Seminário Arquitetura Vernácula/Popular
   ISBN: 978-65-5941-479-6
   issued:
     - year: 2021
-  language: pt-BR
+  language: por
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
-  publisher: Programa de Pós-Graduação em Arquitetura e Urbanismo da UFBA
+  publisher: >-
+    Programa de Pós-Graduação em Arquitetura e Urbanismo da <span
+    style="font-variant:all-small-caps" smallcaps="smallcaps">UFBA</span>
   publisher-place: Salvador
   title: 'A casa corrente de 40 palmos (± 2): um tipo português da idade liberal'
   title-short: A casa corrente de 40 palmos
   type: paper-conference
   URL: >-
-    https//www.even3.com.br/anais/arqvernapop/387842-A-CASA-CORRENTE-DE-40-PALMOS-DA-ERA-LIBERAL
+    https://www.even3.com.br/anais/arqvernapop/387842-A-CASA-CORRENTE-DE-40-PALMOS-DA-ERA-LIBERAL
 
 - id: palazzo:2021modernidade
   abstract: >-
@@ -21905,14 +22626,36 @@ references:
     - year: 2021
       month: 12
       day: 22
-  language: pt
-  license: Direitos autorais 2021 Mouseion
+  language: por
+  license: >-
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+    License (CC-BY-NC-SA)
   number: '40'
   page: 1-17
   source: revistas.unilasalle.edu.br
   title: Modernidade tradicionalista na arquitetura cívica de Cuiabá na era Vargas
   type: article-journal
   URL: https://revistas.unilasalle.edu.br/index.php/Mouseion/article/view/9319
+
+- id: palazzo:2021parcellaire
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: palazzo:2021parcellaire
+  contributor:
+    - literal: La Table Ronde de l'Architecture
+  event-place: 'Bruxelles: La Table Ronde de l''Architecture'
+  event-title: École d'été d'Architecture Traditionnelle de Belgique
+  genre: Conférence
+  issued:
+    - year: 2021
+      month: 8
+      day: 7
+  language: fre
+  publisher-place: 'Bruxelles: La Table Ronde de l''Architecture'
+  title: Le parcellaire comme support de l’architecture traditionnelle
+  type: speech
+  URL: https://www.latablerondearchitecture.com/copie-de-eeatb-août-2021
 
 - id: palazzo:2021programa
   abstract: >-
@@ -21945,7 +22688,7 @@ references:
     - year: 2021
       month: 7
       day: 13
-  language: es
+  language: spa
   page: 429-431
   source: DOI.org (Crossref)
   title: >-
@@ -21953,6 +22696,37 @@ references:
     patrimonio
   type: article-journal
   URL: http://www.iaph.es/revistaph/index.php/revistaph/article/view/4983
+
+- id: palazzo:2021reflexao
+  abstract: >-
+    EN O Editorial do mês de julho traz uma visão de Pedro P. Palazzo sobre a
+    arquitetura e sua temporalidade. Será que existe uma preferência temporal na
+    forma como consumimos a arquitetura? Saiba mais com essa leitura: Assim como
+    todo o nosso modo de vida contemporâneo, a arquitetura moderna é uma
+    indústria de altíssimo consumo de energia. Duas revoluções energéticas
+    cruciais aconteceram nos últimos trezentos anos: primeiro, com a Revolução
+    Industrial, a força de trabalho manual e a energia direta
+  accessed:
+    - year: 2022
+      month: 5
+      day: 2
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: palazzo:2021reflexao
+  container-title: Philos Galeria
+  issued:
+    - year: 2021
+      month: 7
+      day: 26
+  language: por
+  license: >-
+    Creative Commons Attribution-NonCommercial 4.0 International License
+    (CC-BY-NC)
+  title: Uma reflexão sobre a preferência temporal na arquitetura
+  type: article-magazine
+  URL: >-
+    https://web.archive.org/web/20210816180513/https://www.philosgaleria.com/post/uma-reflex%C3%A3o-sobre-a-prefer%C3%AAncia-temporal-na-arquitetura
 
 - id: palazzo:2021vernacular
   abstract: >-
@@ -21983,7 +22757,7 @@ references:
     - year: 2021
       month: 11
       day: 10
-  language: en
+  language: eng
   license: >-
     Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
     License (CC-BY-NC-ND)
@@ -22011,7 +22785,7 @@ references:
   ISBN: '9786556303376'
   issued:
     - year: 2022
-  language: pt
+  language: por
   license: >-
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
     License (CC-BY-NC-SA)
@@ -22022,6 +22796,128 @@ references:
   title: 'A casa corrente de 40 palmos (± 2): um tipo português da idade liberal'
   title-short: A casa corrente de 40 palmos
   type: chapter
+
+- id: palazzo:2022histoire
+  accessed:
+    - year: 2023
+      month: 10
+      day: 21
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: palazzo:2022histoire
+  event-place: Bruges
+  event-title: École d'été d'architecture traditionnelle de Belgique
+  genre: Conférence
+  issued:
+    - year: 2022
+      month: 7
+      day: 29
+  language: fre
+  publisher-place: Bruges
+  title: Histoire de l'urbanisme et du parcellaire de Bruges
+  type: speech
+  URL: https://www.latablerondearchitecture.com/bruges-summer-school-2022
+
+- id: palazzo:2022rural-to-urban
+  accessed:
+    - year: 2023
+      month: 10
+      day: 21
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: palazzo:2022rural-to-urban
+  event-place: Lajes do Pico
+  event-title: Açores Traditional Architecture Summer School
+  genre: Lecture
+  issued:
+    - year: 2022
+      month: 7
+      day: 20
+  language: en
+  publisher-place: Lajes do Pico
+  title: The rural-to-urban transect in the Portuguese periphery
+  type: speech
+  URL: https://www.premiorafaelmanzano.com/escuelas-de-verano/2022-azores/
+
+- id: palazzo:2024caracterizacao12
+  abstract: >-
+    This paper analyzes the morphological differences in traditional urban
+    architecture in Brazil between the typologies of rowhouses and urban or
+    suburban mansions, from the mid-eighteenth to the early twentieth century.
+    It focuses on the relatively uniform and conservative context of the states
+    of Rio de Janeiro, Goiás (including Tocantins), and Minas Gerais. This study
+    highlights defining characteristics of each of the two typological series.
+    While most previous studies have looked at tree graph analysis to assess the
+    topological connections between individual spaces, this research turns to
+    intervisibility analysis, evidencing the morphological centers of
+    compositions. The results highlight how visual integration analysis confirms
+    the overlap between the spatial composition of both rowhouses and mansions
+    and the attributes of social life specific to each of these typologies.
+    These attributes include the location of the family room in the rear of
+    rowhouses and, in contrast, the primacy of ceremonial spaces in the front of
+    mansions.
+  accessed:
+    - year: 2024
+      month: 4
+      day: 25
+  author:
+    - family: Palazzo
+      given: Pedro Paulo
+    - family: Carvalho
+      given: Eduarda Toscano
+      dropping-particle: de
+  citation-key: palazzo:2024caracterizacao12
+  container-title: Revista de Morfologia Urbana
+  container-title-short: RevMorfologiaUrbana
+  DOI: 10.47235/rmu.v12i1.369
+  ISSN: 2182-7214
+  issue: '1'
+  issued:
+    - year: 2024
+      month: 4
+      day: 4
+  language: por
+  license: https://creativecommons.org/licenses/by/4.0
+  source: DOI.org (Crossref)
+  title: >-
+    Caracterização das tipologias de casas tradicionais luso-brasileiras por
+    meio da integração visual
+  type: article-journal
+  URL: https://revistademorfologiaurbana.org/index.php/rmu/article/view/369
+  volume: '12'
+
+- id: palazzo:2024repensar
+  accessed:
+    - year: 2024
+      month: 4
+      day: 18
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  citation-key: palazzo:2024repensar
+  container-title: Proximidades distantes
+  event-place: Brasília
+  event-title: >-
+    V Seminário Internacional da Academia das Escolas de Arquitetura e Urbanismo
+    de Língua Portuguesa 2023
+  issued:
+    - year: 2024
+      month: 4
+      day: 16
+  language: por
+  publisher: >-
+    <span smallcaps="smallcaps">AEAULP</s> : Faculdade de Arquitetura e
+    Urbanismo da Universidade de Brasília</span>
+  publisher-place: Brasília
+  source: Zotero
+  title: >-
+    Repensar a periodização da construção vernacular luso-brasileira: ou, como a
+    nossa arquitetura tradicional é mais recente do que parece
+  title-short: Repensar a periodização da construção vernacular luso-brasileira
+  type: paper-conference
+  URL: https://aeaulp.fa.ulisboa.pt/index.php/pt/publicacoes
 
 - id: palladio:1570quattro
   author:
@@ -23413,6 +24309,26 @@ references:
   type: article-journal
   URL: https://www.e-publicacoes.uerj.br/index.php/intellectus/article/view/27692
   volume: '10'
+
+- id: pinheiro:2012neocolonial
+  author:
+    - family: Pinheiro
+      given: Maria Lúcia Bressan
+  call-number: 72.035.9+72.025(817.4)
+  citation-key: pinheiro:2012neocolonial
+  event-place: São Paulo
+  ISBN: 978-85-314-1304-9 85-314-1304-4
+  issued:
+    - year: 2012
+  language: por
+  publisher: EdUSP
+  publisher-place: São Paulo
+  source: Open WorldCat
+  title: >-
+    Neocolonial, modernismo e preservação do patrimônio no debate cultural dos
+    anos 1920 no Brasil
+  title-short: Neocolonial, modernismo e preservação do patrimônio
+  type: book
 
 - id: pinho:2004brasilia
   author:
@@ -28588,6 +29504,29 @@ references:
   publisher-place: Porto
   source: Open WorldCat
   title: A Casa-Pátio de Goa
+  type: book
+
+- id: silveira:2013centro
+  author:
+    - family: Silveira
+      given: Marcelo
+    - family: Bittar
+      given: William Seba Mallmann
+  call-number: NA855 .S55 2013
+  citation-key: silveira:2013centro
+  event-place: Rio de Janeiro
+  ISBN: 978-85-61556-44-0
+  issued:
+    - year: 2013
+  language: por
+  number-of-pages: '135'
+  publisher: Rio Books
+  publisher-place: Rio de Janeiro
+  source: Library of Congress ISBN
+  title: >-
+    No centro do problema arquitetônico nacional: a modernidade e a arquitetura
+    tradicional brasileira
+  title-short: No centro do problema arquitetônico nacional
   type: book
 
 - id: silveira:2013levantamento

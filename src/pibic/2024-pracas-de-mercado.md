@@ -2,7 +2,7 @@
 title : "Praças de mercado de Portugal medieval ao Brasil imperial"
 date  : 2024-04-24
 valid : "2024"
-author:
+author: "Maria Meira"
 toc   : true
 tags  : [ "pibic", "iniciação científica e tecnológica" ]
 categories: 

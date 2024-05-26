@@ -1,6 +1,6 @@
 ---
 title : "Espaços públicos em quadrinhos"
-author:
+author: "Eduarda Viana"
 date  : 2024-05-04
 valid : 2024
 tags  : [ "pibic", "iniciação científica e tecnológica" ]
