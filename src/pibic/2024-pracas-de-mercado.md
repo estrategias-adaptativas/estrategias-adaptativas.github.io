@@ -129,17 +129,41 @@ impressa nas bibliotecas da UnB não será determinante.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ---
-nocite: ""
+nocite: |
+  @alarcao:2008coimbra, @augusto:2013praca, @calabi:2017market,
+  @corsi:2010changing, @miranda:2009feira,
+  @oliveira:2019transformacoes12, @sitte:1992construcao
 ---
 
 # Competências e habilidades #
 
 <!--1000 caracteres-->
 
+A aluna, mesmo estando no início do curso, demonstra grande interesse
+na temática de história da arquitetura e urbanismo, e tem facilidade
+com a expressão escrita e gráfica, bem como o domínio geral da
+informática.
+Está em processo de aquisição das competências mais específicas
+de programas de computador atinentes a este plano de trabalho,
+as quais estarão plenamente dominadas em tempo hábil para a
+etapa correspondente da pesquisa.
+Além disso, sua capacidade de expressão gráfica à mão é de
+grande valia para o desenvolvimento das análises espaciais.
+
 # Cronograma #
 
-| Mês | Tarefa                                                                                 |
-|----:|:---------------------------------------------------------------------------------------|
-|  01 | Definição da metodologia de pesquisa e revisão bibliográfica inicial                   |
-|  02 | Levantamento e seleção preliminar de praças de mercado para estudo                     |
-|  03 | Leituras dos materiais bibliográficos, investigação de conteúdo cartográfico existente |
+| Mês | Tarefa                                                  |
+|----:|:--------------------------------------------------------|
+|  01 | Revisão bibliográfica e identificação dos acervos       |
+|  02 | Levantamento de iconografia primária                    |
+|  03 | Levantamento de iconografia primária                    |
+|  04 | Levantamento de bases cartográficas de apoio            |
+|  05 | Redesenho e análise das características das praças      |
+|  06 | Redesenho e análise das características das praças      |
+|  07 | Análise comparativa das praças                          |
+|  08 | Definição de padrões e fluxo de trabalho para modelagem |
+|  09 | Modelagem e renderização das praças                     |
+|  10 | Modelagem e renderização das praças                     |
+|  11 | Redação do artigo                                       |
+|  12 | Revisão e formatação do artigo                          |
+

@@ -1,5 +1,5 @@
 ---
-title : "Praças ideais do Iluminismo ao século XIX"
+title : 'Praças ideais do Iluminismo ao século <span style="font-variant:all-small-caps">XIX</span>'
 date  : 2024-04-25
 author: "Jennyfer Lopes"
 toc   : true
@@ -28,7 +28,8 @@ header:
 
 Este plano de trabalho propõe compilar, analisar e reconstituir praças
 não construídas, inconclusas, alteradas ou destruídas, com foco no mundo
-luso-brasileiro dos séculos XVIII e XIX, a partir de seus projetos
+luso-brasileiro dos séculos [XVIII]{style="font-variant:all-small-caps"}
+e [XIX]{style="font-variant:all-small-caps"}, a partir de seus projetos
 documentados na bibliografia de referência e em acervos digitalizados,
 tais como as Bibliotecas nacionais do Brasil e de Portugal. O estudo
 desses projetos oferecerá um olhar sobre o pensamento urbanístico de um
@@ -49,7 +50,8 @@ confirmação:
 ## Objetivo geral ##
 
 Apresentar um catálogo tipológico de praças ideais do Iluminismo até o
-século XIX, classificadas por suas características morfológicas,
+século [XIX]{style="font-variant:all-small-caps"},
+classificadas por suas características morfológicas,
 periodização e distribuição geográfica, e apresentadas na forma de
 reconstituições virtuais.
 
@@ -134,13 +136,28 @@ fins lucrativos tais como a Brasiliana iconográfica.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ---
-nocite: ""
+nocite: |
+  @arestizabal:1979grandjean, @derntl:2013metodo,
+  @florentino:2023dimensoes, @marques:2004manique, @teixeira:2013jose,
+  @telles:2008grandjean
 ---
 
 
 # Competências e habilidades #
 
 <!--1000 caracteres-->
+
+A aluna vem demonstrando perseverança e espírito investigativo,
+tendo continuado a orientar e a desenvolver o trabalho da minha
+disciplina mesmo durante a greve, com afinco e qualidade.
+Possui grande sensibilidade visual para a análise e representação
+do espaço público e construído.
+Complementa sua habilidade avançada em desenho à mão, que será
+aproveitada em representações neste plano de trabalho, com
+aprendizado em andamento dos programas computacionais e métodos técnicos
+atinentes a esta pesquisa.
+Por fim, e não menos importante, demonstra um gosto pronunciado pelos
+ambientes construídos tradicionais.
 
 
 # Cronograma #

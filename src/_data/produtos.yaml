@@ -270,7 +270,7 @@ references:
   URL: >-
     https://drive.google.com/file/d/1SvU-hrDLtBhJUj7SwOXITxOchExBbJtT/view?usp=sharing
 
-- id: garcia:2020caixa
+- id: garcia:2020caixa7
   abstract: >-
     Considerando que o Conjunto Urbanístico de Brasília possui valor
     excepcional, como um sítio cultural e que deve ser protegido para o
@@ -314,7 +314,7 @@ references:
       given: Fábio
     - family: Lima
       given: Celso
-  citation-key: garcia:2020caixa
+  citation-key: garcia:2020caixa7
   container-title: Com Censo
   ISSN: 2359-2494
   issue: '1'
@@ -332,7 +332,7 @@ references:
   URL: http://www.periodicos.se.df.gov.br/index.php/comcenso/article/view/793
   volume: '7'
 
-- id: lopes:2022manifestacoes
+- id: lopes:2022manifestacoes3
   abstract: >-
     O trabalho busca analisar sobre como se deu o emprego da linguagem
     neocolonial em edifícios cívicos de Cuiabá, construídos no final da década
@@ -365,7 +365,7 @@ references:
       dropping-particle: de
     - family: Palazzo
       given: Pedro P.
-  citation-key: lopes:2022manifestacoes
+  citation-key: lopes:2022manifestacoes3
   container-title: Refazer, restaurar, revisar
   editor:
     - family: Buzzar
@@ -613,7 +613,7 @@ references:
   type: paper-conference
   URL: http://repositorio2.unb.br/jspui/handle/10482/46945
 
-- id: oliveira:2022apropriacoes
+- id: oliveira:2022apropriacoes6
   abstract: >-
     Essa pesquisa toma o núcleo histórico da cidade de Goiás, Patrimônio da
     Humanidade desde 2001, como estudo de caso e volta o olhar para as
@@ -638,7 +638,7 @@ references:
     - family: Oliveira
       given: Irina Alencar
       dropping-particle: de
-  citation-key: oliveira:2022apropriacoes
+  citation-key: oliveira:2022apropriacoes6
   container-title: Revista Thésis
   container-title-short: Rev. Thésis
   DOI: 10.51924/revthesis.2021.v6.297
