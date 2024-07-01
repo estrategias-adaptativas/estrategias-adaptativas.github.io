@@ -464,7 +464,7 @@ references:
   ISBN: 978-0-9726529-0-2 978-0-9726529-2-6
   issued:
     - year: 2002
-  language: en
+  language: eng
   number-of-volumes: '4'
   publisher: Center for Environmental Structure
   publisher-place: Berkeley, Calif.
@@ -777,7 +777,7 @@ references:
   ISBN: 978-88-488-2060-8
   issued:
     - year: 2018
-  language: it
+  language: ita
   publisher: Lampi di Stampa
   publisher-place: Milano
   source: re.public.polimi.it
@@ -1265,7 +1265,7 @@ references:
   source: Open WorldCat
   title: >-
     Ensaio sobre a casa brasileira do século <span
-    smallcaps="smallcaps">XIX</span>
+    style="font-variant:all-small-caps" smallcaps="smallcaps">XIX</span>
   type: book
 
 - id: araujo:1998universo
@@ -1689,7 +1689,7 @@ references:
     - year: 2017
       month: 2
       day: 10
-  language: en
+  language: eng
   number-of-pages: '460'
   publisher: Routledge
   publisher-place: London
@@ -1970,7 +1970,7 @@ references:
   ISBN: 978-0-415-35781-4 978-0-415-35795-1 978-0-203-00386-2
   issued:
     - year: 2006
-  language: en
+  language: eng
   number-of-pages: '294'
   publisher: Taylor & Francis
   publisher-place: London ; New York
@@ -2258,7 +2258,6 @@ references:
       given: José
   call-number: NA1329.A43 B33 2016
   citation-key: baganha:2016arquitetura
-  edition: '1'
   event-place: Lisboa
   ISBN: 978-972-44-1887-2
   issued:
@@ -3474,7 +3473,7 @@ references:
     - year: 2011
       month: 7
       day: 1
-  language: en
+  language: por
   number: '1'
   publisher: Universidade de Brasília
   source: doaj.org
@@ -3980,7 +3979,7 @@ references:
     - year: 2017
       month: 12
       day: 26
-  language: en
+  language: eng
   page: '48'
   source: Crossref
   title: Urban regeneration and the search for identity in historic cities
@@ -4993,8 +4992,6 @@ references:
     Europe
   title-short: The market and the city
   type: book
-  URL: >-
-    https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=1550776
 
 - id: caldas:1999casa
   author:
@@ -6009,7 +6006,7 @@ references:
   genre: Processo
   issued:
     - literal: 23/20/2023
-  language: Português
+  language: por
   number: 01422.000545/2022-31
   publisher: IPHAN
   publisher-place: TO
@@ -6018,12 +6015,12 @@ references:
   URL: Processo nº 01422.000545/2022-31
 
 - id: casimiro:2011casa
-  abstract: Levantamento da Casa borba gato
+  abstract: Levantamento da Casa borba Gato
   accessed:
     - year: 2024
       month: 6
       day: 17
-  archive: Casa Borba gato
+  archive: IPHAN
   archive_location: Processo nº 01447.000080/2022-31
   author:
     - family: Casimiro
@@ -6035,13 +6032,12 @@ references:
     - year: 2011
       month: 5
       day: 10
-  language: Português
+  language: por
   publisher: Renata Carleial de Casimiro
   publisher-place: MG
   scale: Indicada
-  source: Processo nº 01447.000080/2022-31
-  title: Casa Borba gato/Museu do ouro
-  title-short: Casa Borba gato
+  title: Casa Borba Gato/Museu do ouro
+  title-short: Casa Borba Gato
   type: map
   URL: >-
     https://www.gov.br/museus/pt-br/acesso-a-informacao/licitacoes-e-contratos/licitacoes/licitacoes-e-contratos-2022-e-2023/pregao-eletronico-n9_2023-edital-e-anexos.pdf
@@ -6782,11 +6778,11 @@ references:
   ISBN: 978-1-4529-5806-4 978-1-5179-0538-5
   issued:
     - year: 2018
-  language: English
+  language: eng
   publisher: University of Minnesota Press
   source: DOI.org (Crossref)
-  title: 'Toward a Living Architecture?: Complexism and Biology in Generative Design'
-  title-short: Toward a Living Architecture?
+  title: Toward a living architecture? Complexism and biology in generative design
+  title-short: Toward a living architecture?
   type: book
   URL: http://www.jstor.org/stable/10.5749/j.ctv9b2tnw
 
@@ -11087,55 +11083,6 @@ references:
   URL: https://www.mdpi.com/2076-3417/10/23/8320
   volume: '10'
 
-- id: diara:2020ifc10a
-  abstract: >-
-    The IFC (Industry Foundation Classes) open format has been developed by
-    BuildingSMART and regularized through ISO standards. It has been implemented
-    into a BIM (Building Information Modeling) informative system for the AEC
-    industry (Architecture Engineering and Construction). The IFC format has
-    changed interoperability processes concerning architectural and technical
-    entities in a semantic way. However, because this standard open format was
-    specifically designed for the modern AEC industry, it may not cater to the
-    demands of cultural heritage assets. Since IFC classification is fundamental
-    for informative systems, it should become a standard also concerning
-    heritage assets, even if nowadays there is no regularized IFC classification
-    for historical existing buildings. Specific cultural heritage peculiarities
-    therefore need semantic classification based on historical asset families.
-    For this reason, this work is based on a proposal and experimental IFC
-    classification implemented inside an HBIM open source software (FreeCAD),
-    whereby limitations of IFC standards can be overcome thanks to the freedom
-    of access to libraries and codes. Moreover, this work is based on IFC
-    objects management outside the platform for interoperability purposes.
-  accessed:
-    - year: 2023
-      month: 10
-      day: 26
-  author:
-    - family: Diara
-      given: Filippo
-    - family: Rinaudo
-      given: Fulvio
-  citation-key: diara:2020ifc10a
-  container-title: Applied Sciences
-  container-title-short: Applied Sciences
-  DOI: 10.3390/app10238320
-  ISSN: 2076-3417
-  issue: '23'
-  issued:
-    - year: 2020
-      month: 11
-      day: 24
-  language: en
-  page: '8320'
-  source: DOI.org (Crossref)
-  title: >-
-    IFC Classification for FOSS HBIM: Open Issues and a Schema Proposal for
-    Cultural Heritage Assets
-  title-short: IFC Classification for FOSS HBIM
-  type: article-journal
-  URL: https://www.mdpi.com/2076-3417/10/23/8320
-  volume: '10'
-
 - id: dias:2008seculo
   author:
     - family: Dias
@@ -12338,7 +12285,7 @@ references:
     - year: 2002
       month: 12
       day: 19
-  language: Português
+  language: por
   title: >-
     A arquitetura tradicional de Acari no século XIX: estudo comparativo entre a
     casa-grande de fazenda e a casa urbana
@@ -16074,19 +16021,6 @@ references:
   URL: http://www.palgrave-journals.com/udi/journal/v7/n3/abs/9000077a.html
   volume: '7'
 
-- id: historia:2021
-  citation-key: historia:2021
-  ISBN: 978-85-7448-170-8
-  issued:
-    - year: 2021
-      month: 9
-      day: 2
-  language: pt-BR
-  publisher: Editora Estação Liberdade
-  source: Câmara Brasileira do Livro ISBN
-  title: Uma História do Patrimônio no Ocidente
-  type: book
-
 - id: holanda:2002espaco
   author:
     - family: Holanda
@@ -16585,22 +16519,17 @@ references:
     - family: Iphan
       given: Instituto do Patrimônio Histórico e Artistico Nacional
   citation-key: iphan:2010dossie1
-  collection-number: '1'
-  collection-title: '1'
-  edition: '1'
   issued:
     - year: 2010
       month: 3
-  language: Português
+  language: por
   number-of-pages: '90'
-  number-of-volumes: '1'
   publisher: IPHAN
   title: Dossiê São Luiz do  Paraitinga
   title-short: Dossiê São Luiz do  Paraitinga
   type: book
   URL: >-
     https://casadopatrimoniovp.wordpress.com/wp-content/uploads/2014/09/dossie-sc3a3o-luiz-do-paraitinga-iphan.pdf
-  volume: '1'
 
 - id: iphan:2012planaltina
   author:
@@ -16619,7 +16548,7 @@ references:
   event-place: Brasília
   issued:
     - year: 2012
-  language: pt
+  language: por
   license: Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)
   publisher: Superintendência do Iphan no Distrito Federal
   publisher-place: Brasília
@@ -16698,7 +16627,7 @@ references:
     - year: 2022
       month: 11
       day: 17
-  language: Português
+  language: por
   number: Processo nº 01422.000619/2020-78
   publisher-place: Processo nº 01422.000619/2020-78
   title: Casa à Rua Coronel Deocleciano Nunes, n°78
@@ -16724,7 +16653,7 @@ references:
   genre: Levantamento
   issued:
     - literal: Abril/2023
-  language: Português
+  language: por
   publisher: Escritório Técnico Laguna
   publisher-place: Processo nº 01510.000340/2023-48
   scale: Indicada
@@ -16751,8 +16680,9 @@ references:
   event-place: Processo nº 01510.000340/2023-48
   genre: Levantamento
   issued:
-    - literal: Abril/2023
-  language: Português
+    - year: 2023
+      month: 4
+  language: por
   publisher: Escritório Técnico Laguna
   publisher-place: Processo nº 01510.000340/2023-48
   scale: Indicada
@@ -16779,9 +16709,9 @@ references:
   genre: Processo
   issued:
     - year: 2023
-      month: 1
-      day: 11
-  language: Português
+      month: 11
+      day: 1
+  language: por
   number: 01510.000189/2022-67
   publisher: IPHAN
   publisher-place: RS
@@ -16809,7 +16739,7 @@ references:
     - year: 2023
       month: 12
       day: 13
-  language: Português
+  language: por
   number: 01516.000354/2023-10
   publisher: IPHAN
   publisher-place: GO
@@ -17166,7 +17096,7 @@ references:
     - year: 2023
       month: 10
       day: 10
-  language: Português
+  language: por
   publisher: Ana Paula Jougueri
   scale: Indicada
   title: Projeto de restauração da casa Cancelier
@@ -17551,8 +17481,9 @@ references:
   source: repositorio.ufba.br
   title: >-
     A casa e o clima: (trans)formações da arquitetura habitacional no Brasil
-    (século <span smallcaps="smallcaps">XVII</span>–século <span
-    smallcaps="smallcaps">XIX</span>)
+    (século <span style="font-variant:all-small-caps"
+    smallcaps="smallcaps">XVII</span>–século <span
+    style="font-variant:all-small-caps" smallcaps="smallcaps">XIX</span>)
   title-short: A casa e o clima
   type: thesis
   URL: http://repositorio.ufba.br/ri/handle/ri/24902
@@ -18915,20 +18846,6 @@ references:
     capitais centro-oestinas no Estado Novo
   type: thesis
 
-- id: lira:2011historia
-  author:
-    - family: Lira
-      given: José Tavares Correia
-      dropping-particle: de
-  citation-key: lira:2011historia
-  container-title: Desígnio. revista de história da arquitetura e do urbanismo
-  issued:
-    - year: 2011
-  language: por
-  page: 11-18
-  title: A História e o fazer da arquitetura
-  type: article-journal
-
 - id: lira:2011historia11/12
   author:
     - family: Lira
@@ -19273,16 +19190,6 @@ references:
   number: Tombamento municipal de Luziânia
   title: Decreto n.º 499
   type: bill
-
-- id: 'm1:'
-  accessed:
-    - year: 2021
-      month: 11
-      day: 15
-  citation-key: 'm1:'
-  title: M1 A2 Bibliografia Complementar - Google Drive
-  type: webpage
-  URL: https://drive.google.com/drive/folders/1xXURDaD99vTaVev6_f8TSvwGsltbtNTm
 
 - id: m1:a
   accessed:
@@ -19754,13 +19661,13 @@ references:
   issue: '2'
   issued:
     - year: 1985
-  language: English
+  language: eng
   page: 10-16
   source: JSTOR
   title: >-
-    Between Traditionalism and Modernism: Approaches to a Vernacular
-    Architecture
-  title-short: Between Traditionalism and Modernism
+    Between traditionalism and modernism: approaches to a vernacular
+    architecture
+  title-short: Between traditionalism and modernism
   type: article-journal
   URL: https://www.jstor.org/stable/1424962
   volume: '39'
@@ -20262,42 +20169,6 @@ references:
   title-short: Difusão da arquitetura neocolonial no interior paulista
   type: thesis
   URL: http://www.teses.usp.br/teses/disponiveis/18/18142/tde-06082008-102451/
-
-- id: mascaro:2008difusaoa
-  abstract: >-
-    As manifestações da arquitetura neocolonial em várias cidades do interior
-    paulista, no período de 1920 a 1950, é o tema central desta tese. Realiza
-    pesquisas e reflexões acerca da ascendência do movimento neocolonial,
-    tomando Ricardo Severo como intelectual que recebeu grande influência do
-    ambiente cultural português. Explora a ocorrência dessa arquitetura na
-    esfera institucional e particular, em obras oficiais, institucionais,
-    religiosas, assistenciais, educativas, recreativas, residenciais e
-    comerciais. Verifica que a difusão se deu, em grande medida, pela atuação de
-    profissionais que estavam em contato com os debates que se desenrolavam na
-    capital paulista e pela implantação de obras emblemáticas em cidades do
-    interior do estado. Verifica também que parte significativa da produção de
-    baixo padrão – ou simplificada – da arquitetura que pretendia expressar a
-    tendência neocolonial foi de responsabilidade de profissionais diplomados.
-    Utiliza o método de levantamento de processos de aprovação de obras,
-    arquivados em prefeituras municipais, levantamento de dados em museus e
-    outras instituições e levantamentos fotográficos para registrar e analisar a
-    produção de interesse. Representa uma contribuição para o conhecimento da
-    arquitetura neocolonial fora da capital paulista.
-  author:
-    - family: Mascaro
-      given: Luciana Pelaes
-  citation-key: mascaro:2008difusaoa
-  event-place: São Carlos
-  genre: Tese de Doutorado em Arquitetura e Urbanismo
-  issued:
-    - year: 2008
-  language: por
-  number-of-pages: '578'
-  publisher: Universidade de São Paulo, Instituto de Arquitetura e Urbanismo
-  publisher-place: São Carlos
-  title: Difusão da arquitetura neocolonial no interior paulista, 1920-1950
-  title-short: Difusão da arquitetura neocolonial no interior paulista
-  type: thesis
 
 - id: masseran:2014casas
   accessed:
@@ -20846,10 +20717,10 @@ references:
     - year: 2016
       month: 3
       day: 1
-  language: en
+  language: eng
   page: 38-49
   source: ScienceDirect
-  title: 'Defining urban resilience: A review'
+  title: 'Defining urban resilience: a review'
   title-short: Defining urban resilience
   type: article-journal
   URL: http://www.sciencedirect.com/science/article/pii/S0169204615002418
@@ -21968,36 +21839,6 @@ references:
   URL: http://www.jstor.org/stable/991812
   volume: '61'
 
-- id: murphy:2009historic
-  accessed:
-    - year: 2017
-      month: 1
-      day: 29
-  author:
-    - family: Murphy
-      given: Maurice
-    - family: McGovern
-      given: Eugene
-    - family: Pavia
-      given: Sara
-  citation-key: murphy:2009historic
-  container-title: Structural Survey
-  container-title-short: Structural Survey
-  DOI: 10.1108/02630800910985108
-  ISSN: 0263-080X
-  issue: '4'
-  issued:
-    - year: 2009
-      month: 8
-      day: 27
-  language: English
-  page: 311-327
-  source: emeraldinsight.com (Atypon)
-  title: Historic building information modelling (HBIM)
-  type: article-journal
-  URL: http://www.emeraldinsight.com/doi/abs/10.1108/02630800910985108
-  volume: '27'
-
 - id: murphy:2009historic27
   abstract: |-
     Purpose
@@ -22042,53 +21883,6 @@ references:
   URL: >-
     https://www.emerald.com/insight/content/doi/10.1108/02630800910985108/full/html
   volume: '27'
-
-- id: murphy:2013historic
-  abstract: >-
-    Purpose – The purpose of this research is to outline in detail the procedure
-    of remote data capture using laser scanning and the subsequent processing
-    required in order to identify a new methodology for creating full
-    engineering drawings (orthographic and 3D models) from laser scan and image
-    survey data for historic structures. Design/methodology/approach – Historic
-    building information modelling (HBIM) is proposed as a new system of
-    modelling historic structures; the HBIM process begins with remote
-    collection of survey data using a terrestrial laser scanner combined with
-    digital cameras. A range of software programs is then used to combine the
-    image and scan data. Findings – Meshing of the point cloud followed by
-    texturing from the image data creates a framework for the creation of a 3D
-    model. Mapping of BIM objects onto the 3D surface model is the final stage
-    in the reverse engineering process, creating full 2D and 3D models including
-    detail behind the object's surface concerning its methods of construction
-    and material makeup, this new process is described as HBIM.
-    Originality/value – The future research within this area will concentrate on
-    three main stands. The initial strand is to attempt improve the application
-    of geometric descriptive language to build complex parametric objects. The
-    second stand is the development of a library of parametric based on historic
-    data (from Vitruvius to 18th century architectural pattern books). Finally,
-    while it is possible to plot parametric objects onto the laser scan data,
-    there is need to identify intermediate software platforms to accelerate this
-    stage within the HBIM framework.
-  author:
-    - family: Murphy
-      given: Maurice
-    - family: McGovern
-      given: Eugene
-    - family: Pavia
-      given: Sara
-  citation-key: murphy:2013historic
-  container-title: ISPRS Journal of Photogrammetry and Remote Sensing
-  DOI: 10.1108/02630800910985108
-  issue: '76'
-  issued:
-    - year: 2013
-  language: English
-  page: 89-102
-  title: >-
-    Historic Building Information Modelling – Adding intelligence to laser and
-    image based surveys of European classical architecture
-  type: article-journal
-  URL: >-
-    https://www.researchgate.net/publication/241582141_Historic_building_information_modelling_HBIM
 
 - id: 'museu:'
   citation-key: 'museu:'
@@ -24022,51 +23816,6 @@ references:
   type: article-journal
   URL: https://revistas.unilasalle.edu.br/index.php/Mouseion/article/view/9319
 
-- id: palazzo:2021modernidadea
-  abstract: >-
-    O objetivo do trabalho é articular a respeito da supressão da produção
-    arquitetônica do interior do Brasil dos anos 30 e 40, em sua maioria
-    ecléticas, nas discussões de proteção patrimonial e historiografia
-    brasileira. Para isso serão utilizados edifícios construídos nesse período
-    em Cuiabá como objeto de estudo. Embora essas construções sejam do mesmo
-    período, apresentam características distintas entre si, ora mais aderente à
-    linhas clássicas e tradicionais, ora livre de ornamentos e com aparência
-    mais “moderna”, no sentido de nova e nem sempre modernista. Essa indefinição
-    e a escassez de trabalhos e pesquisas sobre esses edifícios, além do fator
-    localização longe dos grandes centros do país— onde concentra-se a maior
-    parte das pesquisas sobre história e teoria da arquitetura do Brasil—,
-    resulta em certa invisibilização de produções importantes para a
-    historiografia gerando anacronismos dessas realizações em relação a produção
-    do movimento moderno, além de acarretar perdas documentais e monumentais
-    devido à falta de reconhecimento e proteção desses projetos.
-  accessed:
-    - year: 2021
-      month: 12
-      day: 28
-  author:
-    - family: Palazzo
-      given: Pedro P.
-    - family: Araujo
-      given: Evillyn Biazatti
-      dropping-particle: de
-  citation-key: palazzo:2021modernidadea
-  container-title: Mouseion
-  DOI: 10.18316/mouseion.v0i40.9319
-  ISSN: 1981-7207
-  issue: '40'
-  issued:
-    - year: 2021
-      month: 12
-      day: 22
-  language: pt
-  license: Direitos autorais 2021 Mouseion
-  number: '40'
-  page: 1-17
-  source: revistas.unilasalle.edu.br
-  title: Modernidade tradicionalista na arquitetura cívica de Cuiabá na era Vargas
-  type: article-journal
-  URL: https://revistas.unilasalle.edu.br/index.php/Mouseion/article/view/9319
-
 - id: palazzo:2021parcellaire
   author:
     - family: Palazzo
@@ -25570,10 +25319,10 @@ references:
   issue: 4,
   issued:
     - year: 1958
-  language: English
+  language: eng
   page: 465-491
   source: Zotero
-  title: The Concept of Tradition
+  title: The concept of tradition
   type: article-journal
   URL: http://www.jstor.org/stable/1404856
   volume: '20'
@@ -26562,11 +26311,11 @@ references:
   ISSN: 0079-0958
   issued:
     - year: 2011
-  language: English
+  language: eng
   page: 6-192
   source: JSTOR
-  title: 'The Pedigreed Domain of Architecture: A View from the Cultural Margin'
-  title-short: The Pedigreed Domain of Architecture
+  title: 'The pedigreed domain of architecture: a view from the cultural margin'
+  title-short: The pedigreed domain of architecture
   type: article-journal
   URL: https://www.jstor.org/stable/41662941
   volume: '44'
@@ -29426,13 +29175,13 @@ references:
   issued:
     - year: 2013
       month: 12
-  language: English
+  language: eng
   page: 695–714
   source: CrossRef
   title: >-
-    Management of Architectural Heritage Information in BIM and GIS:
-    State-of-the-art and Future Perspectives
-  title-short: Management of Architectural Heritage Information in BIM and GIS
+    Management of architectural heritage information in BIM and GIS:
+    State-of-the-art and future perspectives
+  title-short: Management of architectural heritage information in BIM and GIS
   type: article-journal
   URL: http://hde.sagepub.com/lookup/doi/10.1260/2047-4970.2.4.695
   volume: '2'
@@ -31433,10 +31182,10 @@ references:
   issued:
     - year: 2012
       month: 11
-  language: English
+  language: eng
   page: '6'
   source: Zotero
-  title: The Role of Ancient Cities in Research on Contemporary Urbanization
+  title: The role of ancient cities in research on contemporary urbanization
   type: article-journal
 
 - id: smithson:2001charged
@@ -33954,6 +33703,32 @@ references:
   title: Identification and Documentation of Modern Heritage
   type: book
 
+- id: van:2013climate
+  accessed:
+    - year: 2024
+      month: 6
+      day: 19
+  author:
+    - family: Van de Noort
+      given: Robert
+  call-number: CC81 .V36 2013
+  citation-key: van:2013climate
+  event-place: Oxford
+  ISBN: 978-0-19-969955-1
+  issued:
+    - year: 2013
+  language: eng
+  number-of-pages: '272'
+  publisher: Oxford University Press
+  publisher-place: Oxford
+  source: Library of Congress ISBN
+  title: >-
+    Climate change archaeology: building resilience from research in the world's
+    coastal wetlands
+  title-short: Climate change archaeology
+  type: book
+  URL: https://doi.org/10.1093/acprof:osobl/9780199699551.001.0001
+
 - id: vargas:2001historia
   author:
     - family: Vargas
@@ -34155,12 +33930,12 @@ references:
   issue: '2'
   issued:
     - year: 2006
-  language: English
+  language: eng
   page: 115-128
   publisher: Vernacular Architecture Forum
   source: JSTOR
-  title: 'The Inventiveness of Tradition: Vernacular Architecture and the Future'
-  title-short: The Inventiveness of Tradition
+  title: 'The inventiveness of tradition: vernacular architecture and the future'
+  title-short: The inventiveness of tradition
   type: article-journal
   URL: https://www.jstor.org/stable/20355388
   volume: '13'
